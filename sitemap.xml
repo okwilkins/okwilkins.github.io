@@ -3,11 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.okwilkins.dev/</loc>
-    <priority>0</priority>
+    <lastmod>2022-08-15T17:27:15+01:00</lastmod>
+  </url><url>
+    <loc>https://www.okwilkins.dev/posts/</loc>
+    <lastmod>2022-08-15T17:27:15+01:00</lastmod>
+  </url><url>
+    <loc>https://www.okwilkins.dev/posts/test-post/</loc>
+    <lastmod>2022-08-15T17:27:15+01:00</lastmod>
+  </url><url>
+    <loc>https://www.okwilkins.dev/about/</loc>
   </url><url>
     <loc>https://www.okwilkins.dev/categories/</loc>
-  </url><url>
-    <loc>https://www.okwilkins.dev/</loc>
   </url><url>
     <loc>https://www.okwilkins.dev/tags/</loc>
   </url>
