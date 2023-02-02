@@ -2,17 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Oli Wilkins</title>
-    <link>https://www.okwilkins.dev/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Oli Wilkins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 15 Aug 2022 17:27:15 +0100</lastBuildDate><atom:link href="https://www.okwilkins.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Feb 2023 21:31:33 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Post 2</title>
+      <link>http://localhost:1313/posts/test-post-2/</link>
+      <pubDate>Thu, 02 Feb 2023 21:31:33 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/test-post-2/</guid>
+      <description>This Is My Second Post Test test test!!!</description>
+      <content>&lt;h1 id=&#34;this-is-my-second-post&#34;&gt;This Is My Second Post&lt;/h1&gt;
+&lt;p&gt;Test test test!!!&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Test Post</title>
-      <link>https://www.okwilkins.dev/posts/test-post/</link>
+      <link>http://localhost:1313/posts/test-post/</link>
       <pubDate>Mon, 15 Aug 2022 17:27:15 +0100</pubDate>
       
-      <guid>https://www.okwilkins.dev/posts/test-post/</guid>
+      <guid>http://localhost:1313/posts/test-post/</guid>
       <description>This Is My First Post! </description>
       <content>&lt;h1 id=&#34;this-is-my-first-post&#34;&gt;This Is My First Post!&lt;/h1&gt;
 </content>
