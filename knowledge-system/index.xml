@@ -1,4 +1,939 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Knowledge-systems on Oli Wilkins</title><link>https://www.okwilkins.dev/knowledge-system/</link><description>Recent content in Knowledge-systems on Oli Wilkins</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Wed, 15 Feb 2023 18:29:40 +0000</lastBuildDate><atom:link href="https://www.okwilkins.dev/knowledge-system/index.xml" rel="self" type="application/rss+xml"/><item><title>Bulgarian Counting To 10</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-counting-to-10/</link><pubDate>Wed, 15 Feb 2023 18:29:40 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-counting-to-10/</guid><description> Bulgarian 0 нула 1 един (m), една (f), едно (n) 2 два (m), две (n/f) 3 три 4 четири 5 пет 6 шест 7 седем 8 осем 9 девет 10 десет References</description><content>&lt;table>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Knowledge-systems on Oli Wilkins</title><link>https://www.okwilkins.dev/knowledge-system/</link><description>Recent content in Knowledge-systems on Oli Wilkins</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Wed, 15 Feb 2023 23:05:08 +0000</lastBuildDate><atom:link href="https://www.okwilkins.dev/knowledge-system/index.xml" rel="self" type="application/rss+xml"/><item><title>Ml &amp; Ai Note</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/ml-ai-note/</link><pubDate>Wed, 15 Feb 2023 23:05:08 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/ml-ai-note/</guid><description>Bias and Variance
+https://www.youtube.com/watch?v=EuBBz3bI-aA General Linear Models
+https://www.youtube.com/watch?v=nk2CQITm_eo https://www.youtube.com/watch?v=zITIFTsivN8 https://www.youtube.com/watch?v=NF5_btOaCig (Linear Models for T-Tests and ANOVA) https://youtu.be/2UYx-qjJGSs Least Squares Linear Regression
+https://www.youtube.com/watch?v=PaFPbb66DxQ Odds and Log(Odds)
+https://www.youtube.com/watch?v=ARfXDSkQf1Y https://www.youtube.com/watch?v=8nm0G-1uJzA Maximum Likelihood
+https://www.youtube.com/watch?v=XepXtl9YKwc Logistic Regression
+https://www.youtube.com/watch?v=yIYKR4sgzI8 https://www.youtube.com/watch?v=vN5cNN2-HW https://www.youtube.com/watch?v=BfKanl1aSG0 Decision Trees
+https://www.youtube.com/watch?v=_L39rN6gz7 https://www.youtube.com/watch?v=g9c66TUylZ4 https://www.youtube.com/watch?v=D0efHEJsfHo Random Forests
+https://www.youtube.com/watch?v=J4Wdy0Wc_xQ AdaBoost
+https://www.youtube.com/watch?v=LsK-xG1cLYA Gradient Boosting
+https://www.youtube.com/watch?v=3CC4N4z3GJ https://www.youtube.com/watch?v=2xudPOBz-vs https://www.youtube.com/watch?v=jxuNLH5dXCs https://www.youtube.com/watch?v=StWY5QWMXCw Regularization
+https://www.youtube.com/watch?v=Q81RR3yKn30 https://www.youtube.com/watch?v=NGf0voTMlcs XGBoost
+https://www.youtube.com/watch?v=OtD8wVaFm6E https://www.youtube.com/watch?v=8b1JEDvenQU https://www.youtube.com/watch?v=ZVFeW798-2I https://www.youtube.com/watch?v=oRrKeUCEb Bias The inability for an ML model to capture the true rel is called bias</description><content>&lt;p>Bias and Variance&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=EuBBz3bI-aA">https://www.youtube.com/watch?v=EuBBz3bI-aA&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>General Linear Models&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=nk2CQITm_eo">https://www.youtube.com/watch?v=nk2CQITm_eo&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=zITIFTsivN8">https://www.youtube.com/watch?v=zITIFTsivN8&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=NF5_btOaCig">https://www.youtube.com/watch?v=NF5_btOaCig&lt;/a> (Linear Models for T-Tests and ANOVA)&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://youtu.be/2UYx-qjJGSs">https://youtu.be/2UYx-qjJGSs&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Least Squares Linear Regression&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=PaFPbb66DxQ">https://www.youtube.com/watch?v=PaFPbb66DxQ&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Odds and Log(Odds)&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=ARfXDSkQf1Y">https://www.youtube.com/watch?v=ARfXDSkQf1Y&lt;/a>
+&lt;a href="https://www.youtube.com/watch?v=8nm0G-1uJzA">https://www.youtube.com/watch?v=8nm0G-1uJzA&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Maximum Likelihood&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=XepXtl9YKwc">https://www.youtube.com/watch?v=XepXtl9YKwc&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Logistic Regression&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=yIYKR4sgzI8">https://www.youtube.com/watch?v=yIYKR4sgzI8&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=vN5cNN2-HW">https://www.youtube.com/watch?v=vN5cNN2-HW&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=BfKanl1aSG0">https://www.youtube.com/watch?v=BfKanl1aSG0&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Decision Trees&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=">https://www.youtube.com/watch?v=&lt;/a>_L39rN6gz7&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=g9c66TUylZ4">https://www.youtube.com/watch?v=g9c66TUylZ4&lt;/a>&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=D0efHEJsfHo">https://www.youtube.com/watch?v=D0efHEJsfHo&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Random Forests&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=J4Wdy0Wc_xQ">https://www.youtube.com/watch?v=J4Wdy0Wc_xQ&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>AdaBoost&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=LsK-xG1cLYA">https://www.youtube.com/watch?v=LsK-xG1cLYA&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Gradient Boosting&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=3CC4N4z3GJ">https://www.youtube.com/watch?v=3CC4N4z3GJ&lt;/a>&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=2xudPOBz-vs">https://www.youtube.com/watch?v=2xudPOBz-vs&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=jxuNLH5dXCs">https://www.youtube.com/watch?v=jxuNLH5dXCs&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=StWY5QWMXCw">https://www.youtube.com/watch?v=StWY5QWMXCw&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Regularization&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=Q81RR3yKn30">https://www.youtube.com/watch?v=Q81RR3yKn30&lt;/a>&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=NGf0voTMlcs">https://www.youtube.com/watch?v=NGf0voTMlcs&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>XGBoost&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=OtD8wVaFm6E">https://www.youtube.com/watch?v=OtD8wVaFm6E&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=8b1JEDvenQU">https://www.youtube.com/watch?v=8b1JEDvenQU&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=ZVFeW798-2I">https://www.youtube.com/watch?v=ZVFeW798-2I&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=oRrKeUCEb">https://www.youtube.com/watch?v=oRrKeUCEb&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="bias">Bias&lt;/h1>
+&lt;p>The inability for an ML model to capture the true rel is called bias&lt;/p>
+&lt;h1 id="variance">Variance&lt;/h1>
+&lt;p>The difference in how well a model fits differing datasets is called variance&lt;/p>
+&lt;h1 id="decicsion-trees">Decicsion Trees&lt;/h1>
+&lt;h2 id="basic-concepts">Basic Concepts&lt;/h2>
+&lt;ul>
+&lt;li>milti data type ok&lt;/li>
+&lt;li>a question on a feature can be asked multiple times&lt;/li>
+&lt;li>numerica thresholds can be diff for the same feature&lt;/li>
+&lt;li>final classificaitons can be repeated&lt;/li>
+&lt;li>if statement is true, you go left&lt;/li>
+&lt;li>very top of tree is called root node/the root&lt;/li>
+&lt;li>internal nodes/branches are inbetween top and bottom
+&lt;ul>
+&lt;li>branches have arrows pointing to them&lt;/li>
+&lt;li>AND arrows pointing away from them&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>leaves have arrows pointing to them but no pointing away&lt;/li>
+&lt;/ul>
+&lt;h2 id="building-a-tree-with-gini-impurity">Building a Tree with Gini Impurity&lt;/h2>
+&lt;ul>
+&lt;li>First need to work out which feature makes the root
+&lt;ul>
+&lt;li>do this based off which best predicts target var
+&lt;ul>
+&lt;li>do this by making tree based off only &amp;ldquo;loves popcorn&amp;rdquo; to predict &amp;ldquo;Loves Song&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>If a &lt;strong>leaf&lt;/strong> contains a mixture of correct &lt;strong>AND&lt;/strong> incorrect predictions, then they are &lt;strong>IMPURE&lt;/strong>&lt;/li>
+&lt;li>To quantify the impurity of leaves you can use: &lt;strong>Gini Impurity&lt;/strong>, &lt;strong>Entropy&lt;/strong>, and &lt;strong>Information Gain&lt;/strong>&lt;/li>
+&lt;li>Gini Impurity for a leaf = 1 - (prob(&amp;ldquo;yes&amp;rdquo;) ^ 2 - prob(&amp;ldquo;no&amp;rdquo;) ^ 2)
+&lt;ul>
+&lt;li>to work out toal gini impurity fpr the simple tree:
+&lt;ul>
+&lt;li>= weigthed avg of gini impurities&lt;/li>
+&lt;li>weigthed because a leaf may not represent the same number of people
+&lt;ul>
+&lt;li>eg &amp;ldquo;loves popcorn? Yes? No?&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>For numeric data:
+&lt;ul>
+&lt;li>sort by low to high&lt;/li>
+&lt;li>calc avg value based of row below and current row&lt;/li>
+&lt;li>then calc gini for each avg value
+&lt;ul>
+&lt;li>this can be done e.g. avg val = 9.5&lt;/li>
+&lt;li>root: &amp;ldquo;age &amp;lt; 9.5, loves song?&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>You then pick the root that represents num feature by the avg that = lowest gini&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>You then pick the root by selecting the feature that has lowest gini!&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>So split based off: &amp;ldquo;loves soda?&amp;rdquo;
+&lt;ul>
+&lt;li>Can we reduce gini of branch by splitting people that loved soda or Age &amp;lt; ??? ?&lt;/li>
+&lt;li>Calc gini for each of the two questions&lt;/li>
+&lt;li>Select lowest gini of the two: &amp;ldquo;age &amp;lt; 12.5?&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Can stop splitting based off if leaves are completly pure&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-to-prevent-overfitting">How to Prevent Overfitting&lt;/h2>
+&lt;ul>
+&lt;li>Let say that leaf only has one person, can be hard to be sure that it does a good job of making preds
+&lt;ul>
+&lt;li>could overfit the data&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Can deal with this by:
+&lt;ul>
+&lt;li>pruning&lt;/li>
+&lt;li>can put limits on hwo trees grow by requiring 3 or more people per leaf&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="regression-trees">Regression Trees&lt;/h1>
+&lt;ul>
+&lt;li>use when you cant fit straight line to data&lt;/li>
+&lt;li>to work out output of leaf, just get avg of the values that sit in the leaf&lt;/li>
+&lt;li>building root:
+&lt;ul>
+&lt;li>dosage &amp;lt; 3 &amp;ndash; 3 is avg of two values&lt;/li>
+&lt;li>get avg of vals of &amp;lt; 3 and &amp;gt;= 3 (0 &amp;amp; 38.8)
+&lt;ul>
+&lt;li>so tree will say: &amp;ldquo;Dosage &amp;lt; 3? If so, then 0, else 38.8.&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>use sum of square residuals of all points (left and right) in the leaves to get qual of preds&lt;/li>
+&lt;li>THEN, go to next two points e.g. &amp;ldquo;dosage &amp;lt; 5&amp;rdquo;&lt;/li>
+&lt;li>Select smallest sum of squared residuals
+&lt;ul>
+&lt;li>root = &amp;ldquo;dosage &amp;lt; 14.5?&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>You then for the left and right branch can do the same again on the samller subset of values&lt;/li>
+&lt;li>you then need to do this for the other features in data&lt;/li>
+&lt;li>compare SSR for each feature that makes the root node&lt;/li>
+&lt;li>to the branch down, you just do the same as before but it&amp;rsquo;s filtered on e.g. &amp;ldquo;Age &amp;gt; 50&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="how-to-prune-regression-trees">How to Prune Regression Trees&lt;/h1>
+&lt;ul>
+&lt;li>there are several methods of prunin
+&lt;ul>
+&lt;li>this is on &lt;strong>Cost Complexity Pruning&lt;/strong> or &lt;strong>Weakest Link Pruning&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>use this for overfitting and variance
+let say we have test/train data and the model is overfit to test data&lt;/p>
+&lt;ul>
+&lt;li>one way to reduce overfitting is by reducing the number of leaves
+&lt;ul>
+&lt;li>replace the split with a leaf that is avg of a larger num of observations
+&lt;ul>
+&lt;li>e.g. remove two leaves of branch and replace branch by leaf&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>now the sub-tree does better at predicting test data but worse at train&lt;/li>
+&lt;/ul>
+&lt;p>how do we decide which sub-tree to use???&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>first tep of cost complex pruning is to calc SSR of each pruned sub-tree for trian data&lt;/p>
+&lt;ul>
+&lt;li>calc SSR for each leaf&lt;/li>
+&lt;li>then add up all SSR for all leaves&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>each time a branch/leaf is removed, the SSR for the sub-tree will get bigger&lt;/p>
+&lt;ul>
+&lt;li>not a suprise tho ofc&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>how comapre trees?&lt;/p>
+&lt;ul>
+&lt;li>CCP based on:
+&lt;ul>
+&lt;li>tree score = SSR + alpha (tree complexity pen, find using cross validation) * T (num of leaves or terminal nodes)&lt;/li>
+&lt;li>do this for all sub-trees&lt;/li>
+&lt;li>pick lowest tree score sub-tree&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>how to build pruned regression tree?&lt;/p>
+&lt;ul>
+&lt;li>first use ALL data build full sized reg tree&lt;/li>
+&lt;li>now increase alpha till the sub-tree with one branch removed, gives lower tree score compared to full sized tree&lt;/li>
+&lt;li>keep doing this with smaller and smaller sub-trees
+&lt;ul>
+&lt;li>recording alpha values for each&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>in the end, different vals for alpha give use a sequence of tree from full sized to just a leaf
+&lt;ul>
+&lt;li>e.g. 0, 10k, 15k, 22k&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>now divide into train and test
+&lt;ul>
+&lt;li>using just train data, use the alpha values we found on full tree and a sequaence of subtrees that min the tree score&lt;/li>
+&lt;li>now calc SSR of each new tree for test data and pick alpha based off lowest SSR&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>repeat using cross-validation
+&lt;ul>
+&lt;li>pick alpha that on avg gave lowest SSR with the testing data in each cross fold&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="random-forests">Random Forests&lt;/h1>
+&lt;p>Step 1: Create a &amp;ldquo;&lt;strong>bootstrapped&lt;/strong>&amp;rdquo; dataset&lt;/p>
+&lt;ul>
+&lt;li>Randomly sample dataset so that we have same size as orginal dataset
+&lt;ul>
+&lt;li>can pick same sample more than once&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Step 2: Create decision tree using boostrapped dataset but only use a random subset of features at each step&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>e.g. only consider 2 cols at each step&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>there can be an optimal num of cols&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>once root has been determined out of 2 cols, remove that col from data to focus on ALL of the remaining cols&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>for next branch, randomly select 2 cols of the remaining cols&lt;/p>
+&lt;ul>
+&lt;li>in the next levels of branches, you can select the col that was removed for the parent node&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Now go back to step 1 and repeat bootstrap and build tree again&lt;/p>
+&lt;p>How to use forest?&lt;/p>
+&lt;ul>
+&lt;li>all trees vote and pick answer based off all the trees, 5 Trues and 1 False = True classification&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>B&lt;/strong>oostrapping the data plus the &lt;strong>agg&lt;/strong>regate to make a decision is called &lt;strong>Bagging&lt;/strong>&lt;/p>
+&lt;p>We can have &lt;strong>Out-Of-Bag-Dataset&lt;/strong>, which are all the samples that did not make it into the bootstrapped data&lt;/p>
+&lt;ul>
+&lt;li>typically 1/3 of og data doesn&amp;rsquo;t make it&lt;/li>
+&lt;li>run data through tree and check if it estimate correct&lt;/li>
+&lt;li>do this out-of-bag sample through all of the other trees that were built without it&lt;/li>
+&lt;li>do the same thing for all of the other out of bag samples for all of the trees&lt;/li>
+&lt;/ul>
+&lt;p>The proportion of out-of-bag samples that were incorrectly calssifies is the &lt;strong>Out-Of-Bag Error&lt;/strong>&lt;/p>
+&lt;p>To tune the number of cols selected for each step, use &lt;strong>Out-of-bag error&lt;/strong>&lt;/p>
+&lt;h1 id="adaboost">Adaboost&lt;/h1>
+&lt;p>Trees are usually just a root and two leaves&lt;/p>
+&lt;ul>
+&lt;li>This is called a stump&lt;/li>
+&lt;li>They are not great at making accurate classifications&lt;/li>
+&lt;li>&amp;ldquo;&lt;em>weak learners&lt;/em>&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>In a forest of stumps, some stumps get more say in final classification than others&lt;/p>
+&lt;ul>
+&lt;li>this is in contrast with RF&lt;/li>
+&lt;/ul>
+&lt;p>Order is important&lt;/p>
+&lt;ul>
+&lt;li>The error that the first stump makes, influences how the second stump is made, etc etc&lt;/li>
+&lt;li>In RF the trees are independently generated&lt;/li>
+&lt;/ul>
+&lt;p>First give each row in dataset a sample weight&lt;/p>
+&lt;ul>
+&lt;li>To begin with, this will be 1 / N&lt;/li>
+&lt;/ul>
+&lt;p>Then create root node in the same way as a decision tree&lt;/p>
+&lt;p>The the &lt;strong>total error&lt;/strong> will determine the &lt;strong>amount of say&lt;/strong> a stump has:&lt;/p>
+&lt;ul>
+&lt;li>amount of say = 0.5 * log((1 - total error) / total error)&lt;/li>
+&lt;li>if total error = 0.5, say = 0&lt;/li>
+&lt;li>if total error apporaches -1 (you would just do opposite of what tree says) or 1, say increases&lt;/li>
+&lt;li>if total error = 1, the equation freaks out (log(0)), so a small error term is added to correct for this&lt;/li>
+&lt;/ul>
+&lt;p>To update the rows that the stump incorrectly guesses:&lt;/p>
+&lt;ul>
+&lt;li>new sample weight = sample weight * e ^ (amount of say)&lt;/li>
+&lt;li>So if stump has a lot of say and gets guess wrong, sample weight will drastically increase&lt;/li>
+&lt;/ul>
+&lt;p>If the stump gets the guess correct, update the sample weight:&lt;/p>
+&lt;ul>
+&lt;li>new sample weight = sample weight * e ^ -(amount of say)&lt;/li>
+&lt;li>if amount of say is large, then the row weight will go down a lot&lt;/li>
+&lt;/ul>
+&lt;p>After all weights have been updated, you need to nomalise the weights so that they add up to 1&lt;/p>
+&lt;ul>
+&lt;li>do this by dividing each weight by the sum of the weights&lt;/li>
+&lt;/ul>
+&lt;p>In theory, the new sample weights could be used to calc a weighted gini index for a new tree&lt;/p>
+&lt;p>In practice, you generate rng nums between 0 and 1, selecting the row that it falls on base don the cum sample weights&lt;/p>
+&lt;p>Do this as many times as you want!&lt;/p>
+&lt;p>How do the trees make predicition?&lt;/p>
+&lt;ul>
+&lt;li>Add up the amount of say of each True and False preds&lt;/li>
+&lt;li>The one with more total say will be the pred&lt;/li>
+&lt;/ul>
+&lt;h1 id="least-squares-linear-regression">Least Squares Linear Regression&lt;/h1>
+&lt;ol>
+&lt;li>Draw line through data&lt;/li>
+&lt;li>Sum pred - obvs for all points
+&lt;ol>
+&lt;li>Square each term in sum to negatate large obvs vs pred&lt;/li>
+&lt;li>This is &lt;strong>sum of squared residuals&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;p>$y = ax + b$
+We want to find the optimal vaues for a and b so that the sum of squared residuals is minimised
+Since we want the line that will give us the smallest sum of squares, this is called &lt;em>&lt;strong>least squares&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>Plot graph of roration of line vs SSR and take derivative of the function
+Best point is where the derivative is 0&lt;/p>
+&lt;h1 id="linear-regression">Linear Regression&lt;/h1>
+&lt;p>Main ideas:&lt;/p>
+&lt;ol>
+&lt;li>Use least-squares to fit a line to the data&lt;/li>
+&lt;li>Calculate $R^2$&lt;/li>
+&lt;li>Calculate a p-value for $R^2$&lt;/li>
+&lt;/ol>
+&lt;p>Look above for notes on least-squares&lt;/p>
+&lt;p>$R^2$:
+Example:&lt;/p>
+&lt;ul>
+&lt;li>First shift all data to y-axis
+&lt;ul>
+&lt;li>We are only interested in y-axis feature&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Then calculate avg. y data
+&lt;ul>
+&lt;li>Sum the squared resdiduals&lt;/li>
+&lt;li>We call this SS(mean) -&amp;gt; &amp;ldquo;sum of squares around the mean&amp;rdquo;
+&lt;ul>
+&lt;li>SS(mean) = (data - mean)^2&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Variation around the mean = (data - mean) ^ 2 / n
+&lt;ul>
+&lt;li>Var(mean) = SS(mean) / n&lt;/li>
+&lt;li>We can think of variance as the average sum of squares per e.g. &amp;ldquo;mouse&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Now apply this to the line of best fit:&lt;/p>
+&lt;ul>
+&lt;li>SS(fit) = (data - line) ^ 2&lt;/li>
+&lt;li>Var(fit) = SS(fit) / n&lt;/li>
+&lt;li>Can think of Var(fit) as the avg SS(fit) for each mouse&lt;/li>
+&lt;/ul>
+&lt;p>In general: Variance(something) = sum of squares / the number of those things = average sum of squares&lt;/p>
+&lt;p>There is less variation around the line that we fit by least-squares&lt;/p>
+&lt;ul>
+&lt;li>We can say that some for the variation in mouse size is &amp;ldquo;explained&amp;rdquo; by taking mouse weight into account&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>So $R^2$ tells up how much of the variation in mouse size can be explained by taking mouse weight into account.&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>$R^2 = \frac{Var(mean) - Var(fit)}{Var(mean)}$&lt;/p>
+&lt;p>Example: &lt;em>$R^2$ = 0.6 = 60%: &amp;ldquo;There is a 60% reduction in variance when we take the mouse weight into account&amp;rdquo;&lt;/em> or &lt;em>&amp;ldquo;mouse weight explains 60% of the variation in mouse size&amp;rdquo;&lt;/em>.&lt;/p>
+&lt;p>You can also use the sums of squares to make the same calc:
+$R^2 = \frac{SS(mean) - SS(fit)}{SS(mean)}$&lt;/p>
+&lt;p>Adding terms will never reduce $R^2$!
+This is because lesat-sqaures would make the offending term(s) go to 0&lt;/p>
+&lt;ul>
+&lt;li>Cause any term that makes SS(fit) worse to be multiplied by 0&lt;/li>
+&lt;li>However, the more stupid paramters added to the equation, the more chance there for random events to result in a better $R^2$&lt;/li>
+&lt;li>Because of this, people report an &amp;ldquo;adjusted&amp;rdquo; $R^2$ value that in essence, scales R^2 by the number of parameters&lt;/li>
+&lt;/ul>
+&lt;p>What if we had only 2 measurements however?&lt;/p>
+&lt;ul>
+&lt;li>SS(fit) = 0 =&amp;gt; R^2 = 100%&lt;/li>
+&lt;li>Any two random points would give exact same thing, doesnt mean anything&lt;/li>
+&lt;li>So need a stats test to prove it&amp;rsquo;s significant&lt;/li>
+&lt;/ul>
+&lt;p>The p-value for R^2 comes from something called F:&lt;/p>
+&lt;ul>
+&lt;li>Tells you how reliable the fit is!&lt;/li>
+&lt;li>F = the variation explained by the extra parameters in the fit / the variation not explained by the extra parameters in the fit&lt;/li>
+&lt;li>$F = \frac{SS(mean) - SS(fit) / (p_{fit} - p_{mean})}{SS(fit) / (n - p_{fit})}$&lt;/li>
+&lt;li>p are the degrees of freedom&lt;/li>
+&lt;li>Why divide SS(fit) by $n - p_{fit}$ instead of just n?
+&lt;ul>
+&lt;li>The more params you have in your equation, the more data you need to estimate them&lt;/li>
+&lt;li>For example, you only need two points to estimate a line, but you need 3 points to estimate a plane&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>If the fit is good F = large num / small num&lt;/li>
+&lt;/ul>
+&lt;p>To calc p-value:&lt;/p>
+&lt;ul>
+&lt;li>You could gen histogram from lots of random datasets and then see where you f-score for the dataset sits&lt;/li>
+&lt;li>What is more common is to generate an F-dstribution based off a line: $(p_{mean} - p_{fit}) = 1$, $(n - p_{fit}) = 10$
+&lt;ul>
+&lt;li>the number of degrees of freedom determines the shape of the line&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="maximum-likelihood">Maximum Likelihood&lt;/h1>
+&lt;p>The goal of maximum likelihood is the find the optimal way to fit a distribution to the data.&lt;/p>
+&lt;p>Example:&lt;/p>
+&lt;ul>
+&lt;li>Take normal distribution&lt;/li>
+&lt;li>fit a bell curve with centre far from avg of points&lt;/li>
+&lt;li>most of the points have a low probability or &amp;ldquo;likelihood&amp;rdquo; of being observed in the places they are&lt;/li>
+&lt;li>if you shift the curve over so that its mean was the same as the average?
+&lt;ul>
+&lt;li>the likelihood of observing the points would be high&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>if you kept moving it over, the likelihood of observing the points would be low again&lt;/li>
+&lt;li>with the best mean found, you need to do the same for std. dev.&lt;/li>
+&lt;/ul>
+&lt;p>probability vs likelihood:&lt;/p>
+&lt;ul>
+&lt;li>likelihood specifically refers to this situation here; you are trying to find the optimal value for the mean or std dev for a dist given a bunch of observed measurements&lt;/li>
+&lt;/ul>
+&lt;h1 id="odds-and-logodds">Odds and Log(Odds)&lt;/h1>
+&lt;p>&amp;ldquo;The odds in favour of my team winning the game are 1 to 4&amp;rdquo;&lt;/p>
+&lt;p>odds are not probability&lt;/p>
+&lt;ul>
+&lt;li>they are the ratio of something happening vs to something not happening&lt;/li>
+&lt;li>prob is the ratio of something happening vs everything happening&lt;/li>
+&lt;/ul>
+&lt;p>prob of something / prob of not something is the same as the odds&lt;/p>
+&lt;ul>
+&lt;li>odds of team losing go from 0 to 1 (1 : 32 =&amp;gt; 0.03125)&lt;/li>
+&lt;li>odds of team winning go from 1 to $\infty$ (32 : 3 =&amp;gt; 10.67)&lt;/li>
+&lt;li>this makes it difficult to compare the odds of winning vs losing&lt;/li>
+&lt;li>taking the log of the odds helps with this&lt;/li>
+&lt;/ul>
+&lt;p>the log of the ratio of probs is called the &lt;em>&lt;strong>logit function&lt;/strong>&lt;/em> and formthe basis for logistic regression&lt;/p>
+&lt;p>log(odds) are very useful for solving certain stats problems&lt;/p>
+&lt;ul>
+&lt;li>specifically ones where we are trying to determin probs about win/lose, yes/no or true/false questions&lt;/li>
+&lt;li>plotting dist of win : lose of many things will result in normal dist&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Has Cancer/Has mutated gene&lt;/th>
+&lt;th>Yes&lt;/th>
+&lt;th>No&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Yes&lt;/td>
+&lt;td>23&lt;/td>
+&lt;td>117&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>No&lt;/td>
+&lt;td>6&lt;/td>
+&lt;td>210&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Odds ratio: $\frac{23 / 117}{6 / 210} = \frac{0.2}{0.03} = 6.88$
+This means that the odds are 6.88 times greater that someone with the mutated gene will also have cancer
+Hence log ratio: $1.93$&lt;/p>
+&lt;ul>
+&lt;li>The odds ratio and log of the odds ratio are like R-squared; they indicate a relationship between two things&lt;/li>
+&lt;li>Larger values mean that the mutated gene is a good predictor of cancer&lt;/li>
+&lt;li>Values close to 0 are bad: $log(1) = 0$
+&lt;ul>
+&lt;li>$log(0.001) = -6.91$ (so do opposite) (for every game I win someone else wins 1,000 times)&lt;/li>
+&lt;li>$log(100) = 4.6$ (for every game I lose, I win 100)&lt;/li>
+&lt;li>hence these are good predictors&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>3 ways to determine if an odds ratio is statistically signficant:&lt;/p>
+&lt;ul>
+&lt;li>Fisher&amp;rsquo;s Exact Test&lt;/li>
+&lt;li>Chi-Square Test&lt;/li>
+&lt;li>The Wald test
+No consensus on what is best, so people just mix and match:&lt;/li>
+&lt;li>Some people use Fisher&amp;rsquo;s/Chi-Square test to get p-values&lt;/li>
+&lt;li>Wald Test to calculate a confidence interval&lt;/li>
+&lt;li>Others use just Wald Test for confidence interval/p-values&lt;/li>
+&lt;li>So need to check what is best for your field&lt;/li>
+&lt;/ul>
+&lt;h1 id="logistic-regression">Logistic Regression&lt;/h1>
+&lt;ul>
+&lt;li>Predicts if something is True or False&lt;/li>
+&lt;li>Fits an S shaped logistic function&lt;/li>
+&lt;li>Test to see if a variable&amp;rsquo;s effect on the prediction is significantly different from 0
+&lt;ul>
+&lt;li>If not, it means the variable isnot helping the prediction&lt;/li>
+&lt;li>This is called Wald&amp;rsquo;s test&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Instead of using SSR and R^2 it uses &lt;em>&lt;strong>maximum likelihood&lt;/strong>&lt;/em>&lt;/li>
+&lt;li>Logistic Regression is a specific type of &lt;strong>Generalised Linear Model&lt;/strong> (&lt;strong>GLM&lt;/strong>)&lt;/li>
+&lt;/ul>
+&lt;p>Continuous values:
+Because with logistic regression, the y-axis is confined to probability values between 0 and 1&lt;/p>
+&lt;ul>
+&lt;li>solve problem by transforming to the log odds, so like with linear regression the y-axis can go from $-\infty$ to $+\infty$&lt;/li>
+&lt;/ul>
+&lt;p>So we use the &lt;strong>logit function&lt;/strong>: $\log{\frac{p}{1 - p}}$&lt;/p>
+&lt;ul>
+&lt;li>So all values that are true (1) -&amp;gt; $\infty$&lt;/li>
+&lt;li>All values that are false (0) -&amp;gt; $-\infty$&lt;/li>
+&lt;/ul>
+&lt;p>Take example logisitic regression line: $y = -3.48 + 1.83\times weight$
+So the first coefficient is the y-axis intercept&lt;/p>
+&lt;ul>
+&lt;li>when weight (x-axis) = 0, then log(odds of obesity) = -3.476
+&lt;ul>
+&lt;li>In other words, if you dont weigh anything, the odds are against you being obese!! Duh!&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>The slope: for every one unit of weight gains, the log(odds of obesity) increases by 1.825&lt;/li>
+&lt;/ul>
+&lt;p>Descrete variable:&lt;/p>
+&lt;p>&lt;em>&lt;strong>Need to come back to this (2nd vid for logistic regression)&lt;/strong>&lt;/em>&lt;/p>
+&lt;h1 id="linear-models-for-t-tests-and-anova">Linear Models for T-Tests and ANOVA&lt;/h1>
+&lt;p>&lt;em>&lt;strong>Need to come back to this&lt;/strong>&lt;/em>&lt;/p>
+&lt;h1 id="gradient-descent">Gradient Descent&lt;/h1>
+&lt;p>Can be used to optimise least squares like in notes above!
+For: $y = ax + b$
+start with least squares estimate for the slope a
+we use gradient descent to find optimatal value for b&lt;/p>
+&lt;p>set b = 0, any number will do
+calc SSR&lt;/p>
+&lt;ul>
+&lt;li>NOTE: the SSR is a type of &lt;strong>loss function&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Keep changing the intercept and plot a graph of intercept vs SSR&lt;/p>
+&lt;ul>
+&lt;li>Inefficent way of doing this would be to calc lots and lots of points&lt;/li>
+&lt;li>Gradient descent makes this way more efficent
+&lt;ul>
+&lt;li>Does a few calcs when far from the optimal solution&lt;/li>
+&lt;li>increases the number of calcs, close to the optimal value&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>You can derive an equation for a line that describes the SSR&lt;/li>
+&lt;li>Determine derivative of the function&lt;/li>
+&lt;li>Then take steps towards min value approaches derivative = 0
+&lt;ul>
+&lt;li>This is v useful because get around times where it&amp;rsquo;s impossible for derivative = 0&lt;/li>
+&lt;li>The size of the step should be dependant on the size of the derivative&lt;/li>
+&lt;li>This is determined by a &lt;strong>step size&lt;/strong> called the
+&lt;ul>
+&lt;li>Mutiply the derivative by a small number called a &lt;strong>learning rate&lt;/strong>, the combination of these two is the step size&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>So in this case, the new intercept = old intercept - step size&lt;/li>
+&lt;li>This process repeats itself&lt;/li>
+&lt;li>It will stop when the step size is very close to 0&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>How to do grad descent for both a and b?&lt;/p>
+&lt;ul>
+&lt;li>Take derivative with respect to the intercept also do the same with respect to the slope
+&lt;ul>
+&lt;li>When you have 2 or more derivatives of the same function, they are called a &lt;strong>gradient&lt;/strong>&lt;/li>
+&lt;li>This is why the algorithm is called &lt;strong>gradient descent&lt;/strong>!&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Pick rando number for intecept and slope
+&lt;ul>
+&lt;li>Gives 2 SSRs&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Calc step size for both&lt;/li>
+&lt;li>Adjust intercept and slope by step size&lt;/li>
+&lt;/ul>
+&lt;p>In general:&lt;/p>
+&lt;ol>
+&lt;li>Take the derivative of the &lt;strong>Loss Function&lt;/strong> for each parameter in it. Meaning take the &lt;strong>Gradient&lt;/strong> of the &lt;strong>Loss Function&lt;/strong>.&lt;/li>
+&lt;li>Pick rando values for all parameters.&lt;/li>
+&lt;li>Plug param values into the gradient&lt;/li>
+&lt;li>Calc step size&lt;/li>
+&lt;li>calculate new params&lt;/li>
+&lt;li>Go back to step 3 and repeat till step size small or max num of steps reached&lt;/li>
+&lt;/ol>
+&lt;p>For a lot of data points, this can take long time
+So, &lt;strong>stochastic gradient descent&lt;/strong> that uses a rando selected subset of the data at every step, rather than the full dataset&lt;/p>
+&lt;h1 id="gradient-boosting-regression-main-ideas">Gradient Boosting: Regression Main Ideas&lt;/h1>
+&lt;p>Grad boost very similar to AdaBoost&lt;/p>
+&lt;p>When starting, grad boost creates a single leaf that is the avg of the target var
+Then grad bost builds a tree, that is based on the errors of the previous tree.&lt;/p>
+&lt;ul>
+&lt;li>This tree is larger than stump but still restricts the size of the tree&lt;/li>
+&lt;li>In practice, people ofen set the num of leaves to be between 8 and 32&lt;/li>
+&lt;/ul>
+&lt;p>Grad boost will scale each tree by a fixed amount, unlike AdaBoost (amount of say)
+It will then build tree based of the errors of the previous tree.
+It will then build trees in this fashon till made num of trees asked for or aditional trees fail to improve fit.&lt;/p>
+&lt;ol>
+&lt;li>Calc avg of the target feature as first &amp;rsquo;tree&amp;rsquo;/leaf
+&lt;ol>
+&lt;li>Better way: $F_{0}(x) = \arg \max_{\gamma}\sum_{i=1}^{n}L(y_{i}, \gamma)$, $L$ is loss func&lt;/li>
+&lt;li>Either find best value via grad descent or if ez derivative to solve for 0, do that&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Build tree on errors of first tree: error = obvs - pred, this is called a &lt;strong>pseudo residual&lt;/strong>. The pseudo part is a reminder that we are doing grad boost, not linear reg.&lt;/li>
+&lt;li>Now use input vars to predict the residuals to build tree. A leaf of this tree may pointwards two residuals. If this happens, get avg of residuals on leaf.&lt;/li>
+&lt;li>Now combine original leaf with the new tree for pred. Effectively this new tree &amp;lsquo;corrects&amp;rsquo; for the error of the og leaf. After doing this once, the bias will be low but varience high (overfit), so there is a learning rate to correct for this. Multiple learning rate by new tree&amp;rsquo;s residual pred. Between 0 and 1. This results in a small step in the right direction. Taking lots of small steps in the right direction results in lower varience.&lt;/li>
+&lt;li>Calc psuedo residuals again based of new preds and do the same.&lt;/li>
+&lt;li>Keep doing this until num trees reached or the sum of residuals do not significantly decrease.&lt;/li>
+&lt;/ol>
+&lt;p>Gradient boost is called gradient boost because the residual is the &lt;strong>Gradient&lt;/strong> that comes from &lt;strong>Gradient descent&lt;/strong>.&lt;/p>
+&lt;h1 id="gradient-boost-classification-main-ideas">Gradient Boost: Classification Main Ideas&lt;/h1>
+&lt;p>&lt;em>&lt;strong>Need to come back to this!&lt;/strong>&lt;/em>&lt;/p>
+&lt;h1 id="regularization-ridge-l2-regression">Regularization: Ridge (L2) Regression&lt;/h1>
+&lt;ul>
+&lt;li>Another way of saying desensitisation (lol)&lt;/li>
+&lt;/ul>
+&lt;p>Use Linear regression aka least squares:&lt;/p>
+&lt;ul>
+&lt;li>example: has intercept and slope
+&lt;ul>
+&lt;li>training data has 2 points&lt;/li>
+&lt;li>testing has 8&lt;/li>
+&lt;li>SSR = 0 for training, for testing is high
+&lt;ul>
+&lt;li>high varience (overfit to training)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Main idea behind ridge regression is to find a new line that doesn&amp;rsquo;t fit the training data as well
+&lt;ul>
+&lt;li>introduce a small amount of bias&lt;/li>
+&lt;li>in return we get a significant drop in variance&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Example: size = intercept + slope * Weight
+Lin reg minises: SSR
+Ridge regression tries to minimises: SSR + $\lambda \times {slope}^2$&lt;/p>
+&lt;ul>
+&lt;li>The added tern adds a penalty to the traditional least squares method&lt;/li>
+&lt;/ul>
+&lt;p>So when the slope of the line is steep, then the prediction for size is very sensitive to relatively small changes in weight
+So predictions made with the ridge regression line are less sensistive to weight than the least squares line
+The large lambda, the slope get asymptotically close to 0
+To find the value for lambda, try typically 10-fold cross validation to determine which one results in the lowest variance&lt;/p>
+&lt;p>Also works on descrete data:
+size = 1.5 + 0.7 * high fat diet&lt;/p>
+&lt;p>so ridge regression minimises: SSR + $\lambda \times {diet difference}^2$&lt;/p>
+&lt;ul>
+&lt;li>diet difference refers to the distance in size between normal diet and high far diet&lt;/li>
+&lt;/ul>
+&lt;p>for more complex model:
+size = intercept + slope * weight + diet difference * high fat diet
+so penalty term is: lambda * (slope ^ 2 + diet difference ^ 2)&lt;/p>
+&lt;p>so in general, the penalty term will apply itself to every parameter, except for the intercept, is scaled by the measurements&lt;/p>
+&lt;p>you cant make a line with one data point
+nor a plane with 2 data points&lt;/p>
+&lt;ul>
+&lt;li>you would need at least 10,001 data points to make an equation of 10,001 parameters,
+&lt;ul>
+&lt;li>sometimes that&amp;rsquo;s not possible&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>what do you do here?&lt;/li>
+&lt;/ul>
+&lt;p>use ridge regression!&lt;/p>
+&lt;ul>
+&lt;li>The penalty can solve for all 10,001 params with 500 samples or fewer&lt;/li>
+&lt;/ul>
+&lt;h1 id="regularization-lasso-l1-regression">Regularization: Lasso (L1) Regression&lt;/h1>
+&lt;p>Very similar to ridge regression but has some important differences
+Intead the penalty is: $\lambda \times |slope|$&lt;/p>
+&lt;ul>
+&lt;li>adds a bit of bias but less variarience than leat squares&lt;/li>
+&lt;/ul>
+&lt;p>The big difference is that L1 can make the slope go to 0&lt;/p>
+&lt;ul>
+&lt;li>Ridge can only do this asymptotically&lt;/li>
+&lt;/ul>
+&lt;p>This can eleminate any terms in an equation that are stupid to 0&lt;/p>
+&lt;p>So lasso does better when there are lots of useless parameters
+Ridge does better then most of the variables are useful&lt;/p>
+&lt;h1 id="xgboost-regression">XGBoost: Regression&lt;/h1>
+&lt;p>Has lots of parts but are simple:&lt;/p>
+&lt;ol>
+&lt;li>Gradient boost(ish) (wont be covered as done before)&lt;/li>
+&lt;li>Regularization (wont be covered as done before)&lt;/li>
+&lt;li>A unique regression tree&lt;/li>
+&lt;li>Approximate greedy algorithm&lt;/li>
+&lt;li>Weighted quantile sketch&lt;/li>
+&lt;li>Sparsity-aware split finding&lt;/li>
+&lt;li>Parallel learning&lt;/li>
+&lt;li>Cache-aware access&lt;/li>
+&lt;li>Blocks for out-of-core computation&lt;/li>
+&lt;/ol>
+&lt;p>XGBoost was designed to be used with large, complicated datasets&lt;/p>
+&lt;h2 id="unique-regression-tree">Unique Regression Tree&lt;/h2>
+&lt;p>First step in fitting XGBoost to the training data is to make an initial prediction&lt;/p>
+&lt;ul>
+&lt;li>This prediction can be anything but by default it is 0.5, regardless if it&amp;rsquo;s regression or classification&lt;/li>
+&lt;/ul>
+&lt;p>Like with gradient boost, XGBoost fits a regression tree to the residuals&lt;/p>
+&lt;ul>
+&lt;li>However, XGBoost uses a unique regression tree that the vid calls XGBoost tree
+There are many ways this tree can be built, but this is the most common way for regression&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>Each tree starts with a single leaf, all residuals go to the leaf&lt;/li>
+&lt;li>Calculate a quality score or similarity score for the residuals
+&lt;ol>
+&lt;li>Similarity score = SSR / (num residuals + $\lambda$)&lt;/li>
+&lt;li>This similarity score is a simplification of second order Taylor approximation of the loss function described in grad boost&lt;/li>
+&lt;li>Also, the lambda here will just be for L2 regularisation&lt;/li>
+&lt;li>L1 will make the sim score simplify to something different&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Now the question is whether or not we can do a better job clustering similar residuals if we split them into two groups
+&lt;ol>
+&lt;li>Focus on the two points that are smallest (x-axis)&lt;/li>
+&lt;li>Get avg value&lt;/li>
+&lt;li>Make a split based off the avg value&lt;/li>
+&lt;li>Calc similarity score for both leafs&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Now need to quanitify how much better the leaves cluster similar resdiuals than the root, do this by calculating the gain
+&lt;ol>
+&lt;li>$gain = {left}&lt;em>{similarity} + {right}&lt;/em>{similarity} - {root}_{similarity}$&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Now shift the threshold over so that it is the avg of th next two observation
+&lt;ol>
+&lt;li>More gain is good, is better at splitting the residuals into clusters of similar values&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Get best tree based of thresholds&lt;/li>
+&lt;li>Try to split leaves further, the root in the gain calc refers to the parent node of the leaves&lt;/li>
+&lt;li>Keep going till at max depth (default is 6)&lt;/li>
+&lt;/ol>
+&lt;p>How to prune this tree?&lt;/p>
+&lt;ul>
+&lt;li>Pruned based on its gain values&lt;/li>
+&lt;li>Start with a number, for example, 130
+&lt;ul>
+&lt;li>This is called $\gamma$ gamma&lt;/li>
+&lt;li>Then calc the difference between the gain asscociated with the lowest branch in the tree and gamma: $gain - \gamma$
+&lt;ul>
+&lt;li>if the difference is positive then the branch is not removed, if it is neg then remove&lt;/li>
+&lt;li>once you find a pos difference, then stop pruning&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>This can also remove the root of the tree, leaving just the original prediction, which is pretty extreme pruning&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>The regularization term:&lt;/p>
+&lt;ul>
+&lt;li>This will decrease similarity scores&lt;/li>
+&lt;li>This will tend to stop the trees getting so large as it&amp;rsquo;s harder for a branch to have a lower sim score than its parent&lt;/li>
+&lt;li>This also can make the pruning more agressive as $\gamma$ is more likely to be larger than the gain&lt;/li>
+&lt;li>In the case of gain being less than 0, setting gamma = 0 will not turn off pruning&lt;/li>
+&lt;/ul>
+&lt;p>Output value = sum of residuals / (num of residuals + $\lambda$)&lt;/p>
+&lt;ul>
+&lt;li>This refers to the output value for each leaf&lt;/li>
+&lt;li>Pretty similar to the similarity score except it&amp;rsquo;s not SSR&lt;/li>
+&lt;li>This also means that lambda will reduce the amount a leaf will contribute to a prediction
+&lt;ul>
+&lt;li>So will reduce the sensistivity to an indivual observation&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Like with gradient boost, there is a learning rate that scales the tree&lt;/p>
+&lt;ul>
+&lt;li>XGboost calls this learning rate: $\epsilon$ (eta but this is epsilon?)
+&lt;ul>
+&lt;li>Default value is 0.3&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>So output = inital pred + learning rate * output value for the leaf that the point goes down to&lt;/p>
+&lt;p>Now build new tree based on the new residuals&lt;/p>
+&lt;p>The two reasons to use XGBoost are also the two goals of the project:&lt;/p>
+&lt;ul>
+&lt;li>Execution Speed&lt;/li>
+&lt;li>Model Performance&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Sparse Aware&lt;/strong>: implementation with automatic handling of missing data values.
+&lt;strong>Block Structure&lt;/strong>: to support the parallelization of tree construction.
+&lt;strong>Continued Training&lt;/strong>: so that you can further boost an already fitted model on new data.&lt;/p>
+&lt;h2 id="approximate-greedy-algorithm">Approximate Greedy Algorithm&lt;/h2>
+&lt;p>When fitting a tree to the residuals&lt;/p>
+&lt;ul>
+&lt;li>was done by calculating the similarity scores and the gain for each possible threshold&lt;/li>
+&lt;li>the threshold with the largest gain is the one XGBoost uses&lt;/li>
+&lt;li>The decision to use the threshold that gives the largest gain is made without worrying about how the leaves will be split later&lt;/li>
+&lt;li>This means XGBoost uses a greedy algorithm&lt;/li>
+&lt;li>In other words, since XGBoost uses a greedy algorithm, it amkes a decision without looking ahead to see if it is the absolute best choice in the long term&lt;/li>
+&lt;li>If it did not use this algo, it woukld postpone making a final decision about this threhold, until after trying different thresholds in the leaves to see how things played out in the long run&lt;/li>
+&lt;li>So, the greedy algo makes XGBoost a tree relatively quickly&lt;/li>
+&lt;/ul>
+&lt;p>When you have lots of data points, the greedy algo still has to look through every possible threshold&lt;/p>
+&lt;ul>
+&lt;li>on top of that, you&amp;rsquo;d have to do this for every other feature in your data&lt;/li>
+&lt;li>this would take forever&lt;/li>
+&lt;li>this is where the approximate greedy algo comes in&lt;/li>
+&lt;/ul>
+&lt;p>Instead, divide the data into quantiles and use that for thresholds instead
+By default, XGBoost uses &amp;ldquo;about&amp;rdquo; 33 quantiles&lt;/p>
+&lt;ul>
+&lt;li>The &amp;ldquo;about&amp;rdquo; comes from the Parallel Learning an Weighted Quantile Sketch&lt;/li>
+&lt;/ul>
+&lt;h2 id="parallel-learning--weighted-quantile-sketch">Parallel Learning &amp;amp; Weighted Quantile Sketch&lt;/h2>
+&lt;p>Get your data and split it into small pieces and putting the peices on different computers on a network
+The quantile sketch algorithm combines the alues form each computer to make an approximate histogram
+Then the approximate histogram is used to calculate approximate quantiles
+The Approximate greedy algorithm uses these approximate quantiles&lt;/p>
+&lt;p>What about the weighted part?&lt;/p>
+&lt;p>Usually, quantiles are set up so that the same number of observations are in each one&lt;/p>
+&lt;ul>
+&lt;li>In contrast, with weighted quantiles, each observation has a corresponding weight&lt;/li>
+&lt;li>The sum of the weights are the same in each quantile&lt;/li>
+&lt;li>The weights are derived from the cover metric
+&lt;ul>
+&lt;li>the weight for each observation is the 2nd derivative of the loss function, what we are referring to as the Hessian (not Gradient)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>This means for regression the weights are all equal to 1
+&lt;ul>
+&lt;li>This means that the the weighted quantiles are just like normal quantiles and contain an equal number of observations&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>In constrast, for classification: weight = previous prob i * (1- previous prob i)&lt;/li>
+&lt;/ul>
+&lt;p>Only uses the approx greedy algo, parallel learning and the weighted quantile sketch then the training data is huge&lt;/p>
+&lt;p>When the trainin set is not so large, a normal greedy algo is used&lt;/p>
+&lt;h2 id="sparsity-aware-split-finding">Sparsity-Aware Split Finding&lt;/h2>
+&lt;p>Have a few missing values&lt;/p>
+&lt;ul>
+&lt;li>Even with this, we can just use the base leaf to calculate the residuals for rows with missing data&lt;/li>
+&lt;/ul>
+&lt;p>split the data into two table&lt;/p>
+&lt;ul>
+&lt;li>one with all e.g. dosage values&lt;/li>
+&lt;li>other with all values without dosage values&lt;/li>
+&lt;/ul>
+&lt;p>Table with dosage values:&lt;/p>
+&lt;ul>
+&lt;li>sort rows low to high&lt;/li>
+&lt;li>calc candidate thresholds&lt;/li>
+&lt;/ul>
+&lt;p>The first gain value, gain left, is calculated by putting all of the resdiuals with missing dosage values into the leaf on the left, save gain
+Do the same for leaf on the right, save gain&lt;/p>
+&lt;p>Do this for all candidate thresholds
+You then pick the tree with highest gain&lt;/p>
+&lt;p>So example, Dosage &amp;lt; 15.5, going left will be the default path for all future observations that are missing dosage values&lt;/p>
+&lt;h2 id="cache-aware-access">Cache-Aware Access&lt;/h2>
+&lt;p>This is where XGBoost starts to get super nitty gritty&lt;/p>
+&lt;p>Basic idea:&lt;/p>
+&lt;ul>
+&lt;li>Inside computer we have:
+&lt;ul>
+&lt;li>CPU&lt;/li>
+&lt;li>CPU has a small amount of cache memory &amp;ndash; CPU can use this mem faster than any other memory on the computer&lt;/li>
+&lt;li>CPU attatched to large amount of main memory, larger but slower than cache&lt;/li>
+&lt;li>HDD, very slow but largest&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>XGBoost puts the gradients and Hessians in the cache, so that is can rapdily calculate similarity scores and output scores&lt;/p>
+&lt;h2 id="blocks-for-out-of-core-computation">Blocks for Out-of-Core Computation&lt;/h2>
+&lt;p>When the dataset is too large for the cache and main memory, then some of it must be stored on the HDD&lt;/p>
+&lt;p>Because reading and writing data to the HDD is super slow, XGBoost tries minimising these actions by compressing the data&lt;/p>
+&lt;p>When there is more than one HDD, XGBoost uses a databse technique called sharding to speed up disk access&lt;/p>
+&lt;ul>
+&lt;li>The when the CPU needs data, both drives can be reading data at the same time&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Finally, XGHBoost can speed things up by allowing you to build each tree with only a random subset of the data.&lt;/p>
+&lt;p>AND, can build trees by only looking at a random subset of features when deciding how to split the data.&lt;/p></content></item><item><title>Bulgarian Counting To 10</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-counting-to-10/</link><pubDate>Wed, 15 Feb 2023 18:29:40 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-counting-to-10/</guid><description> Bulgarian 0 нула 1 един (m), една (f), едно (n) 2 два (m), две (n/f) 3 три 4 четири 5 пет 6 шест 7 седем 8 осем 9 девет 10 десет References</description><content>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>&lt;/th>
@@ -478,427 +1413,4 @@ References</description><content>&lt;p>A definite article refers to a specific &
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/numeral-plural/">Numeral Plural&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/pronoun/">Pronoun&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/verb/">Verb&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>Ml &amp; Ai Note Temp</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/ml-ai-note-temp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/ml-ai-note-temp/</guid><description>|Yes|23|117| |No|6|210|
-Odds ratio: $\frac{23 / 117}{6 / 210} = \frac{0.2}{0.03} = 6.88$ This means that the odds are 6.88 times greater that someone with the mutated gene will also have cancer Hence log ratio: $1.93$
-The odds ratio and log of the odds ratio are like R-squared; they indicate a relationship between two things Larger values mean that the mutated gene is a good predictor of cancer Values close to 0 are bad: $log(1) = 0$ $log(0.</description><content>&lt;p>|Yes|23|117|
-|No|6|210|&lt;/p>
-&lt;p>Odds ratio: $\frac{23 / 117}{6 / 210} = \frac{0.2}{0.03} = 6.88$
-This means that the odds are 6.88 times greater that someone with the mutated gene will also have cancer
-Hence log ratio: $1.93$&lt;/p>
-&lt;ul>
-&lt;li>The odds ratio and log of the odds ratio are like R-squared; they indicate a relationship between two things&lt;/li>
-&lt;li>Larger values mean that the mutated gene is a good predictor of cancer&lt;/li>
-&lt;li>Values close to 0 are bad: $log(1) = 0$
-&lt;ul>
-&lt;li>$log(0.001) = -6.91$ (so do opposite) (for every game I win someone else wins 1,000 times)&lt;/li>
-&lt;li>$log(100) = 4.6$ (for every game I lose, I win 100)&lt;/li>
-&lt;li>hence these are good predictors&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>3 ways to determine if an odds ratio is statistically signficant:&lt;/p>
-&lt;ul>
-&lt;li>Fisher&amp;rsquo;s Exact Test&lt;/li>
-&lt;li>Chi-Square Test&lt;/li>
-&lt;li>The Wald test
-No consensus on what is best, so people just mix and match:&lt;/li>
-&lt;li>Some people use Fisher&amp;rsquo;s/Chi-Square test to get p-values&lt;/li>
-&lt;li>Wald Test to calculate a confidence interval&lt;/li>
-&lt;li>Others use just Wald Test for confidence interval/p-values&lt;/li>
-&lt;li>So need to check what is best for your field&lt;/li>
-&lt;/ul>
-&lt;h1 id="logistic-regression">Logistic Regression&lt;/h1>
-&lt;ul>
-&lt;li>Predicts if something is True or False&lt;/li>
-&lt;li>Fits an S shaped logistic function&lt;/li>
-&lt;li>Test to see if a variable&amp;rsquo;s effect on the prediction is significantly different from 0
-&lt;ul>
-&lt;li>If not, it means the variable isnot helping the prediction&lt;/li>
-&lt;li>This is called Wald&amp;rsquo;s test&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Instead of using SSR and R^2 it uses &lt;em>&lt;strong>maximum likelihood&lt;/strong>&lt;/em>&lt;/li>
-&lt;li>Logistic Regression is a specific type of &lt;strong>Generalised Linear Model&lt;/strong> (&lt;strong>GLM&lt;/strong>)&lt;/li>
-&lt;/ul>
-&lt;p>Continuous values:
-Because with logistic regression, the y-axis is confined to probability values between 0 and 1&lt;/p>
-&lt;ul>
-&lt;li>solve problem by transforming to the log odds, so like with linear regression the y-axis can go from $-\infty$ to $+\infty$&lt;/li>
-&lt;/ul>
-&lt;p>So we use the &lt;strong>logit function&lt;/strong>: $\log{\frac{p}{1 - p}}$&lt;/p>
-&lt;ul>
-&lt;li>So all values that are true (1) -&amp;gt; $\infty$&lt;/li>
-&lt;li>All values that are false (0) -&amp;gt; $-\infty$&lt;/li>
-&lt;/ul>
-&lt;p>Take example logisitic regression line: $y = -3.48 + 1.83\times weight$
-So the first coefficient is the y-axis intercept&lt;/p>
-&lt;ul>
-&lt;li>when weight (x-axis) = 0, then log(odds of obesity) = -3.476
-&lt;ul>
-&lt;li>In other words, if you dont weigh anything, the odds are against you being obese!! Duh!&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>The slope: for every one unit of weight gains, the log(odds of obesity) increases by 1.825&lt;/li>
-&lt;/ul>
-&lt;p>Descrete variable:&lt;/p>
-&lt;p>&lt;em>&lt;strong>Need to come back to this (2nd vid for logistic regression)&lt;/strong>&lt;/em>&lt;/p>
-&lt;h1 id="linear-models-for-t-tests-and-anova">Linear Models for T-Tests and ANOVA&lt;/h1>
-&lt;p>&lt;em>&lt;strong>Need to come back to this&lt;/strong>&lt;/em>&lt;/p>
-&lt;h1 id="gradient-descent">Gradient Descent&lt;/h1>
-&lt;p>Can be used to optimise least squares like in notes above!
-For: $y = ax + b$
-start with least squares estimate for the slope a
-we use gradient descent to find optimatal value for b&lt;/p>
-&lt;p>set b = 0, any number will do
-calc SSR&lt;/p>
-&lt;ul>
-&lt;li>NOTE: the SSR is a type of &lt;strong>loss function&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;p>Keep changing the intercept and plot a graph of intercept vs SSR&lt;/p>
-&lt;ul>
-&lt;li>Inefficent way of doing this would be to calc lots and lots of points&lt;/li>
-&lt;li>Gradient descent makes this way more efficent
-&lt;ul>
-&lt;li>Does a few calcs when far from the optimal solution&lt;/li>
-&lt;li>increases the number of calcs, close to the optimal value&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>You can derive an equation for a line that describes the SSR&lt;/li>
-&lt;li>Determine derivative of the function&lt;/li>
-&lt;li>Then take steps towards min value approaches derivative = 0
-&lt;ul>
-&lt;li>This is v useful because get around times where it&amp;rsquo;s impossible for derivative = 0&lt;/li>
-&lt;li>The size of the step should be dependant on the size of the derivative&lt;/li>
-&lt;li>This is determined by a &lt;strong>step size&lt;/strong> called the
-&lt;ul>
-&lt;li>Mutiply the derivative by a small number called a &lt;strong>learning rate&lt;/strong>, the combination of these two is the step size&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>So in this case, the new intercept = old intercept - step size&lt;/li>
-&lt;li>This process repeats itself&lt;/li>
-&lt;li>It will stop when the step size is very close to 0&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>How to do grad descent for both a and b?&lt;/p>
-&lt;ul>
-&lt;li>Take derivative with respect to the intercept also do the same with respect to the slope
-&lt;ul>
-&lt;li>When you have 2 or more derivatives of the same function, they are called a &lt;strong>gradient&lt;/strong>&lt;/li>
-&lt;li>This is why the algorithm is called &lt;strong>gradient descent&lt;/strong>!&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Pick rando number for intecept and slope
-&lt;ul>
-&lt;li>Gives 2 SSRs&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Calc step size for both&lt;/li>
-&lt;li>Adjust intercept and slope by step size&lt;/li>
-&lt;/ul>
-&lt;p>In general:&lt;/p>
-&lt;ol>
-&lt;li>Take the derivative of the &lt;strong>Loss Function&lt;/strong> for each parameter in it. Meaning take the &lt;strong>Gradient&lt;/strong> of the &lt;strong>Loss Function&lt;/strong>.&lt;/li>
-&lt;li>Pick rando values for all parameters.&lt;/li>
-&lt;li>Plug param values into the gradient&lt;/li>
-&lt;li>Calc step size&lt;/li>
-&lt;li>calculate new params&lt;/li>
-&lt;li>Go back to step 3 and repeat till step size small or max num of steps reached&lt;/li>
-&lt;/ol>
-&lt;p>For a lot of data points, this can take long time
-So, &lt;strong>stochastic gradient descent&lt;/strong> that uses a rando selected subset of the data at every step, rather than the full dataset&lt;/p>
-&lt;h1 id="gradient-boosting-regression-main-ideas">Gradient Boosting: Regression Main Ideas&lt;/h1>
-&lt;p>Grad boost very similar to AdaBoost&lt;/p>
-&lt;p>When starting, grad boost creates a single leaf that is the avg of the target var
-Then grad bost builds a tree, that is based on the errors of the previous tree.&lt;/p>
-&lt;ul>
-&lt;li>This tree is larger than stump but still restricts the size of the tree&lt;/li>
-&lt;li>In practice, people ofen set the num of leaves to be between 8 and 32&lt;/li>
-&lt;/ul>
-&lt;p>Grad boost will scale each tree by a fixed amount, unlike AdaBoost (amount of say)
-It will then build tree based of the errors of the previous tree.
-It will then build trees in this fashon till made num of trees asked for or aditional trees fail to improve fit.&lt;/p>
-&lt;ol>
-&lt;li>Calc avg of the target feature as first &amp;rsquo;tree&amp;rsquo;/leaf
-&lt;ol>
-&lt;li>Better way: $F_{0}(x) = \arg \max_{\gamma}\sum_{i=1}^{n}L(y_{i}, \gamma)$, $L$ is loss func&lt;/li>
-&lt;li>Either find best value via grad descent or if ez derivative to solve for 0, do that&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>Build tree on errors of first tree: error = obvs - pred, this is called a &lt;strong>pseudo residual&lt;/strong>. The pseudo part is a reminder that we are doing grad boost, not linear reg.&lt;/li>
-&lt;li>Now use input vars to predict the residuals to build tree. A leaf of this tree may pointwards two residuals. If this happens, get avg of residuals on leaf.&lt;/li>
-&lt;li>Now combine original leaf with the new tree for pred. Effectively this new tree &amp;lsquo;corrects&amp;rsquo; for the error of the og leaf. After doing this once, the bias will be low but varience high (overfit), so there is a learning rate to correct for this. Multiple learning rate by new tree&amp;rsquo;s residual pred. Between 0 and 1. This results in a small step in the right direction. Taking lots of small steps in the right direction results in lower varience.&lt;/li>
-&lt;li>Calc psuedo residuals again based of new preds and do the same.&lt;/li>
-&lt;li>Keep doing this until num trees reached or the sum of residuals do not significantly decrease.&lt;/li>
-&lt;/ol>
-&lt;p>Gradient boost is called gradient boost because the residual is the &lt;strong>Gradient&lt;/strong> that comes from &lt;strong>Gradient descent&lt;/strong>.&lt;/p>
-&lt;h1 id="gradient-boost-classification-main-ideas">Gradient Boost: Classification Main Ideas&lt;/h1>
-&lt;p>&lt;em>&lt;strong>Need to come back to this!&lt;/strong>&lt;/em>&lt;/p>
-&lt;h1 id="regularization-ridge-l2-regression">Regularization: Ridge (L2) Regression&lt;/h1>
-&lt;ul>
-&lt;li>Another way of saying desensitisation (lol)&lt;/li>
-&lt;/ul>
-&lt;p>Use Linear regression aka least squares:&lt;/p>
-&lt;ul>
-&lt;li>example: has intercept and slope
-&lt;ul>
-&lt;li>training data has 2 points&lt;/li>
-&lt;li>testing has 8&lt;/li>
-&lt;li>SSR = 0 for training, for testing is high
-&lt;ul>
-&lt;li>high varience (overfit to training)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Main idea behind ridge regression is to find a new line that doesn&amp;rsquo;t fit the training data as well
-&lt;ul>
-&lt;li>introduce a small amount of bias&lt;/li>
-&lt;li>in return we get a significant drop in variance&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>Example: size = intercept + slope * Weight
-Lin reg minises: SSR
-Ridge regression tries to minimises: SSR + $\lambda \times {slope}^2$&lt;/p>
-&lt;ul>
-&lt;li>The added tern adds a penalty to the traditional least squares method&lt;/li>
-&lt;/ul>
-&lt;p>So when the slope of the line is steep, then the prediction for size is very sensitive to relatively small changes in weight
-So predictions made with the ridge regression line are less sensistive to weight than the least squares line
-The large lambda, the slope get asymptotically close to 0
-To find the value for lambda, try typically 10-fold cross validation to determine which one results in the lowest variance&lt;/p>
-&lt;p>Also works on descrete data:
-size = 1.5 + 0.7 * high fat diet&lt;/p>
-&lt;p>so ridge regression minimises: SSR + $\lambda \times {diet difference}^2$&lt;/p>
-&lt;ul>
-&lt;li>diet difference refers to the distance in size between normal diet and high far diet&lt;/li>
-&lt;/ul>
-&lt;p>for more complex model:
-size = intercept + slope * weight + diet difference * high fat diet
-so penalty term is: lambda * (slope ^ 2 + diet difference ^ 2)&lt;/p>
-&lt;p>so in general, the penalty term will apply itself to every parameter, except for the intercept, is scaled by the measurements&lt;/p>
-&lt;p>you cant make a line with one data point
-nor a plane with 2 data points&lt;/p>
-&lt;ul>
-&lt;li>you would need at least 10,001 data points to make an equation of 10,001 parameters,
-&lt;ul>
-&lt;li>sometimes that&amp;rsquo;s not possible&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>what do you do here?&lt;/li>
-&lt;/ul>
-&lt;p>use ridge regression!&lt;/p>
-&lt;ul>
-&lt;li>The penalty can solve for all 10,001 params with 500 samples or fewer&lt;/li>
-&lt;/ul>
-&lt;h1 id="regularization-lasso-l1-regression">Regularization: Lasso (L1) Regression&lt;/h1>
-&lt;p>Very similar to ridge regression but has some important differences
-Intead the penalty is: $\lambda \times |slope|$&lt;/p>
-&lt;ul>
-&lt;li>adds a bit of bias but less variarience than leat squares&lt;/li>
-&lt;/ul>
-&lt;p>The big difference is that L1 can make the slope go to 0&lt;/p>
-&lt;ul>
-&lt;li>Ridge can only do this asymptotically&lt;/li>
-&lt;/ul>
-&lt;p>This can eleminate any terms in an equation that are stupid to 0&lt;/p>
-&lt;p>So lasso does better when there are lots of useless parameters
-Ridge does better then most of the variables are useful&lt;/p>
-&lt;h1 id="xgboost-regression">XGBoost: Regression&lt;/h1>
-&lt;p>Has lots of parts but are simple:&lt;/p>
-&lt;ol>
-&lt;li>Gradient boost(ish) (wont be covered as done before)&lt;/li>
-&lt;li>Regularization (wont be covered as done before)&lt;/li>
-&lt;li>A unique regression tree&lt;/li>
-&lt;li>Approximate greedy algorithm&lt;/li>
-&lt;li>Weighted quantile sketch&lt;/li>
-&lt;li>Sparsity-aware split finding&lt;/li>
-&lt;li>Parallel learning&lt;/li>
-&lt;li>Cache-aware access&lt;/li>
-&lt;li>Blocks for out-of-core computation&lt;/li>
-&lt;/ol>
-&lt;p>XGBoost was designed to be used with large, complicated datasets&lt;/p>
-&lt;h2 id="unique-regression-tree">Unique Regression Tree&lt;/h2>
-&lt;p>First step in fitting XGBoost to the training data is to make an initial prediction&lt;/p>
-&lt;ul>
-&lt;li>This prediction can be anything but by default it is 0.5, regardless if it&amp;rsquo;s regression or classification&lt;/li>
-&lt;/ul>
-&lt;p>Like with gradient boost, XGBoost fits a regression tree to the residuals&lt;/p>
-&lt;ul>
-&lt;li>However, XGBoost uses a unique regression tree that the vid calls XGBoost tree
-There are many ways this tree can be built, but this is the most common way for regression&lt;/li>
-&lt;/ul>
-&lt;ol>
-&lt;li>Each tree starts with a single leaf, all residuals go to the leaf&lt;/li>
-&lt;li>Calculate a quality score or similarity score for the residuals
-&lt;ol>
-&lt;li>Similarity score = SSR / (num residuals + $\lambda$)&lt;/li>
-&lt;li>This similarity score is a simplification of second order Taylor approximation of the loss function described in grad boost&lt;/li>
-&lt;li>Also, the lambda here will just be for L2 regularisation&lt;/li>
-&lt;li>L1 will make the sim score simplify to something different&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>Now the question is whether or not we can do a better job clustering similar residuals if we split them into two groups
-&lt;ol>
-&lt;li>Focus on the two points that are smallest (x-axis)&lt;/li>
-&lt;li>Get avg value&lt;/li>
-&lt;li>Make a split based off the avg value&lt;/li>
-&lt;li>Calc similarity score for both leafs&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>Now need to quanitify how much better the leaves cluster similar resdiuals than the root, do this by calculating the gain
-&lt;ol>
-&lt;li>$gain = {left}&lt;em>{similarity} + {right}&lt;/em>{similarity} - {root}_{similarity}$&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>Now shift the threshold over so that it is the avg of th next two observation
-&lt;ol>
-&lt;li>More gain is good, is better at splitting the residuals into clusters of similar values&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>Get best tree based of thresholds&lt;/li>
-&lt;li>Try to split leaves further, the root in the gain calc refers to the parent node of the leaves&lt;/li>
-&lt;li>Keep going till at max depth (default is 6)&lt;/li>
-&lt;/ol>
-&lt;p>How to prune this tree?&lt;/p>
-&lt;ul>
-&lt;li>Pruned based on its gain values&lt;/li>
-&lt;li>Start with a number, for example, 130
-&lt;ul>
-&lt;li>This is called $\gamma$ gamma&lt;/li>
-&lt;li>Then calc the difference between the gain asscociated with the lowest branch in the tree and gamma: $gain - \gamma$
-&lt;ul>
-&lt;li>if the difference is positive then the branch is not removed, if it is neg then remove&lt;/li>
-&lt;li>once you find a pos difference, then stop pruning&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>This can also remove the root of the tree, leaving just the original prediction, which is pretty extreme pruning&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>The regularization term:&lt;/p>
-&lt;ul>
-&lt;li>This will decrease similarity scores&lt;/li>
-&lt;li>This will tend to stop the trees getting so large as it&amp;rsquo;s harder for a branch to have a lower sim score than its parent&lt;/li>
-&lt;li>This also can make the pruning more agressive as $\gamma$ is more likely to be larger than the gain&lt;/li>
-&lt;li>In the case of gain being less than 0, setting gamma = 0 will not turn off pruning&lt;/li>
-&lt;/ul>
-&lt;p>Output value = sum of residuals / (num of residuals + $\lambda$)&lt;/p>
-&lt;ul>
-&lt;li>This refers to the output value for each leaf&lt;/li>
-&lt;li>Pretty similar to the similarity score except it&amp;rsquo;s not SSR&lt;/li>
-&lt;li>This also means that lambda will reduce the amount a leaf will contribute to a prediction
-&lt;ul>
-&lt;li>So will reduce the sensistivity to an indivual observation&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>Like with gradient boost, there is a learning rate that scales the tree&lt;/p>
-&lt;ul>
-&lt;li>XGboost calls this learning rate: $\epsilon$ (eta but this is epsilon?)
-&lt;ul>
-&lt;li>Default value is 0.3&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>So output = inital pred + learning rate * output value for the leaf that the point goes down to&lt;/p>
-&lt;p>Now build new tree based on the new residuals&lt;/p>
-&lt;p>The two reasons to use XGBoost are also the two goals of the project:&lt;/p>
-&lt;ul>
-&lt;li>Execution Speed&lt;/li>
-&lt;li>Model Performance&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Sparse Aware&lt;/strong>: implementation with automatic handling of missing data values.
-&lt;strong>Block Structure&lt;/strong>: to support the parallelization of tree construction.
-&lt;strong>Continued Training&lt;/strong>: so that you can further boost an already fitted model on new data.&lt;/p>
-&lt;h2 id="approximate-greedy-algorithm">Approximate Greedy Algorithm&lt;/h2>
-&lt;p>When fitting a tree to the residuals&lt;/p>
-&lt;ul>
-&lt;li>was done by calculating the similarity scores and the gain for each possible threshold&lt;/li>
-&lt;li>the threshold with the largest gain is the one XGBoost uses&lt;/li>
-&lt;li>The decision to use the threshold that gives the largest gain is made without worrying about how the leaves will be split later&lt;/li>
-&lt;li>This means XGBoost uses a greedy algorithm&lt;/li>
-&lt;li>In other words, since XGBoost uses a greedy algorithm, it amkes a decision without looking ahead to see if it is the absolute best choice in the long term&lt;/li>
-&lt;li>If it did not use this algo, it woukld postpone making a final decision about this threhold, until after trying different thresholds in the leaves to see how things played out in the long run&lt;/li>
-&lt;li>So, the greedy algo makes XGBoost a tree relatively quickly&lt;/li>
-&lt;/ul>
-&lt;p>When you have lots of data points, the greedy algo still has to look through every possible threshold&lt;/p>
-&lt;ul>
-&lt;li>on top of that, you&amp;rsquo;d have to do this for every other feature in your data&lt;/li>
-&lt;li>this would take forever&lt;/li>
-&lt;li>this is where the approximate greedy algo comes in&lt;/li>
-&lt;/ul>
-&lt;p>Instead, divide the data into quantiles and use that for thresholds instead
-By default, XGBoost uses &amp;ldquo;about&amp;rdquo; 33 quantiles&lt;/p>
-&lt;ul>
-&lt;li>The &amp;ldquo;about&amp;rdquo; comes from the Parallel Learning an Weighted Quantile Sketch&lt;/li>
-&lt;/ul>
-&lt;h2 id="parallel-learning--weighted-quantile-sketch">Parallel Learning &amp;amp; Weighted Quantile Sketch&lt;/h2>
-&lt;p>Get your data and split it into small pieces and putting the peices on different computers on a network
-The quantile sketch algorithm combines the alues form each computer to make an approximate histogram
-Then the approximate histogram is used to calculate approximate quantiles
-The Approximate greedy algorithm uses these approximate quantiles&lt;/p>
-&lt;p>What about the weighted part?&lt;/p>
-&lt;p>Usually, quantiles are set up so that the same number of observations are in each one&lt;/p>
-&lt;ul>
-&lt;li>In contrast, with weighted quantiles, each observation has a corresponding weight&lt;/li>
-&lt;li>The sum of the weights are the same in each quantile&lt;/li>
-&lt;li>The weights are derived from the cover metric
-&lt;ul>
-&lt;li>the weight for each observation is the 2nd derivative of the loss function, what we are referring to as the Hessian (not Gradient)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>This means for regression the weights are all equal to 1
-&lt;ul>
-&lt;li>This means that the the weighted quantiles are just like normal quantiles and contain an equal number of observations&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>In constrast, for classification: weight = previous prob i * (1- previous prob i)&lt;/li>
-&lt;/ul>
-&lt;p>Only uses the approx greedy algo, parallel learning and the weighted quantile sketch then the training data is huge&lt;/p>
-&lt;p>When the trainin set is not so large, a normal greedy algo is used&lt;/p>
-&lt;h2 id="sparsity-aware-split-finding">Sparsity-Aware Split Finding&lt;/h2>
-&lt;p>Have a few missing values&lt;/p>
-&lt;ul>
-&lt;li>Even with this, we can just use the base leaf to calculate the residuals for rows with missing data&lt;/li>
-&lt;/ul>
-&lt;p>split the data into two table&lt;/p>
-&lt;ul>
-&lt;li>one with all e.g. dosage values&lt;/li>
-&lt;li>other with all values without dosage values&lt;/li>
-&lt;/ul>
-&lt;p>Table with dosage values:&lt;/p>
-&lt;ul>
-&lt;li>sort rows low to high&lt;/li>
-&lt;li>calc candidate thresholds&lt;/li>
-&lt;/ul>
-&lt;p>The first gain value, gain left, is calculated by putting all of the resdiuals with missing dosage values into the leaf on the left, save gain
-Do the same for leaf on the right, save gain&lt;/p>
-&lt;p>Do this for all candidate thresholds
-You then pick the tree with highest gain&lt;/p>
-&lt;p>So example, Dosage &amp;lt; 15.5, going left will be the default path for all future observations that are missing dosage values&lt;/p>
-&lt;h2 id="cache-aware-access">Cache-Aware Access&lt;/h2>
-&lt;p>This is where XGBoost starts to get super nitty gritty&lt;/p>
-&lt;p>Basic idea:&lt;/p>
-&lt;ul>
-&lt;li>Inside computer we have:
-&lt;ul>
-&lt;li>CPU&lt;/li>
-&lt;li>CPU has a small amount of cache memory &amp;ndash; CPU can use this mem faster than any other memory on the computer&lt;/li>
-&lt;li>CPU attatched to large amount of main memory, larger but slower than cache&lt;/li>
-&lt;li>HDD, very slow but largest&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>XGBoost puts the gradients and Hessians in the cache, so that is can rapdily calculate similarity scores and output scores&lt;/p>
-&lt;h2 id="blocks-for-out-of-core-computation">Blocks for Out-of-Core Computation&lt;/h2>
-&lt;p>When the dataset is too large for the cache and main memory, then some of it must be stored on the HDD&lt;/p>
-&lt;p>Because reading and writing data to the HDD is super slow, XGBoost tries minimising these actions by compressing the data&lt;/p>
-&lt;p>When there is more than one HDD, XGBoost uses a databse technique called sharding to speed up disk access&lt;/p>
-&lt;ul>
-&lt;li>The when the CPU needs data, both drives can be reading data at the same time&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;p>Finally, XGHBoost can speed things up by allowing you to build each tree with only a random subset of the data.&lt;/p>
-&lt;p>AND, can build trees by only looking at a random subset of features when deciding how to split the data.&lt;/p></content></item></channel></rss>
+&lt;/ul></content></item></channel></rss>
