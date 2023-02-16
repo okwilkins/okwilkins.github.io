@@ -781,7 +781,7 @@ There are many ways this tree can be built, but this is the most common way for 
 &lt;/li>
 &lt;li>Now need to quanitify how much better the leaves cluster similar resdiuals than the root, do this by calculating the gain
 &lt;ol>
-&lt;li>$gain = {left}&lt;em>{similarity} + {right}&lt;/em>{similarity} - {root}_{similarity}$&lt;/li>
+&lt;li>$gain = left_{similarity} + right_{similarity} - root_{similarity}$&lt;/li>
 &lt;/ol>
 &lt;/li>
 &lt;li>Now shift the threshold over so that it is the avg of th next two observation
