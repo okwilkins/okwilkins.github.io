@@ -1,4 +1,280 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Knowledge-systems on Oli Wilkins</title><link>https://www.okwilkins.dev/knowledge-system/</link><description>Recent content in Knowledge-systems on Oli Wilkins</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Mon, 27 Feb 2023 11:33:26 +0000</lastBuildDate><atom:link href="https://www.okwilkins.dev/knowledge-system/index.xml" rel="self" type="application/rss+xml"/><item><title>Machine Learning Bias</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/machine-learning-bias/</link><pubDate>Mon, 27 Feb 2023 11:33:26 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/machine-learning-bias/</guid><description>The inability for a machine learning model to capture the true relationship of a pair of variables is called bias.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Knowledge-systems on Oli Wilkins</title><link>https://www.okwilkins.dev/knowledge-system/</link><description>Recent content in Knowledge-systems on Oli Wilkins</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Mon, 27 Feb 2023 12:37:35 +0000</lastBuildDate><atom:link href="https://www.okwilkins.dev/knowledge-system/index.xml" rel="self" type="application/rss+xml"/><item><title>Mermaid</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid/</link><pubDate>Mon, 27 Feb 2023 12:37:35 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid/</guid><description>Mermaid uses Javascript to create diagrams and visualisations via text and code. The text and code are Markdown inspired that modify diagrams dynamically.
+References Mermaid#About Mermaid</description><content>&lt;p>Mermaid uses &lt;em>Javascript&lt;/em> to create diagrams and visualisations via text and code. The text and code are &lt;em>Markdown&lt;/em> inspired that modify diagrams dynamically.&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/mermaid/">Mermaid#About Mermaid&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Mermaid Class Diagram</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-class-diagram/</link><pubDate>Mon, 27 Feb 2023 12:37:35 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-class-diagram/</guid><description>classDiagram Class01 &amp;lt;|-- AveryLongClass : Cool Class03 *-- Class04 Class05 o-- Class06 Class07 .. Class08 Class09 --&amp;gt; C2 : Where am i? Class09 --* C3 Class09 --|&amp;gt; Class07 Class07 : equals() Class07 : Object[] elementData Class01 : size() Class01 : int chimp Class01 : int gorilla Class08 &amp;lt;--&amp;gt; C2: Cool label classDiagram Class01 &lt;|-- AveryLongClass : Cool Class03 *-- Class04 Class05 o-- Class06 Class07 .. Class08 Class09 --> C2 : Where am i?</description><content>&lt;pre tabindex="0">&lt;code>classDiagram
+Class01 &amp;lt;|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --&amp;gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&amp;gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 &amp;lt;--&amp;gt; C2: Cool label
+&lt;/code>&lt;/pre>&lt;div class="mermaid">classDiagram
+Class01 &lt;|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --> C2 : Where am i?
+Class09 --* C3
+Class09 --|> Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 &lt;--> C2: Cool label
+&lt;/div>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/mermaid/">Mermaid#Class Diagrams&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Mermaid Entity Relationship Diagram</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-entity-relationship-diagram/</link><pubDate>Mon, 27 Feb 2023 12:37:35 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-entity-relationship-diagram/</guid><description>erDiagram CUSTOMER ||--o{ ORDER : places ORDER ||--|{ LINE-ITEM : contains CUSTOMER }|..|{ DELIVERY-ADDRESS : uses erDiagram CUSTOMER ||--o{ ORDER : places ORDER ||--|{ LINE-ITEM : contains CUSTOMER }|..|{ DELIVERY-ADDRESS : uses References Mermaid#Entity Relationship Diagrams</description><content>&lt;pre tabindex="0">&lt;code>erDiagram
+CUSTOMER ||--o{ ORDER : places
+ORDER ||--|{ LINE-ITEM : contains
+CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+&lt;/code>&lt;/pre>&lt;div class="mermaid">erDiagram
+CUSTOMER ||--o{ ORDER : places
+ORDER ||--|{ LINE-ITEM : contains
+CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+&lt;/div>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/mermaid/">Mermaid#Entity Relationship Diagrams&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Mermaid Flowchart</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-flowchart/</link><pubDate>Mon, 27 Feb 2023 12:37:35 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-flowchart/</guid><description>graph TD; A--&amp;gt;B; A--&amp;gt;C; B--&amp;gt;D; C--&amp;gt;D; graph TD; A-->B; A-->C; B-->D; C-->D; References Mermaid#Flowchart</description><content>&lt;pre tabindex="0">&lt;code>graph TD;
+A--&amp;gt;B;
+A--&amp;gt;C;
+B--&amp;gt;D;
+C--&amp;gt;D;
+&lt;/code>&lt;/pre>&lt;div class="mermaid">graph TD;
+A-->B;
+A-->C;
+B-->D;
+C-->D;
+&lt;/div>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/mermaid/">Mermaid#Flowchart&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Mermaid Gantt Chart</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-gantt-chart/</link><pubDate>Mon, 27 Feb 2023 12:37:35 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-gantt-chart/</guid><description>gantt dateFormat YYYY-MM-DD title Adding GANTT diagram to mermaid excludes weekdays 2014-01-10 section A section Completed task :done, des1, 2014-01-06,2014-01-08 Active task :active, des2, 2014-01-09, 3d Future task : des3, after des2, 5d Future task2 : des4, after des3, 5d gantt dateFormat YYYY-MM-DD title Adding GANTT diagram to mermaid excludes weekdays 2014-01-10 section A section Completed task :done, des1, 2014-01-06,2014-01-08 Active task :active, des2, 2014-01-09, 3d Future task : des3, after des2, 5d Future task2 : des4, after des3, 5d References Mermaid#Gantt Charts</description><content>&lt;pre tabindex="0">&lt;code>gantt
+dateFormat YYYY-MM-DD
+title Adding GANTT diagram to mermaid
+excludes weekdays 2014-01-10
+section A section
+Completed task :done, des1, 2014-01-06,2014-01-08
+Active task :active, des2, 2014-01-09, 3d
+Future task : des3, after des2, 5d
+Future task2 : des4, after des3, 5d
+&lt;/code>&lt;/pre>&lt;div class="mermaid">gantt
+dateFormat YYYY-MM-DD
+title Adding GANTT diagram to mermaid
+excludes weekdays 2014-01-10
+section A section
+Completed task :done, des1, 2014-01-06,2014-01-08
+Active task :active, des2, 2014-01-09, 3d
+Future task : des3, after des2, 5d
+Future task2 : des4, after des3, 5d
+&lt;/div>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/mermaid/">Mermaid#Gantt Charts&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Mermaid Gitgraph Diagram</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-gitgraph-diagram/</link><pubDate>Mon, 27 Feb 2023 12:37:35 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-gitgraph-diagram/</guid><description>gitGraph commit commit branch develop commit commit commit checkout main commit commit gitGraph commit commit branch develop commit commit commit checkout main commit commit References Mermaid#Gitgraph Diagrams</description><content>&lt;pre tabindex="0">&lt;code>gitGraph
+commit
+commit
+branch develop
+commit
+commit
+commit
+checkout main
+commit
+commit
+&lt;/code>&lt;/pre>&lt;div class="mermaid">gitGraph
+commit
+commit
+branch develop
+commit
+commit
+commit
+checkout main
+commit
+commit
+&lt;/div>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/mermaid/">Mermaid#Gitgraph Diagrams&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Mermaid Mindmap</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-mindmap/</link><pubDate>Mon, 27 Feb 2023 12:37:35 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-mindmap/</guid><description>mindmap root((mindmap)) Origins Long history ::icon(fa fa-book) Popularisation British popular psychology author Tony Buzan Research On effectiveness&amp;lt;br/&amp;gt;and features On Automatic creation Uses Creative techniques Strategic planning Argument mapping Tools Pen and paper Mermaid mindmap root((mindmap)) Origins Long history ::icon(fa fa-book) Popularisation British popular psychology author Tony Buzan Research On effectivenessand features On Automatic creation Uses Creative techniques Strategic planning Argument mapping Tools Pen and paper Mermaid References Mermaid#Mindmap</description><content>&lt;pre tabindex="0">&lt;code>mindmap
+root((mindmap))
+Origins
+Long history
+::icon(fa fa-book)
+Popularisation
+British popular psychology author Tony Buzan
+Research
+On effectiveness&amp;lt;br/&amp;gt;and features
+On Automatic creation
+Uses
+Creative techniques
+Strategic planning
+Argument mapping
+Tools
+Pen and paper
+Mermaid
+&lt;/code>&lt;/pre>&lt;div class="mermaid">mindmap
+root((mindmap))
+Origins
+Long history
+::icon(fa fa-book)
+Popularisation
+British popular psychology author Tony Buzan
+Research
+On effectiveness&lt;br/>and features
+On Automatic creation
+Uses
+Creative techniques
+Strategic planning
+Argument mapping
+Tools
+Pen and paper
+Mermaid
+&lt;/div>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/mermaid/">Mermaid#Mindmap&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Mermaid Pie Chart</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-pie-chart/</link><pubDate>Mon, 27 Feb 2023 12:37:35 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-pie-chart/</guid><description>Start with pie keyword to begin the diagram showData to render the actual data values after the legend text. This is OPTIONAL Followed by title keyword and its value in string to give a title to the pie-chart. This is OPTIONAL Followed by dataSet. Pie slices will be ordered clockwise in the same order as the labels. label for a section in the pie diagram within &amp;quot; &amp;quot; quotes. Followed by : colon as separator Followed by positive numeric value (supported up to two decimal places) pie showData title Key elements in Product X &amp;#34;Calcium&amp;#34; : 42.</description><content>&lt;ul>
+&lt;li>Start with &lt;code>pie&lt;/code> keyword to begin the diagram
+&lt;ul>
+&lt;li>&lt;code>showData&lt;/code> to render the actual data values after the legend text. This is &lt;em>&lt;strong>OPTIONAL&lt;/strong>&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Followed by &lt;code>title&lt;/code> keyword and its value in string to give a title to the pie-chart. This is &lt;em>&lt;strong>OPTIONAL&lt;/strong>&lt;/em>&lt;/li>
+&lt;li>Followed by dataSet. Pie slices will be ordered clockwise in the same order as the labels.
+&lt;ul>
+&lt;li>&lt;code>label&lt;/code> for a section in the pie diagram within &lt;code>&amp;quot; &amp;quot;&lt;/code> quotes.&lt;/li>
+&lt;li>Followed by &lt;code>:&lt;/code> colon as separator&lt;/li>
+&lt;li>Followed by &lt;code>positive numeric value&lt;/code> (supported up to two decimal places)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>pie showData
+title Key elements in Product X
+&amp;#34;Calcium&amp;#34; : 42.96
+&amp;#34;Potassium&amp;#34; : 50.05
+&amp;#34;Magnesium&amp;#34; : 10.01
+&amp;#34;Iron&amp;#34; : 5
+&lt;/code>&lt;/pre>&lt;div class="mermaid">pie showData
+title Key elements in Product X
+"Calcium" : 42.96
+"Potassium" : 50.05
+"Magnesium" : 10.01
+"Iron" : 5
+&lt;/div>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/mermaid/">Mermaid#Pie Charts&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Mermaid Sequence Diagram</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-sequence-diagram/</link><pubDate>Mon, 27 Feb 2023 12:37:35 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-sequence-diagram/</guid><description>sequenceDiagram participant Alice participant Bob Alice-&amp;gt;&amp;gt;John: Hello John, how are you? loop Healthcheck John-&amp;gt;&amp;gt;John: Fight against hypochondria end Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail! John--&amp;gt;&amp;gt;Alice: Great! John-&amp;gt;&amp;gt;Bob: How about you? Bob--&amp;gt;&amp;gt;John: Jolly good! sequenceDiagram participant Alice participant Bob Alice->>John: Hello John, how are you? loop Healthcheck John->>John: Fight against hypochondria end Note right of John: Rational thoughts prevail! John-->>Alice: Great! John->>Bob: How about you? Bob-->>John: Jolly good! References Mermaid#Sequence Diagrams</description><content>&lt;pre tabindex="0">&lt;code>sequenceDiagram
+participant Alice
+participant Bob
+Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+loop Healthcheck
+John-&amp;gt;&amp;gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail!
+John--&amp;gt;&amp;gt;Alice: Great!
+John-&amp;gt;&amp;gt;Bob: How about you?
+Bob--&amp;gt;&amp;gt;John: Jolly good!
+&lt;/code>&lt;/pre>&lt;div class="mermaid">sequenceDiagram
+participant Alice
+participant Bob
+Alice->>John: Hello John, how are you?
+loop Healthcheck
+John->>John: Fight against hypochondria
+end
+Note right of John: Rational thoughts &lt;br/>prevail!
+John-->>Alice: Great!
+John->>Bob: How about you?
+Bob-->>John: Jolly good!
+&lt;/div>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/mermaid/">Mermaid#Sequence Diagrams&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Mermaid State Diagram</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-state-diagram/</link><pubDate>Mon, 27 Feb 2023 12:37:35 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-state-diagram/</guid><description>stateDiagram [*] --&amp;gt; Still Still --&amp;gt; [*] Still --&amp;gt; Moving Moving --&amp;gt; Still Moving --&amp;gt; Crash Crash --&amp;gt; [*] stateDiagram [*] --> Still Still --> [*] Still --> Moving Moving --> Still Moving --> Crash Crash --> [*] References Mermaid#State Diagrams</description><content>&lt;pre tabindex="0">&lt;code>stateDiagram
+[*] --&amp;gt; Still
+Still --&amp;gt; [*]
+Still --&amp;gt; Moving
+Moving --&amp;gt; Still
+Moving --&amp;gt; Crash
+Crash --&amp;gt; [*]
+&lt;/code>&lt;/pre>&lt;div class="mermaid">stateDiagram
+[*] --> Still
+Still --> [*]
+Still --> Moving
+Moving --> Still
+Moving --> Crash
+Crash --> [*]
+&lt;/div>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/mermaid/">Mermaid#State Diagrams&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Mermaid Timeline Diagram</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-timeline-diagram/</link><pubDate>Mon, 27 Feb 2023 12:37:35 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-timeline-diagram/</guid><description>timeline title History of Social Media Platform 2002 : LinkedIn 2004 : Facebook : Google 2005 : Youtube 2006 : Twitter timeline title History of Social Media Platform 2002 : LinkedIn 2004 : Facebook : Google 2005 : Youtube 2006 : Twitter References</description><content>&lt;pre tabindex="0">&lt;code>timeline
+title History of Social Media Platform
+2002 : LinkedIn
+2004 : Facebook
+: Google
+2005 : Youtube
+2006 : Twitter
+&lt;/code>&lt;/pre>&lt;div class="mermaid">timeline
+title History of Social Media Platform
+2002 : LinkedIn
+2004 : Facebook
+: Google
+2005 : Youtube
+2006 : Twitter
+&lt;/div>
+&lt;h2 id="references">References&lt;/h2></content></item><item><title>Mermaid User Journey Diagram</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-user-journey-diagram/</link><pubDate>Mon, 27 Feb 2023 12:37:35 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-user-journey-diagram/</guid><description>journey title My working day section Go to work Make tea: 5: Me Go upstairs: 3: Me Do work: 1: Me, Cat section Go home Go downstairs: 5: Me Sit down: 5: Me journey title My working day section Go to work Make tea: 5: Me Go upstairs: 3: Me Do work: 1: Me, Cat section Go home Go downstairs: 5: Me Sit down: 5: Me References Mermaid#User Journey Diagrams</description><content>&lt;pre tabindex="0">&lt;code>journey
+title My working day
+section Go to work
+Make tea: 5: Me
+Go upstairs: 3: Me
+Do work: 1: Me, Cat
+section Go home
+Go downstairs: 5: Me
+Sit down: 5: Me
+&lt;/code>&lt;/pre>&lt;div class="mermaid">journey
+title My working day
+section Go to work
+Make tea: 5: Me
+Go upstairs: 3: Me
+Do work: 1: Me, Cat
+section Go home
+Go downstairs: 5: Me
+Sit down: 5: Me
+&lt;/div>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/mermaid/">Mermaid#User Journey Diagrams&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Decision Trees</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/decision-trees/</link><pubDate>Mon, 27 Feb 2023 11:57:32 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/decision-trees/</guid><description>A decision tree is a tree of statements and with decisions based on whether or not the statement is true or false.
+flowchart TD A[A person wants to learn about decision trees] A --> |True| B[Check out these sequence of notes!] A --> |False| C[Go somewhere else then!] If the statement is true then you go left and vice versa.
+References StatQuest with Josh Starmer &amp;gt; Decision Trees</description><content>&lt;p>A decision tree is a tree of statements and with decisions based on whether or not the statement is &lt;strong>true&lt;/strong> or &lt;strong>false&lt;/strong>.&lt;/p>
+&lt;div class="mermaid">flowchart TD
+    A[A person wants to learn about decision trees]
+    A --> |True| B[Check out these sequence of notes!]
+    A --> |False| C[Go somewhere else then!]
+&lt;/div>
+&lt;p>If the statement is &lt;strong>true&lt;/strong> then you go left and &lt;em>vice versa&lt;/em>.&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/statquest-with-josh-starmer/#decision-trees">StatQuest with Josh Starmer &amp;gt; Decision Trees&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Machine Learning Variance</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/machine-learning-variance/</link><pubDate>Mon, 27 Feb 2023 11:52:17 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/machine-learning-variance/</guid><description>The difference in how well a model fits differing datasets is called variance.
+References StatQuest with Josh Starmer &amp;gt; Variance</description><content>&lt;p>The difference in how well a model fits differing datasets is called &lt;em>&lt;strong>variance&lt;/strong>&lt;/em>.&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/statquest-with-josh-starmer/#variance">StatQuest with Josh Starmer &amp;gt; Variance&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Machine Learning Bias</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/machine-learning-bias/</link><pubDate>Mon, 27 Feb 2023 11:33:26 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/machine-learning-bias/</guid><description>The inability for a machine learning model to capture the true relationship of a pair of variables is called bias.
 References StatQuest with Josh Starmer &amp;gt; Bias</description><content>&lt;p>The inability for a &lt;em>machine learning&lt;/em> model to capture the true relationship of a pair of variables is called &lt;em>&lt;strong>bias&lt;/strong>&lt;/em>.&lt;/p>
 &lt;h2 id="references">References&lt;/h2>
 &lt;ul>
@@ -502,8 +778,7 @@ References</description><content>&lt;p>A definite article refers to a specific &
 &lt;p>I didn&amp;rsquo;t go to the &lt;strong>the&lt;/strong> party.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="references">References&lt;/h2></content></item><item><title/><link>https://www.okwilkins.dev/knowledge-system/projects/ml-ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/projects/ml-ai/</guid><description>Zettelcasten Index: 20230215230508 Sequence: Status: #slip-box Zettelcasten Tags: Data Science, Machine Learning Mathjax: true TOC: true
-Bias and Variance
-https://www.youtube.com/watch?v=EuBBz3bI-aA General Linear Models
+General Linear Models
 https://www.youtube.com/watch?v=nk2CQITm_eo https://www.youtube.com/watch?v=zITIFTsivN8 https://www.youtube.com/watch?v=NF5_btOaCig (Linear Models for T-Tests and ANOVA) https://youtu.be/2UYx-qjJGSs Least Squares Linear Regression
 https://www.youtube.com/watch?v=PaFPbb66DxQ Odds and Log(Odds)
 https://www.youtube.com/watch?v=ARfXDSkQf1Y https://www.youtube.com/watch?v=8nm0G-1uJzA Maximum Likelihood
@@ -513,17 +788,14 @@ https://www.youtube.com/watch?v=_L39rN6gz7 https://www.youtube.com/watch?v=g9c66
 https://www.youtube.com/watch?v=J4Wdy0Wc_xQ AdaBoost
 https://www.youtube.com/watch?v=LsK-xG1cLYA Gradient Boosting
 https://www.youtube.com/watch?v=3CC4N4z3GJ https://www.youtube.com/watch?v=2xudPOBz-vs https://www.youtube.com/watch?v=jxuNLH5dXCs https://www.youtube.com/watch?v=StWY5QWMXCw Regularization
-https://www.youtube.com/watch?v=Q81RR3yKn30 https://www.youtube.com/watch?v=NGf0voTMlcs XGBoost</description><content>&lt;p>Zettelcasten Index: 20230215230508
+https://www.youtube.com/watch?v=Q81RR3yKn30 https://www.youtube.com/watch?v=NGf0voTMlcs XGBoost
+https://www.youtube.com/watch?v=OtD8wVaFm6E https://www.youtube.com/watch?v=8b1JEDvenQU https://www.youtube.com/watch?v=ZVFeW798-2I https://www.</description><content>&lt;p>Zettelcasten Index: 20230215230508
 Sequence:
 Status: #slip-box
 Zettelcasten Tags: &lt;em>Data Science&lt;/em>, &lt;em>Machine Learning&lt;/em>
 Mathjax: true
 TOC: true&lt;/p>
 &lt;hr>
-&lt;p>Bias and Variance&lt;/p>
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=EuBBz3bI-aA">https://www.youtube.com/watch?v=EuBBz3bI-aA&lt;/a>&lt;/li>
-&lt;/ul>
 &lt;p>General Linear Models&lt;/p>
 &lt;ul>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=nk2CQITm_eo">https://www.youtube.com/watch?v=nk2CQITm_eo&lt;/a>&lt;/li>
@@ -583,11 +855,7 @@ TOC: true&lt;/p>
 &lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=ZVFeW798-2I">https://www.youtube.com/watch?v=ZVFeW798-2I&lt;/a>&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=oRrKeUCEb">https://www.youtube.com/watch?v=oRrKeUCEb&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h1 id="bias">Bias&lt;/h1>
-&lt;p>The inability for an ML model to capture the true rel is called bias&lt;/p>
-&lt;h1 id="variance">Variance&lt;/h1>
-&lt;p>The difference in how well a model fits differing datasets is called variance&lt;/p>
-&lt;h1 id="decicsion-trees">Decicsion Trees&lt;/h1>
+&lt;h1 id="decision-trees">Decision Trees&lt;/h1>
 &lt;h2 id="basic-concepts">Basic Concepts&lt;/h2>
 &lt;ul>
 &lt;li>milti data type ok&lt;/li>
@@ -1443,14 +1711,71 @@ You then pick the tree with highest gain&lt;/p>
 &lt;/ul>
 &lt;hr>
 &lt;p>Finally, XGHBoost can speed things up by allowing you to build each tree with only a random subset of the data.&lt;/p>
-&lt;p>AND, can build trees by only looking at a random subset of features when deciding how to split the data.&lt;/p></content></item><item><title/><link>https://www.okwilkins.dev/knowledge-system/references/statquest-with-josh-starmer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/references/statquest-with-josh-starmer/</guid><description>Status: #reference
-Bias &amp;ldquo;Bias and Variance&amp;rdquo;, Youtube, StatQuest with Josh Starmer, 2023-02-27, https://youtu.be/EuBBz3bI-aA?t=29
-Variance &amp;ldquo;Bias and Variance&amp;rdquo;, Youtube, StatQuest with Josh Starmer, 2023-02-27, https://youtu.be/EuBBz3bI-aA?t=246</description><content>&lt;p>Status: #reference&lt;/p>
+&lt;p>AND, can build trees by only looking at a random subset of features when deciding how to split the data.&lt;/p></content></item><item><title/><link>https://www.okwilkins.dev/knowledge-system/references/mermaid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/references/mermaid/</guid><description>About Mermaid &amp;ldquo;About Mermaid&amp;rdquo;, MermaidJS, 2023-02-27, https://mermaid.js.org/intro/ Flowcharts &amp;ldquo;Flowcharts - Basic Syntax&amp;rdquo;, MermaidJS, 2023-02-27, https://mermaid.js.org/syntax/flowchart.html Sequence Diagrams &amp;ldquo;Sequence diagrams&amp;rdquo;, MermaidJS, 2023-02-27, https://mermaid.js.org/syntax/sequenceDiagram.html Class Diagrams &amp;ldquo;Class diagrams&amp;rdquo;, MermaidJS, 2023-02-27, https://mermaid.js.org/syntax/classDiagram.html State Diagrams &amp;ldquo;State diagrams&amp;rdquo;, MermaidJS, 2023-02-27, https://mermaid.js.org/syntax/stateDiagram.html Entity Relationship Diagrams &amp;ldquo;Entity Relationship Diagrams&amp;rdquo;, MermaidJS, 2023-02-27, https://mermaid.js.org/syntax/entityRelationshipDiagram.html User Journey Diagrams &amp;ldquo;User Journey Diagram&amp;rdquo;, MermaidJS, 2023-02-27, https://mermaid.js.org/syntax/userJourney.html Gantt Charts &amp;ldquo;Gantt diagrams&amp;rdquo;, MermaidJS, 2023-02-27, https://mermaid.js.org/syntax/gantt.html Pie Charts &amp;ldquo;Pie chart diagrams&amp;rdquo;, MermaidJS, 2023-02-27, https://mermaid.js.org/syntax/pie.html Gitgraph Diagrams &amp;ldquo;Gitgraph Diagrams&amp;rdquo;, MermaidJS, 2023-02-27, https://mermaid.</description><content>&lt;h2 id="about-mermaid">About Mermaid&lt;/h2>
+&lt;ul>
+&lt;li>&amp;ldquo;About Mermaid&amp;rdquo;, &lt;em>MermaidJS&lt;/em>, 2023-02-27, &lt;a href="https://mermaid.js.org/intro/">https://mermaid.js.org/intro/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="flowcharts">Flowcharts&lt;/h2>
+&lt;ul>
+&lt;li>&amp;ldquo;Flowcharts - Basic Syntax&amp;rdquo;, &lt;em>MermaidJS&lt;/em>, 2023-02-27, &lt;a href="https://mermaid.js.org/syntax/flowchart.html">https://mermaid.js.org/syntax/flowchart.html&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="sequence-diagrams">Sequence Diagrams&lt;/h2>
+&lt;ul>
+&lt;li>&amp;ldquo;Sequence diagrams&amp;rdquo;, &lt;em>MermaidJS&lt;/em>, 2023-02-27, &lt;a href="https://mermaid.js.org/syntax/sequenceDiagram.html">https://mermaid.js.org/syntax/sequenceDiagram.html&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="class-diagrams">Class Diagrams&lt;/h2>
+&lt;ul>
+&lt;li>&amp;ldquo;Class diagrams&amp;rdquo;, &lt;em>MermaidJS&lt;/em>, 2023-02-27, &lt;a href="https://mermaid.js.org/syntax/classDiagram.html">https://mermaid.js.org/syntax/classDiagram.html&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="state-diagrams">State Diagrams&lt;/h2>
+&lt;ul>
+&lt;li>&amp;ldquo;State diagrams&amp;rdquo;, &lt;em>MermaidJS&lt;/em>, 2023-02-27, &lt;a href="https://mermaid.js.org/syntax/stateDiagram.html">https://mermaid.js.org/syntax/stateDiagram.html&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="entity-relationship-diagrams">Entity Relationship Diagrams&lt;/h2>
+&lt;ul>
+&lt;li>&amp;ldquo;Entity Relationship Diagrams&amp;rdquo;, &lt;em>MermaidJS&lt;/em>, 2023-02-27, &lt;a href="https://mermaid.js.org/syntax/entityRelationshipDiagram.html">https://mermaid.js.org/syntax/entityRelationshipDiagram.html&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="user-journey-diagrams">User Journey Diagrams&lt;/h2>
+&lt;ul>
+&lt;li>&amp;ldquo;User Journey Diagram&amp;rdquo;, &lt;em>MermaidJS&lt;/em>, 2023-02-27, &lt;a href="https://mermaid.js.org/syntax/userJourney.html">https://mermaid.js.org/syntax/userJourney.html&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="gantt-charts">Gantt Charts&lt;/h2>
+&lt;ul>
+&lt;li>&amp;ldquo;Gantt diagrams&amp;rdquo;, &lt;em>MermaidJS&lt;/em>, 2023-02-27, &lt;a href="https://mermaid.js.org/syntax/gantt.html">https://mermaid.js.org/syntax/gantt.html&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="pie-charts">Pie Charts&lt;/h2>
+&lt;ul>
+&lt;li>&amp;ldquo;Pie chart diagrams&amp;rdquo;, &lt;em>MermaidJS&lt;/em>, 2023-02-27, &lt;a href="https://mermaid.js.org/syntax/pie.html">https://mermaid.js.org/syntax/pie.html&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="gitgraph-diagrams">Gitgraph Diagrams&lt;/h2>
+&lt;ul>
+&lt;li>&amp;ldquo;Gitgraph Diagrams&amp;rdquo;, &lt;em>MermaidJS&lt;/em>, 2023-02-27, &lt;a href="https://mermaid.js.org/syntax/gitgraph.html">https://mermaid.js.org/syntax/gitgraph.html&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="mindmap">Mindmap&lt;/h2>
+&lt;ul>
+&lt;li>&amp;ldquo;Mindmap&amp;rdquo;, &lt;em>MermaidJS&lt;/em>, 2023-02-27, &lt;a href="https://mermaid.js.org/syntax/mindmap.html">https://mermaid.js.org/syntax/mindmap.html&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="timeline-diagrams">Timeline Diagrams&lt;/h2>
+&lt;ul>
+&lt;li>&amp;ldquo;Timeline Diagram&amp;rdquo;, &lt;em>MermaidJS&lt;/em>, 2023-02-27, &lt;a href="https://mermaid.js.org/syntax/timeline.html">https://mermaid.js.org/syntax/timeline.html&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title/><link>https://www.okwilkins.dev/knowledge-system/references/statquest-with-josh-starmer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/references/statquest-with-josh-starmer/</guid><description>Status: #reference TOC: true
+Bias &amp;ldquo;Bias and Variance&amp;rdquo;, Youtube, StatQuest with Josh Starmer, 2023-02-27, https://youtu.be/EuBBz3bI-aA?t=29 Variance &amp;ldquo;Bias and Variance&amp;rdquo;, Youtube, StatQuest with Josh Starmer, 2023-02-27, https://youtu.be/EuBBz3bI-aA?t=246 Decision Trees &amp;ldquo;Decision and Classification Trees, Clearly Explained!!!&amp;rdquo;, Youtube, StatQuest with Josh Starmer, 2023-02-27, https://www.youtube.com/watch?v=_L39rN6gz7Y &amp;ldquo;Regression Trees, Clearly Explained!!!&amp;rdquo;, Youtube, StatQuest with Josh Starmer, 2023-02-27, https://www.youtube.com/watch?v=g9c66TUylZ4 &amp;ldquo;How to Prune Regression Trees, Clearly Explained!!!&amp;rdquo; Youtube, StatQuest with Josh Starmer, 2023-02-27, https://www.youtube.com/watch?v=D0efHEJsfHo</description><content>&lt;p>Status: #reference
+TOC: true&lt;/p>
 &lt;hr>
 &lt;h2 id="bias">Bias&lt;/h2>
-&lt;p>&amp;ldquo;Bias and Variance&amp;rdquo;, &lt;em>Youtube&lt;/em>, &lt;em>StatQuest with Josh Starmer&lt;/em>, 2023-02-27, &lt;a href="https://youtu.be/EuBBz3bI-aA?t=29">https://youtu.be/EuBBz3bI-aA?t=29&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>&amp;ldquo;Bias and Variance&amp;rdquo;, &lt;em>Youtube&lt;/em>, &lt;em>StatQuest with Josh Starmer&lt;/em>, 2023-02-27, &lt;a href="https://youtu.be/EuBBz3bI-aA?t=29">https://youtu.be/EuBBz3bI-aA?t=29&lt;/a>&lt;/li>
+&lt;/ul>
 &lt;h2 id="variance">Variance&lt;/h2>
-&lt;p>&amp;ldquo;Bias and Variance&amp;rdquo;, &lt;em>Youtube&lt;/em>, &lt;em>StatQuest with Josh Starmer&lt;/em>, 2023-02-27, &lt;a href="https://youtu.be/EuBBz3bI-aA?t=246">https://youtu.be/EuBBz3bI-aA?t=246&lt;/a>&lt;/p></content></item><item><title>0000 Map Of Content</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/0000-map-of-content/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/0000-map-of-content/</guid><description> Language</description><content>&lt;ul>
+&lt;ul>
+&lt;li>&amp;ldquo;Bias and Variance&amp;rdquo;, &lt;em>Youtube&lt;/em>, &lt;em>StatQuest with Josh Starmer&lt;/em>, 2023-02-27, &lt;a href="https://youtu.be/EuBBz3bI-aA?t=246">https://youtu.be/EuBBz3bI-aA?t=246&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="decision-trees">Decision Trees&lt;/h2>
+&lt;ul>
+&lt;li>&amp;ldquo;Decision and Classification Trees, Clearly Explained!!!&amp;rdquo;, &lt;em>Youtube&lt;/em>, &lt;em>StatQuest with Josh Starmer&lt;/em>, 2023-02-27, &lt;a href="https://www.youtube.com/watch?v=">https://www.youtube.com/watch?v=&lt;/a>_L39rN6gz7Y&lt;/li>
+&lt;li>&amp;ldquo;Regression Trees, Clearly Explained!!!&amp;rdquo;, &lt;em>Youtube&lt;/em>, &lt;em>StatQuest with Josh Starmer&lt;/em>, 2023-02-27, &lt;a href="https://www.youtube.com/watch?v=g9c66TUylZ4">https://www.youtube.com/watch?v=g9c66TUylZ4&lt;/a>&lt;/li>
+&lt;li>&amp;ldquo;How to Prune Regression Trees, Clearly Explained!!!&amp;rdquo; &lt;em>Youtube&lt;/em>, &lt;em>StatQuest with Josh Starmer&lt;/em>, 2023-02-27, &lt;a href="https://www.youtube.com/watch?v=D0efHEJsfHo">https://www.youtube.com/watch?v=D0efHEJsfHo&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>0000 Map Of Content</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/0000-map-of-content/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/0000-map-of-content/</guid><description> Language</description><content>&lt;ul>
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/language/">Language&lt;/a>&lt;/li>
 &lt;/ul></content></item><item><title>Bulgarian</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian/</guid><description> Bulgarian Articles Bulgarian Closed Questions Bulgarian Conjugation Bulgarian Counting To 10 Bulgarian Grammatical Gender Bulgarian Negation Bulgarian Starting Sentences with a Present Form Bulgarian There Is Bulgarian To Be Bulgarian To Have Or Not To Have Bulgarian Verbs Citation Form Numeral Plural</description><content>&lt;ul>
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-articles/">Bulgarian Articles&lt;/a>&lt;/li>
