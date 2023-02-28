@@ -693,7 +693,7 @@ let say we have test/train data and the model is overfit to test data&lt;/p>
 &lt;/ol>
 &lt;/li>
 &lt;/ol>
-&lt;p>$$y = ax + b$$
+&lt;p>$y = ax + b$
 We want to find the optimal vaues for a and b so that the sum of squared residuals is minimised
 Since we want the line that will give us the smallest sum of squares, this is called &lt;em>&lt;strong>least squares&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>Plot graph of roration of line vs SSR and take derivative of the function
@@ -702,11 +702,11 @@ Best point is where the derivative is 0&lt;/p>
 &lt;p>Main ideas:&lt;/p>
 &lt;ol>
 &lt;li>Use least-squares to fit a line to the data&lt;/li>
-&lt;li>Calculate $$R^2$$&lt;/li>
-&lt;li>Calculate a p-value for $$R^2$$&lt;/li>
+&lt;li>Calculate $R^2$&lt;/li>
+&lt;li>Calculate a p-value for $R^2$&lt;/li>
 &lt;/ol>
 &lt;p>Look above for notes on least-squares&lt;/p>
-&lt;p>$$R^2$$:
+&lt;p>$R^2$:
 Example:&lt;/p>
 &lt;ul>
 &lt;li>First shift all data to y-axis
@@ -742,17 +742,17 @@ Example:&lt;/p>
 &lt;ul>
 &lt;li>We can say that some for the variation in mouse size is &amp;ldquo;explained&amp;rdquo; by taking mouse weight into account&lt;/li>
 &lt;/ul>
-&lt;p>&lt;em>&lt;strong>So $$R^2$$ tells up how much of the variation in mouse size can be explained by taking mouse weight into account.&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>$$R^2 = \frac{Var(mean) - Var(fit)}{Var(mean)}$$&lt;/p>
-&lt;p>Example: &lt;em>$$R^2$$ = 0.6 = 60%: &amp;ldquo;There is a 60% reduction in variance when we take the mouse weight into account&amp;rdquo;&lt;/em> or &lt;em>&amp;ldquo;mouse weight explains 60% of the variation in mouse size&amp;rdquo;&lt;/em>.&lt;/p>
+&lt;p>&lt;em>&lt;strong>So $R^2$ tells up how much of the variation in mouse size can be explained by taking mouse weight into account.&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>$R^2 = \frac{Var(mean) - Var(fit)}{Var(mean)}$&lt;/p>
+&lt;p>Example: &lt;em>$R^2$ = 0.6 = 60%: &amp;ldquo;There is a 60% reduction in variance when we take the mouse weight into account&amp;rdquo;&lt;/em> or &lt;em>&amp;ldquo;mouse weight explains 60% of the variation in mouse size&amp;rdquo;&lt;/em>.&lt;/p>
 &lt;p>You can also use the sums of squares to make the same calc:
-$$R^2 = \frac{SS(mean) - SS(fit)}{SS(mean)}$$&lt;/p>
-&lt;p>Adding terms will never reduce $$R^2$$!
+$R^2 = \frac{SS(mean) - SS(fit)}{SS(mean)}$&lt;/p>
+&lt;p>Adding terms will never reduce $R^2$!
 This is because lesat-sqaures would make the offending term(s) go to 0&lt;/p>
 &lt;ul>
 &lt;li>Cause any term that makes SS(fit) worse to be multiplied by 0&lt;/li>
-&lt;li>However, the more stupid paramters added to the equation, the more chance there for random events to result in a better $$R^2$$&lt;/li>
-&lt;li>Because of this, people report an &amp;ldquo;adjusted&amp;rdquo; $$R^2$$ value that in essence, scales R^2 by the number of parameters&lt;/li>
+&lt;li>However, the more stupid paramters added to the equation, the more chance there for random events to result in a better $R^2$&lt;/li>
+&lt;li>Because of this, people report an &amp;ldquo;adjusted&amp;rdquo; $R^2$ value that in essence, scales R^2 by the number of parameters&lt;/li>
 &lt;/ul>
 &lt;p>What if we had only 2 measurements however?&lt;/p>
 &lt;ul>
@@ -764,9 +764,9 @@ This is because lesat-sqaures would make the offending term(s) go to 0&lt;/p>
 &lt;ul>
 &lt;li>Tells you how reliable the fit is!&lt;/li>
 &lt;li>F = the variation explained by the extra parameters in the fit / the variation not explained by the extra parameters in the fit&lt;/li>
-&lt;li>$$F = \frac{SS(mean) - SS(fit) / (p_{fit} - p_{mean})}{SS(fit) / (n - p_{fit})}$$&lt;/li>
+&lt;li>$F = \frac{SS(mean) - SS(fit) / (p_{fit} - p_{mean})}{SS(fit) / (n - p_{fit})}$&lt;/li>
 &lt;li>p are the degrees of freedom&lt;/li>
-&lt;li>Why divide SS(fit) by $$n - p_{fit}$$ instead of just n?
+&lt;li>Why divide SS(fit) by $n - p_{fit}$ instead of just n?
 &lt;ul>
 &lt;li>The more params you have in your equation, the more data you need to estimate them&lt;/li>
 &lt;li>For example, you only need two points to estimate a line, but you need 3 points to estimate a plane&lt;/li>
@@ -777,7 +777,7 @@ This is because lesat-sqaures would make the offending term(s) go to 0&lt;/p>
 &lt;p>To calc p-value:&lt;/p>
 &lt;ul>
 &lt;li>You could gen histogram from lots of random datasets and then see where you f-score for the dataset sits&lt;/li>
-&lt;li>What is more common is to generate an F-dstribution based off a line: $$(p_{mean} - p_{fit}) = 1$$, $$(n - p_{fit}) = 10$$
+&lt;li>What is more common is to generate an F-dstribution based off a line: $(p_{mean} - p_{fit}) = 1$, $(n - p_{fit}) = 10$
 &lt;ul>
 &lt;li>the number of degrees of freedom determines the shape of the line&lt;/li>
 &lt;/ul>
@@ -812,7 +812,7 @@ This is because lesat-sqaures would make the offending term(s) go to 0&lt;/p>
 &lt;p>prob of something / prob of not something is the same as the odds&lt;/p>
 &lt;ul>
 &lt;li>odds of team losing go from 0 to 1 (1 : 32 =&amp;gt; 0.03125)&lt;/li>
-&lt;li>odds of team winning go from 1 to $$\infty$$ (32 : 3 =&amp;gt; 10.67)&lt;/li>
+&lt;li>odds of team winning go from 1 to $\infty$ (32 : 3 =&amp;gt; 10.67)&lt;/li>
 &lt;li>this makes it difficult to compare the odds of winning vs losing&lt;/li>
 &lt;li>taking the log of the odds helps with this&lt;/li>
 &lt;/ul>
@@ -843,16 +843,16 @@ This is because lesat-sqaures would make the offending term(s) go to 0&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>Odds ratio: $$\frac{23 / 117}{6 / 210} = \frac{0.2}{0.03} = 6.88$$
+&lt;p>Odds ratio: $\frac{23 / 117}{6 / 210} = \frac{0.2}{0.03} = 6.88$
 This means that the odds are 6.88 times greater that someone with the mutated gene will also have cancer
-Hence log ratio: $$1.93$$&lt;/p>
+Hence log ratio: $1.93$&lt;/p>
 &lt;ul>
 &lt;li>The odds ratio and log of the odds ratio are like R-squared; they indicate a relationship between two things&lt;/li>
 &lt;li>Larger values mean that the mutated gene is a good predictor of cancer&lt;/li>
-&lt;li>Values close to 0 are bad: $$log(1) = 0$$
+&lt;li>Values close to 0 are bad: $log(1) = 0$
 &lt;ul>
-&lt;li>$$log(0.001) = -6.91$$ (so do opposite) (for every game I win someone else wins 1,000 times)&lt;/li>
-&lt;li>$$log(100) = 4.6$$ (for every game I lose, I win 100)&lt;/li>
+&lt;li>$log(0.001) = -6.91$ (so do opposite) (for every game I win someone else wins 1,000 times)&lt;/li>
+&lt;li>$log(100) = 4.6$ (for every game I lose, I win 100)&lt;/li>
 &lt;li>hence these are good predictors&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -884,14 +884,14 @@ No consensus on what is best, so people just mix and match:&lt;/li>
 &lt;p>Continuous values:
 Because with logistic regression, the y-axis is confined to probability values between 0 and 1&lt;/p>
 &lt;ul>
-&lt;li>solve problem by transforming to the log odds, so like with linear regression the y-axis can go from $$-\infty$$ to $$+\infty$$&lt;/li>
+&lt;li>solve problem by transforming to the log odds, so like with linear regression the y-axis can go from $-\infty$ to $+\infty$&lt;/li>
 &lt;/ul>
-&lt;p>So we use the &lt;strong>logit function&lt;/strong>: $$\log{\frac{p}{1 - p}}$$&lt;/p>
+&lt;p>So we use the &lt;strong>logit function&lt;/strong>: $\log{\frac{p}{1 - p}}$&lt;/p>
 &lt;ul>
-&lt;li>So all values that are true (1) -&amp;gt; $$\infty$$&lt;/li>
-&lt;li>All values that are false (0) -&amp;gt; $$-\infty$$&lt;/li>
+&lt;li>So all values that are true (1) -&amp;gt; $\infty$&lt;/li>
+&lt;li>All values that are false (0) -&amp;gt; $-\infty$&lt;/li>
 &lt;/ul>
-&lt;p>Take example logisitic regression line: $$y = -3.48 + 1.83\times weight$$
+&lt;p>Take example logisitic regression line: $y = -3.48 + 1.83\times weight$
 So the first coefficient is the y-axis intercept&lt;/p>
 &lt;ul>
 &lt;li>when weight (x-axis) = 0, then log(odds of obesity) = -3.476
@@ -907,7 +907,7 @@ So the first coefficient is the y-axis intercept&lt;/p>
 &lt;p>&lt;em>&lt;strong>Need to come back to this&lt;/strong>&lt;/em>&lt;/p>
 &lt;h1 id="gradient-descent">Gradient Descent&lt;/h1>
 &lt;p>Can be used to optimise least squares like in notes above!
-For: $$y = ax + b$$
+For: $y = ax + b$
 start with least squares estimate for the slope a
 we use gradient descent to find optimatal value for b&lt;/p>
 &lt;p>set b = 0, any number will do
@@ -982,7 +982,7 @@ It will then build trees in this fashon till made num of trees asked for or adit
 &lt;ol>
 &lt;li>Calc avg of the target feature as first &amp;rsquo;tree&amp;rsquo;/leaf
 &lt;ol>
-&lt;li>Better way: $$F_{0}(x) = \arg \max_{\gamma}\sum_{i=1}^{n}L(y_{i}, \gamma)$$, $$L$$ is loss func&lt;/li>
+&lt;li>Better way: $F_{0}(x) = \arg \max_{\gamma}\sum_{i=1}^{n}L(y_{i}, \gamma)$, $L$ is loss func&lt;/li>
 &lt;li>Either find best value via grad descent or if ez derivative to solve for 0, do that&lt;/li>
 &lt;/ol>
 &lt;/li>
@@ -1021,7 +1021,7 @@ It will then build trees in this fashon till made num of trees asked for or adit
 &lt;/ul>
 &lt;p>Example: size = intercept + slope * Weight
 Lin reg minises: SSR
-Ridge regression tries to minimises: SSR + $$\lambda \times {slope}^2$$&lt;/p>
+Ridge regression tries to minimises: SSR + $\lambda \times {slope}^2$&lt;/p>
 &lt;ul>
 &lt;li>The added tern adds a penalty to the traditional least squares method&lt;/li>
 &lt;/ul>
@@ -1031,7 +1031,7 @@ The large lambda, the slope get asymptotically close to 0
 To find the value for lambda, try typically 10-fold cross validation to determine which one results in the lowest variance&lt;/p>
 &lt;p>Also works on descrete data:
 size = 1.5 + 0.7 * high fat diet&lt;/p>
-&lt;p>so ridge regression minimises: SSR + $$\lambda \times {diet difference}^2$$&lt;/p>
+&lt;p>so ridge regression minimises: SSR + $\lambda \times {diet difference}^2$&lt;/p>
 &lt;ul>
 &lt;li>diet difference refers to the distance in size between normal diet and high far diet&lt;/li>
 &lt;/ul>
@@ -1055,7 +1055,7 @@ nor a plane with 2 data points&lt;/p>
 &lt;/ul>
 &lt;h1 id="regularization-lasso-l1-regression">Regularization: Lasso (L1) Regression&lt;/h1>
 &lt;p>Very similar to ridge regression but has some important differences
-Intead the penalty is: $$\lambda \times |slope|$$&lt;/p>
+Intead the penalty is: $\lambda \times |slope|$&lt;/p>
 &lt;ul>
 &lt;li>adds a bit of bias but less variarience than leat squares&lt;/li>
 &lt;/ul>
@@ -1094,7 +1094,7 @@ There are many ways this tree can be built, but this is the most common way for 
 &lt;li>Each tree starts with a single leaf, all residuals go to the leaf&lt;/li>
 &lt;li>Calculate a quality score or similarity score for the residuals
 &lt;ol>
-&lt;li>Similarity score = SSR / (num residuals + $$\lambda$$)&lt;/li>
+&lt;li>Similarity score = SSR / (num residuals + $\lambda$)&lt;/li>
 &lt;li>This similarity score is a simplification of second order Taylor approximation of the loss function described in grad boost&lt;/li>
 &lt;li>Also, the lambda here will just be for L2 regularisation&lt;/li>
 &lt;li>L1 will make the sim score simplify to something different&lt;/li>
@@ -1110,7 +1110,7 @@ There are many ways this tree can be built, but this is the most common way for 
 &lt;/li>
 &lt;li>Now need to quanitify how much better the leaves cluster similar resdiuals than the root, do this by calculating the gain
 &lt;ol>
-&lt;li>$$gain = left_{similarity} + right_{similarity} - root_{similarity}$$&lt;/li>
+&lt;li>$gain = left_{similarity} + right_{similarity} - root_{similarity}$&lt;/li>
 &lt;/ol>
 &lt;/li>
 &lt;li>Now shift the threshold over so that it is the avg of th next two observation
@@ -1127,8 +1127,8 @@ There are many ways this tree can be built, but this is the most common way for 
 &lt;li>Pruned based on its gain values&lt;/li>
 &lt;li>Start with a number, for example, 130
 &lt;ul>
-&lt;li>This is called $$\gamma$$ gamma&lt;/li>
-&lt;li>Then calc the difference between the gain asscociated with the lowest branch in the tree and gamma: $$gain - \gamma$$
+&lt;li>This is called $\gamma$ gamma&lt;/li>
+&lt;li>Then calc the difference between the gain asscociated with the lowest branch in the tree and gamma: $gain - \gamma$
 &lt;ul>
 &lt;li>if the difference is positive then the branch is not removed, if it is neg then remove&lt;/li>
 &lt;li>once you find a pos difference, then stop pruning&lt;/li>
@@ -1142,10 +1142,10 @@ There are many ways this tree can be built, but this is the most common way for 
 &lt;ul>
 &lt;li>This will decrease similarity scores&lt;/li>
 &lt;li>This will tend to stop the trees getting so large as it&amp;rsquo;s harder for a branch to have a lower sim score than its parent&lt;/li>
-&lt;li>This also can make the pruning more agressive as $$\gamma$$ is more likely to be larger than the gain&lt;/li>
+&lt;li>This also can make the pruning more agressive as $\gamma$ is more likely to be larger than the gain&lt;/li>
 &lt;li>In the case of gain being less than 0, setting gamma = 0 will not turn off pruning&lt;/li>
 &lt;/ul>
-&lt;p>Output value = sum of residuals / (num of residuals + $$\lambda$$)&lt;/p>
+&lt;p>Output value = sum of residuals / (num of residuals + $\lambda$)&lt;/p>
 &lt;ul>
 &lt;li>This refers to the output value for each leaf&lt;/li>
 &lt;li>Pretty similar to the similarity score except it&amp;rsquo;s not SSR&lt;/li>
@@ -1157,7 +1157,7 @@ There are many ways this tree can be built, but this is the most common way for 
 &lt;/ul>
 &lt;p>Like with gradient boost, there is a learning rate that scales the tree&lt;/p>
 &lt;ul>
-&lt;li>XGboost calls this learning rate: $$\epsilon$$ (eta but this is epsilon?)
+&lt;li>XGboost calls this learning rate: $\epsilon$ (eta but this is epsilon?)
 &lt;ul>
 &lt;li>Default value is 0.3&lt;/li>
 &lt;/ul>
