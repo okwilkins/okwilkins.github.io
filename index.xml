@@ -146,19 +146,13 @@ Mermaid
 &lt;ul>
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/mermaid/">Mermaid#Mindmap&lt;/a>&lt;/li>
 &lt;/ul></content></item><item><title>Mermaid Pie Chart</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-pie-chart/</link><pubDate>Mon, 27 Feb 2023 12:37:35 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-pie-chart/</guid><description>Start with pie keyword to begin the diagram showData to render the actual data values after the legend text. This is OPTIONAL Followed by title keyword and its value in string to give a title to the pie-chart. This is OPTIONAL Followed by dataSet. Pie slices will be ordered clockwise in the same order as the labels. label for a section in the pie diagram within &amp;quot; &amp;quot; quotes. Followed by : colon as separator Followed by positive numeric value (supported up to two decimal places) pie showData title Key elements in Product X &amp;#34;Calcium&amp;#34; : 42.</description><content>&lt;ul>
-&lt;li>Start with &lt;code>pie&lt;/code> keyword to begin the diagram
-&lt;ul>
+&lt;li>Start with &lt;code>pie&lt;/code> keyword to begin the diagram&lt;/li>
 &lt;li>&lt;code>showData&lt;/code> to render the actual data values after the legend text. This is &lt;em>&lt;strong>OPTIONAL&lt;/strong>&lt;/em>&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>Followed by &lt;code>title&lt;/code> keyword and its value in string to give a title to the pie-chart. This is &lt;em>&lt;strong>OPTIONAL&lt;/strong>&lt;/em>&lt;/li>
-&lt;li>Followed by dataSet. Pie slices will be ordered clockwise in the same order as the labels.
-&lt;ul>
+&lt;li>Followed by dataSet. Pie slices will be ordered clockwise in the same order as the labels.&lt;/li>
 &lt;li>&lt;code>label&lt;/code> for a section in the pie diagram within &lt;code>&amp;quot; &amp;quot;&lt;/code> quotes.&lt;/li>
 &lt;li>Followed by &lt;code>:&lt;/code> colon as separator&lt;/li>
 &lt;li>Followed by &lt;code>positive numeric value&lt;/code> (supported up to two decimal places)&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul>
 &lt;pre tabindex="0">&lt;code>pie showData
 title Key elements in Product X
@@ -261,9 +255,9 @@ Sit down: 5: Me
 flowchart TD A[A person wants to learn about decision trees] A --> |True| B[Check out these sequence of notes!] A --> |False| C[Go somewhere else then!] If the statement is true then you go left and vice versa.
 References StatQuest with Josh Starmer &amp;gt; Decision Trees</description><content>&lt;p>A decision tree is a tree of statements and with decisions based on whether or not the statement is &lt;strong>true&lt;/strong> or &lt;strong>false&lt;/strong>.&lt;/p>
 &lt;div class="mermaid">flowchart TD
-    A[A person wants to learn about decision trees]
-    A --> |True| B[Check out these sequence of notes!]
-    A --> |False| C[Go somewhere else then!]
+A[A person wants to learn about decision trees]
+A --> |True| B[Check out these sequence of notes!]
+A --> |False| C[Go somewhere else then!]
 &lt;/div>
 &lt;p>If the statement is &lt;strong>true&lt;/strong> then you go left and &lt;em>vice versa&lt;/em>.&lt;/p>
 &lt;h2 id="references">References&lt;/h2>
@@ -415,190 +409,149 @@ https://www.youtube.com/watch?v=OtD8wVaFm6E https://www.youtube.com/watch?v=8b1J
 &lt;li>final classificaitons can be repeated&lt;/li>
 &lt;li>if statement is true, you go left&lt;/li>
 &lt;li>very top of tree is called root node/the root&lt;/li>
-&lt;li>internal nodes/branches are inbetween top and bottom
-&lt;ul>
+&lt;li>internal nodes/branches are inbetween top and bottom&lt;/li>
 &lt;li>branches have arrows pointing to them&lt;/li>
 &lt;li>AND arrows pointing away from them&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>leaves have arrows pointing to them but no pointing away&lt;/li>
 &lt;/ul>
 &lt;h2 id="building-a-tree-with-gini-impurity">Building a Tree with Gini Impurity&lt;/h2>
 &lt;ul>
-&lt;li>First need to work out which feature makes the root
-&lt;ul>
-&lt;li>do this based off which best predicts target var
-&lt;ul>
+&lt;li>First need to work out which feature makes the root&lt;/li>
+&lt;li>do this based off which best predicts target var&lt;/li>
 &lt;li>do this by making tree based off only &amp;ldquo;loves popcorn&amp;rdquo; to predict &amp;ldquo;Loves Song&amp;rdquo;&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>If a &lt;strong>leaf&lt;/strong> contains a mixture of correct &lt;strong>AND&lt;/strong> incorrect predictions, then they are &lt;strong>IMPURE&lt;/strong>&lt;/li>
 &lt;li>To quantify the impurity of leaves you can use: &lt;strong>Gini Impurity&lt;/strong>, &lt;strong>Entropy&lt;/strong>, and &lt;strong>Information Gain&lt;/strong>&lt;/li>
-&lt;li>Gini Impurity for a leaf = 1 - (prob(&amp;ldquo;yes&amp;rdquo;) ^ 2 - prob(&amp;ldquo;no&amp;rdquo;) ^ 2)
-&lt;ul>
-&lt;li>to work out toal gini impurity fpr the simple tree:
-&lt;ul>
+&lt;li>Gini Impurity for a leaf = 1 - (prob(&amp;ldquo;yes&amp;rdquo;) ^ 2 - prob(&amp;ldquo;no&amp;rdquo;) ^ 2)&lt;/li>
+&lt;li>to work out toal gini impurity fpr the simple tree:&lt;/li>
 &lt;li>= weigthed avg of gini impurities&lt;/li>
-&lt;li>weigthed because a leaf may not represent the same number of people
-&lt;ul>
+&lt;li>weigthed because a leaf may not represent the same number of people&lt;/li>
 &lt;li>eg &amp;ldquo;loves popcorn? Yes? No?&amp;rdquo;&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>For numeric data:
-&lt;ul>
+&lt;li>For numeric data:&lt;/li>
 &lt;li>sort by low to high&lt;/li>
 &lt;li>calc avg value based of row below and current row&lt;/li>
-&lt;li>then calc gini for each avg value
-&lt;ul>
+&lt;li>then calc gini for each avg value&lt;/li>
 &lt;li>this can be done e.g. avg val = 9.5&lt;/li>
 &lt;li>root: &amp;ldquo;age &amp;lt; 9.5, loves song?&amp;rdquo;&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>You then pick the root that represents num feature by the avg that = lowest gini&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>You then pick the root by selecting the feature that has lowest gini!&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>So split based off: &amp;ldquo;loves soda?&amp;rdquo;
-&lt;ul>
+&lt;li>So split based off: &amp;ldquo;loves soda?&amp;rdquo;&lt;/li>
 &lt;li>Can we reduce gini of branch by splitting people that loved soda or Age &amp;lt; ??? ?&lt;/li>
 &lt;li>Calc gini for each of the two questions&lt;/li>
 &lt;li>Select lowest gini of the two: &amp;ldquo;age &amp;lt; 12.5?&amp;rdquo;&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>Can stop splitting based off if leaves are completly pure&lt;/li>
 &lt;/ul>
 &lt;h2 id="how-to-prevent-overfitting">How to Prevent Overfitting&lt;/h2>
 &lt;ul>
-&lt;li>Let say that leaf only has one person, can be hard to be sure that it does a good job of making preds
-&lt;ul>
+&lt;li>Let say that leaf only has one person, can be hard to be sure that it does a good job of making preds&lt;/li>
 &lt;li>could overfit the data&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Can deal with this by:
-&lt;ul>
+&lt;li>Can deal with this by:&lt;/li>
 &lt;li>pruning&lt;/li>
 &lt;li>can put limits on hwo trees grow by requiring 3 or more people per leaf&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul>
 &lt;h1 id="regression-trees">Regression Trees&lt;/h1>
 &lt;ul>
 &lt;li>use when you cant fit straight line to data&lt;/li>
 &lt;li>to work out output of leaf, just get avg of the values that sit in the leaf&lt;/li>
-&lt;li>building root:
-&lt;ul>
+&lt;li>building root:&lt;/li>
 &lt;li>dosage &amp;lt; 3 &amp;ndash; 3 is avg of two values&lt;/li>
-&lt;li>get avg of vals of &amp;lt; 3 and &amp;gt;= 3 (0 &amp;amp; 38.8)
-&lt;ul>
+&lt;li>get avg of vals of &amp;lt; 3 and &amp;gt;= 3 (0 &amp;amp; 38.8)&lt;/li>
 &lt;li>so tree will say: &amp;ldquo;Dosage &amp;lt; 3? If so, then 0, else 38.8.&amp;rdquo;&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>use sum of square residuals of all points (left and right) in the leaves to get qual of preds&lt;/li>
 &lt;li>THEN, go to next two points e.g. &amp;ldquo;dosage &amp;lt; 5&amp;rdquo;&lt;/li>
-&lt;li>Select smallest sum of squared residuals
-&lt;ul>
+&lt;li>Select smallest sum of squared residuals&lt;/li>
 &lt;li>root = &amp;ldquo;dosage &amp;lt; 14.5?&amp;rdquo;&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>You then for the left and right branch can do the same again on the samller subset of values&lt;/li>
 &lt;li>you then need to do this for the other features in data&lt;/li>
 &lt;li>compare SSR for each feature that makes the root node&lt;/li>
 &lt;li>to the branch down, you just do the same as before but it&amp;rsquo;s filtered on e.g. &amp;ldquo;Age &amp;gt; 50&amp;rdquo;&lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;/ul>
 &lt;h1 id="how-to-prune-regression-trees">How to Prune Regression Trees&lt;/h1>
 &lt;ul>
-&lt;li>there are several methods of prunin
-&lt;ul>
+&lt;li>there are several methods of prunin&lt;/li>
 &lt;li>this is on &lt;strong>Cost Complexity Pruning&lt;/strong> or &lt;strong>Weakest Link Pruning&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul>
 &lt;p>use this for overfitting and variance
 let say we have test/train data and the model is overfit to test data&lt;/p>
 &lt;ul>
-&lt;li>one way to reduce overfitting is by reducing the number of leaves
-&lt;ul>
-&lt;li>replace the split with a leaf that is avg of a larger num of observations
-&lt;ul>
+&lt;li>one way to reduce overfitting is by reducing the number of leaves&lt;/li>
+&lt;li>replace the split with a leaf that is avg of a larger num of observations&lt;/li>
 &lt;li>e.g. remove two leaves of branch and replace branch by leaf&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>now the sub-tree does better at predicting test data but worse at train&lt;/li>
 &lt;/ul>
 &lt;p>how do we decide which sub-tree to use???&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>first tep of cost complex pruning is to calc SSR of each pruned sub-tree for trian data&lt;/p>
-&lt;ul>
-&lt;li>calc SSR for each leaf&lt;/li>
-&lt;li>then add up all SSR for all leaves&lt;/li>
-&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>calc SSR for each leaf&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>then add up all SSR for all leaves&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>each time a branch/leaf is removed, the SSR for the sub-tree will get bigger&lt;/p>
-&lt;ul>
-&lt;li>not a suprise tho ofc&lt;/li>
-&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>not a suprise tho ofc&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>how comapre trees?&lt;/p>
-&lt;ul>
-&lt;li>CCP based on:
-&lt;ul>
-&lt;li>tree score = SSR + alpha (tree complexity pen, find using cross validation) * T (num of leaves or terminal nodes)&lt;/li>
-&lt;li>do this for all sub-trees&lt;/li>
-&lt;li>pick lowest tree score sub-tree&lt;/li>
-&lt;/ul>
 &lt;/li>
-&lt;/ul>
+&lt;li>
+&lt;p>CCP based on:&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>tree score = SSR + alpha (tree complexity pen, find using cross validation) * T (num of leaves or terminal nodes)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>do this for all sub-trees&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>pick lowest tree score sub-tree&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>how to build pruned regression tree?&lt;/p>
-&lt;ul>
-&lt;li>first use ALL data build full sized reg tree&lt;/li>
-&lt;li>now increase alpha till the sub-tree with one branch removed, gives lower tree score compared to full sized tree&lt;/li>
-&lt;li>keep doing this with smaller and smaller sub-trees
-&lt;ul>
-&lt;li>recording alpha values for each&lt;/li>
-&lt;/ul>
 &lt;/li>
-&lt;li>in the end, different vals for alpha give use a sequence of tree from full sized to just a leaf
-&lt;ul>
-&lt;li>e.g. 0, 10k, 15k, 22k&lt;/li>
-&lt;/ul>
+&lt;li>
+&lt;p>first use ALL data build full sized reg tree&lt;/p>
 &lt;/li>
-&lt;li>now divide into train and test
-&lt;ul>
-&lt;li>using just train data, use the alpha values we found on full tree and a sequaence of subtrees that min the tree score&lt;/li>
-&lt;li>now calc SSR of each new tree for test data and pick alpha based off lowest SSR&lt;/li>
-&lt;/ul>
+&lt;li>
+&lt;p>now increase alpha till the sub-tree with one branch removed, gives lower tree score compared to full sized tree&lt;/p>
 &lt;/li>
-&lt;li>repeat using cross-validation
-&lt;ul>
-&lt;li>pick alpha that on avg gave lowest SSR with the testing data in each cross fold&lt;/li>
-&lt;/ul>
+&lt;li>
+&lt;p>keep doing this with smaller and smaller sub-trees&lt;/p>
 &lt;/li>
-&lt;/ul>
+&lt;li>
+&lt;p>recording alpha values for each&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>in the end, different vals for alpha give use a sequence of tree from full sized to just a leaf&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>e.g. 0, 10k, 15k, 22k&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>now divide into train and test&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>using just train data, use the alpha values we found on full tree and a sequaence of subtrees that min the tree score&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>now calc SSR of each new tree for test data and pick alpha based off lowest SSR&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>repeat using cross-validation&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>pick alpha that on avg gave lowest SSR with the testing data in each cross fold&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;h1 id="random-forests">Random Forests&lt;/h1>
 &lt;p>Step 1: Create a &amp;ldquo;&lt;strong>bootstrapped&lt;/strong>&amp;rdquo; dataset&lt;/p>
 &lt;ul>
-&lt;li>Randomly sample dataset so that we have same size as orginal dataset
-&lt;ul>
+&lt;li>Randomly sample dataset so that we have same size as orginal dataset&lt;/li>
 &lt;li>can pick same sample more than once&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul>
 &lt;p>Step 2: Create decision tree using boostrapped dataset but only use a random subset of features at each step&lt;/p>
 &lt;ul>
@@ -613,9 +566,9 @@ let say we have test/train data and the model is overfit to test data&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>for next branch, randomly select 2 cols of the remaining cols&lt;/p>
-&lt;ul>
-&lt;li>in the next levels of branches, you can select the col that was removed for the parent node&lt;/li>
-&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>in the next levels of branches, you can select the col that was removed for the parent node&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;p>Now go back to step 1 and repeat bootstrap and build tree again&lt;/p>
@@ -686,12 +639,9 @@ let say we have test/train data and the model is overfit to test data&lt;/p>
 &lt;h1 id="least-squares-linear-regression">Least Squares Linear Regression&lt;/h1>
 &lt;ol>
 &lt;li>Draw line through data&lt;/li>
-&lt;li>Sum pred - obvs for all points
-&lt;ol>
+&lt;li>Sum pred - obvs for all points&lt;/li>
 &lt;li>Square each term in sum to negatate large obvs vs pred&lt;/li>
 &lt;li>This is &lt;strong>sum of squared residuals&lt;/strong>&lt;/li>
-&lt;/ol>
-&lt;/li>
 &lt;/ol>
 &lt;p>$y = ax + b$
 We want to find the optimal vaues for a and b so that the sum of squared residuals is minimised
@@ -709,27 +659,15 @@ Best point is where the derivative is 0&lt;/p>
 &lt;p>$R^2$:
 Example:&lt;/p>
 &lt;ul>
-&lt;li>First shift all data to y-axis
-&lt;ul>
+&lt;li>First shift all data to y-axis&lt;/li>
 &lt;li>We are only interested in y-axis feature&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Then calculate avg. y data
-&lt;ul>
+&lt;li>Then calculate avg. y data&lt;/li>
 &lt;li>Sum the squared resdiduals&lt;/li>
-&lt;li>We call this SS(mean) -&amp;gt; &amp;ldquo;sum of squares around the mean&amp;rdquo;
-&lt;ul>
+&lt;li>We call this SS(mean) -&amp;gt; &amp;ldquo;sum of squares around the mean&amp;rdquo;&lt;/li>
 &lt;li>SS(mean) = (data - mean)^2&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Variation around the mean = (data - mean) ^ 2 / n
-&lt;ul>
+&lt;li>Variation around the mean = (data - mean) ^ 2 / n&lt;/li>
 &lt;li>Var(mean) = SS(mean) / n&lt;/li>
 &lt;li>We can think of variance as the average sum of squares per e.g. &amp;ldquo;mouse&amp;rdquo;&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul>
 &lt;p>Now apply this to the line of best fit:&lt;/p>
 &lt;ul>
@@ -766,22 +704,16 @@ This is because lesat-sqaures would make the offending term(s) go to 0&lt;/p>
 &lt;li>F = the variation explained by the extra parameters in the fit / the variation not explained by the extra parameters in the fit&lt;/li>
 &lt;li>$F = \frac{SS(mean) - SS(fit) / (p_{fit} - p_{mean})}{SS(fit) / (n - p_{fit})}$&lt;/li>
 &lt;li>p are the degrees of freedom&lt;/li>
-&lt;li>Why divide SS(fit) by $n - p_{fit}$ instead of just n?
-&lt;ul>
+&lt;li>Why divide SS(fit) by $n - p_{fit}$ instead of just n?&lt;/li>
 &lt;li>The more params you have in your equation, the more data you need to estimate them&lt;/li>
 &lt;li>For example, you only need two points to estimate a line, but you need 3 points to estimate a plane&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>If the fit is good F = large num / small num&lt;/li>
 &lt;/ul>
 &lt;p>To calc p-value:&lt;/p>
 &lt;ul>
 &lt;li>You could gen histogram from lots of random datasets and then see where you f-score for the dataset sits&lt;/li>
-&lt;li>What is more common is to generate an F-dstribution based off a line: $(p_{mean} - p_{fit}) = 1$, $(n - p_{fit}) = 10$
-&lt;ul>
+&lt;li>What is more common is to generate an F-dstribution based off a line: $(p_{mean} - p_{fit}) = 1$, $(n - p_{fit}) = 10$&lt;/li>
 &lt;li>the number of degrees of freedom determines the shape of the line&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul>
 &lt;h1 id="maximum-likelihood">Maximum Likelihood&lt;/h1>
 &lt;p>The goal of maximum likelihood is the find the optimal way to fit a distribution to the data.&lt;/p>
@@ -790,11 +722,8 @@ This is because lesat-sqaures would make the offending term(s) go to 0&lt;/p>
 &lt;li>Take normal distribution&lt;/li>
 &lt;li>fit a bell curve with centre far from avg of points&lt;/li>
 &lt;li>most of the points have a low probability or &amp;ldquo;likelihood&amp;rdquo; of being observed in the places they are&lt;/li>
-&lt;li>if you shift the curve over so that its mean was the same as the average?
-&lt;ul>
+&lt;li>if you shift the curve over so that its mean was the same as the average?&lt;/li>
 &lt;li>the likelihood of observing the points would be high&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>if you kept moving it over, the likelihood of observing the points would be low again&lt;/li>
 &lt;li>with the best mean found, you need to do the same for std. dev.&lt;/li>
 &lt;/ul>
@@ -849,13 +778,10 @@ Hence log ratio: $1.93$&lt;/p>
 &lt;ul>
 &lt;li>The odds ratio and log of the odds ratio are like R-squared; they indicate a relationship between two things&lt;/li>
 &lt;li>Larger values mean that the mutated gene is a good predictor of cancer&lt;/li>
-&lt;li>Values close to 0 are bad: $log(1) = 0$
-&lt;ul>
+&lt;li>Values close to 0 are bad: $log(1) = 0$&lt;/li>
 &lt;li>$log(0.001) = -6.91$ (so do opposite) (for every game I win someone else wins 1,000 times)&lt;/li>
 &lt;li>$log(100) = 4.6$ (for every game I lose, I win 100)&lt;/li>
 &lt;li>hence these are good predictors&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul>
 &lt;p>3 ways to determine if an odds ratio is statistically signficant:&lt;/p>
 &lt;ul>
@@ -872,12 +798,9 @@ No consensus on what is best, so people just mix and match:&lt;/li>
 &lt;ul>
 &lt;li>Predicts if something is True or False&lt;/li>
 &lt;li>Fits an S shaped logistic function&lt;/li>
-&lt;li>Test to see if a variable&amp;rsquo;s effect on the prediction is significantly different from 0
-&lt;ul>
+&lt;li>Test to see if a variable&amp;rsquo;s effect on the prediction is significantly different from 0&lt;/li>
 &lt;li>If not, it means the variable isnot helping the prediction&lt;/li>
 &lt;li>This is called Wald&amp;rsquo;s test&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>Instead of using SSR and R^2 it uses &lt;em>&lt;strong>maximum likelihood&lt;/strong>&lt;/em>&lt;/li>
 &lt;li>Logistic Regression is a specific type of &lt;strong>Generalised Linear Model&lt;/strong> (&lt;strong>GLM&lt;/strong>)&lt;/li>
 &lt;/ul>
@@ -894,11 +817,8 @@ Because with logistic regression, the y-axis is confined to probability values b
 &lt;p>Take example logisitic regression line: $y = -3.48 + 1.83\times weight$
 So the first coefficient is the y-axis intercept&lt;/p>
 &lt;ul>
-&lt;li>when weight (x-axis) = 0, then log(odds of obesity) = -3.476
-&lt;ul>
+&lt;li>when weight (x-axis) = 0, then log(odds of obesity) = -3.476&lt;/li>
 &lt;li>In other words, if you dont weigh anything, the odds are against you being obese!! Duh!&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>The slope: for every one unit of weight gains, the log(odds of obesity) increases by 1.825&lt;/li>
 &lt;/ul>
 &lt;p>Descrete variable:&lt;/p>
@@ -918,42 +838,27 @@ calc SSR&lt;/p>
 &lt;p>Keep changing the intercept and plot a graph of intercept vs SSR&lt;/p>
 &lt;ul>
 &lt;li>Inefficent way of doing this would be to calc lots and lots of points&lt;/li>
-&lt;li>Gradient descent makes this way more efficent
-&lt;ul>
+&lt;li>Gradient descent makes this way more efficent&lt;/li>
 &lt;li>Does a few calcs when far from the optimal solution&lt;/li>
 &lt;li>increases the number of calcs, close to the optimal value&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>You can derive an equation for a line that describes the SSR&lt;/li>
 &lt;li>Determine derivative of the function&lt;/li>
-&lt;li>Then take steps towards min value approaches derivative = 0
-&lt;ul>
+&lt;li>Then take steps towards min value approaches derivative = 0&lt;/li>
 &lt;li>This is v useful because get around times where it&amp;rsquo;s impossible for derivative = 0&lt;/li>
 &lt;li>The size of the step should be dependant on the size of the derivative&lt;/li>
-&lt;li>This is determined by a &lt;strong>step size&lt;/strong> called the
-&lt;ul>
+&lt;li>This is determined by a &lt;strong>step size&lt;/strong> called the&lt;/li>
 &lt;li>Mutiply the derivative by a small number called a &lt;strong>learning rate&lt;/strong>, the combination of these two is the step size&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>So in this case, the new intercept = old intercept - step size&lt;/li>
 &lt;li>This process repeats itself&lt;/li>
 &lt;li>It will stop when the step size is very close to 0&lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;/ul>
 &lt;p>How to do grad descent for both a and b?&lt;/p>
 &lt;ul>
-&lt;li>Take derivative with respect to the intercept also do the same with respect to the slope
-&lt;ul>
+&lt;li>Take derivative with respect to the intercept also do the same with respect to the slope&lt;/li>
 &lt;li>When you have 2 or more derivatives of the same function, they are called a &lt;strong>gradient&lt;/strong>&lt;/li>
 &lt;li>This is why the algorithm is called &lt;strong>gradient descent&lt;/strong>!&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Pick rando number for intecept and slope
-&lt;ul>
+&lt;li>Pick rando number for intecept and slope&lt;/li>
 &lt;li>Gives 2 SSRs&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>Calc step size for both&lt;/li>
 &lt;li>Adjust intercept and slope by step size&lt;/li>
 &lt;/ul>
@@ -980,12 +885,9 @@ Then grad bost builds a tree, that is based on the errors of the previous tree.&
 It will then build tree based of the errors of the previous tree.
 It will then build trees in this fashon till made num of trees asked for or aditional trees fail to improve fit.&lt;/p>
 &lt;ol>
-&lt;li>Calc avg of the target feature as first &amp;rsquo;tree&amp;rsquo;/leaf
-&lt;ol>
+&lt;li>Calc avg of the target feature as first &amp;rsquo;tree&amp;rsquo;/leaf&lt;/li>
 &lt;li>Better way: $F_{0}(x) = \arg \max_{\gamma}\sum_{i=1}^{n}L(y_{i}, \gamma)$, $L$ is loss func&lt;/li>
 &lt;li>Either find best value via grad descent or if ez derivative to solve for 0, do that&lt;/li>
-&lt;/ol>
-&lt;/li>
 &lt;li>Build tree on errors of first tree: error = obvs - pred, this is called a &lt;strong>pseudo residual&lt;/strong>. The pseudo part is a reminder that we are doing grad boost, not linear reg.&lt;/li>
 &lt;li>Now use input vars to predict the residuals to build tree. A leaf of this tree may pointwards two residuals. If this happens, get avg of residuals on leaf.&lt;/li>
 &lt;li>Now combine original leaf with the new tree for pred. Effectively this new tree &amp;lsquo;corrects&amp;rsquo; for the error of the og leaf. After doing this once, the bias will be low but varience high (overfit), so there is a learning rate to correct for this. Multiple learning rate by new tree&amp;rsquo;s residual pred. Between 0 and 1. This results in a small step in the right direction. Taking lots of small steps in the right direction results in lower varience.&lt;/li>
@@ -1001,23 +903,14 @@ It will then build trees in this fashon till made num of trees asked for or adit
 &lt;/ul>
 &lt;p>Use Linear regression aka least squares:&lt;/p>
 &lt;ul>
-&lt;li>example: has intercept and slope
-&lt;ul>
+&lt;li>example: has intercept and slope&lt;/li>
 &lt;li>training data has 2 points&lt;/li>
 &lt;li>testing has 8&lt;/li>
-&lt;li>SSR = 0 for training, for testing is high
-&lt;ul>
+&lt;li>SSR = 0 for training, for testing is high&lt;/li>
 &lt;li>high varience (overfit to training)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Main idea behind ridge regression is to find a new line that doesn&amp;rsquo;t fit the training data as well
-&lt;ul>
+&lt;li>Main idea behind ridge regression is to find a new line that doesn&amp;rsquo;t fit the training data as well&lt;/li>
 &lt;li>introduce a small amount of bias&lt;/li>
 &lt;li>in return we get a significant drop in variance&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul>
 &lt;p>Example: size = intercept + slope * Weight
 Lin reg minises: SSR
@@ -1042,11 +935,8 @@ so penalty term is: lambda * (slope ^ 2 + diet difference ^ 2)&lt;/p>
 &lt;p>you cant make a line with one data point
 nor a plane with 2 data points&lt;/p>
 &lt;ul>
-&lt;li>you would need at least 10,001 data points to make an equation of 10,001 parameters,
-&lt;ul>
+&lt;li>you would need at least 10,001 data points to make an equation of 10,001 parameters,&lt;/li>
 &lt;li>sometimes that&amp;rsquo;s not possible&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>what do you do here?&lt;/li>
 &lt;/ul>
 &lt;p>use ridge regression!&lt;/p>
@@ -1092,32 +982,20 @@ There are many ways this tree can be built, but this is the most common way for 
 &lt;/ul>
 &lt;ol>
 &lt;li>Each tree starts with a single leaf, all residuals go to the leaf&lt;/li>
-&lt;li>Calculate a quality score or similarity score for the residuals
-&lt;ol>
+&lt;li>Calculate a quality score or similarity score for the residuals&lt;/li>
 &lt;li>Similarity score = SSR / (num residuals + $\lambda$)&lt;/li>
 &lt;li>This similarity score is a simplification of second order Taylor approximation of the loss function described in grad boost&lt;/li>
 &lt;li>Also, the lambda here will just be for L2 regularisation&lt;/li>
 &lt;li>L1 will make the sim score simplify to something different&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>Now the question is whether or not we can do a better job clustering similar residuals if we split them into two groups
-&lt;ol>
+&lt;li>Now the question is whether or not we can do a better job clustering similar residuals if we split them into two groups&lt;/li>
 &lt;li>Focus on the two points that are smallest (x-axis)&lt;/li>
 &lt;li>Get avg value&lt;/li>
 &lt;li>Make a split based off the avg value&lt;/li>
 &lt;li>Calc similarity score for both leafs&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>Now need to quanitify how much better the leaves cluster similar resdiuals than the root, do this by calculating the gain
-&lt;ol>
+&lt;li>Now need to quanitify how much better the leaves cluster similar resdiuals than the root, do this by calculating the gain&lt;/li>
 &lt;li>$gain = left_{similarity} + right_{similarity} - root_{similarity}$&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>Now shift the threshold over so that it is the avg of th next two observation
-&lt;ol>
+&lt;li>Now shift the threshold over so that it is the avg of th next two observation&lt;/li>
 &lt;li>More gain is good, is better at splitting the residuals into clusters of similar values&lt;/li>
-&lt;/ol>
-&lt;/li>
 &lt;li>Get best tree based of thresholds&lt;/li>
 &lt;li>Try to split leaves further, the root in the gain calc refers to the parent node of the leaves&lt;/li>
 &lt;li>Keep going till at max depth (default is 6)&lt;/li>
@@ -1125,18 +1003,12 @@ There are many ways this tree can be built, but this is the most common way for 
 &lt;p>How to prune this tree?&lt;/p>
 &lt;ul>
 &lt;li>Pruned based on its gain values&lt;/li>
-&lt;li>Start with a number, for example, 130
-&lt;ul>
+&lt;li>Start with a number, for example, 130&lt;/li>
 &lt;li>This is called $\gamma$ gamma&lt;/li>
-&lt;li>Then calc the difference between the gain asscociated with the lowest branch in the tree and gamma: $gain - \gamma$
-&lt;ul>
+&lt;li>Then calc the difference between the gain asscociated with the lowest branch in the tree and gamma: $gain - \gamma$&lt;/li>
 &lt;li>if the difference is positive then the branch is not removed, if it is neg then remove&lt;/li>
 &lt;li>once you find a pos difference, then stop pruning&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>This can also remove the root of the tree, leaving just the original prediction, which is pretty extreme pruning&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul>
 &lt;p>The regularization term:&lt;/p>
 &lt;ul>
@@ -1149,19 +1021,13 @@ There are many ways this tree can be built, but this is the most common way for 
 &lt;ul>
 &lt;li>This refers to the output value for each leaf&lt;/li>
 &lt;li>Pretty similar to the similarity score except it&amp;rsquo;s not SSR&lt;/li>
-&lt;li>This also means that lambda will reduce the amount a leaf will contribute to a prediction
-&lt;ul>
+&lt;li>This also means that lambda will reduce the amount a leaf will contribute to a prediction&lt;/li>
 &lt;li>So will reduce the sensistivity to an indivual observation&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul>
 &lt;p>Like with gradient boost, there is a learning rate that scales the tree&lt;/p>
 &lt;ul>
-&lt;li>XGboost calls this learning rate: $\epsilon$ (eta but this is epsilon?)
-&lt;ul>
+&lt;li>XGboost calls this learning rate: $\epsilon$ (eta but this is epsilon?)&lt;/li>
 &lt;li>Default value is 0.3&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul>
 &lt;p>So output = inital pred + learning rate * output value for the leaf that the point goes down to&lt;/p>
 &lt;p>Now build new tree based on the new residuals&lt;/p>
@@ -1205,16 +1071,10 @@ The Approximate greedy algorithm uses these approximate quantiles&lt;/p>
 &lt;ul>
 &lt;li>In contrast, with weighted quantiles, each observation has a corresponding weight&lt;/li>
 &lt;li>The sum of the weights are the same in each quantile&lt;/li>
-&lt;li>The weights are derived from the cover metric
-&lt;ul>
+&lt;li>The weights are derived from the cover metric&lt;/li>
 &lt;li>the weight for each observation is the 2nd derivative of the loss function, what we are referring to as the Hessian (not Gradient)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>This means for regression the weights are all equal to 1
-&lt;ul>
+&lt;li>This means for regression the weights are all equal to 1&lt;/li>
 &lt;li>This means that the the weighted quantiles are just like normal quantiles and contain an equal number of observations&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;li>In constrast, for classification: weight = previous prob i * (1- previous prob i)&lt;/li>
 &lt;/ul>
 &lt;p>Only uses the approx greedy algo, parallel learning and the weighted quantile sketch then the training data is huge&lt;/p>
@@ -1243,14 +1103,11 @@ You then pick the tree with highest gain&lt;/p>
 &lt;p>This is where XGBoost starts to get super nitty gritty&lt;/p>
 &lt;p>Basic idea:&lt;/p>
 &lt;ul>
-&lt;li>Inside computer we have:
-&lt;ul>
+&lt;li>Inside computer we have:&lt;/li>
 &lt;li>CPU&lt;/li>
 &lt;li>CPU has a small amount of cache memory &amp;ndash; CPU can use this mem faster than any other memory on the computer&lt;/li>
 &lt;li>CPU attatched to large amount of main memory, larger but slower than cache&lt;/li>
 &lt;li>HDD, very slow but largest&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul>
 &lt;p>XGBoost puts the gradients and Hessians in the cache, so that is can rapdily calculate similarity scores and output scores&lt;/p>
 &lt;h2 id="blocks-for-out-of-core-computation">Blocks for Out-of-Core Computation&lt;/h2>
@@ -1360,16 +1217,10 @@ Use the ли particle, usually added after the verb With the verb to be (съм)
 имам нямам I аз имам нямам you ти имаш нямаш he/she/it той/тя/то има няма we ние имаме нямаме you вие имате нямате they те имат нямат This is the standard example of conjugation of verbs of the 3rd group.</description><content>&lt;h2 id="to-have-or-not-to-have">To Have Or Not To Have&lt;/h2>
 &lt;ul>
 &lt;li>Имам is the verb &amp;rsquo;to have'&lt;/li>
-&lt;li>Usually a verb can be negated using the не particle
-&lt;ul>
-&lt;li>In the case of имам there is a specific verb: нямам
-&lt;ul>
+&lt;li>Usually a verb can be negated using the не particle&lt;/li>
+&lt;li>In the case of имам there is a specific verb: нямам&lt;/li>
 &lt;li>Имам котка - I have a cat&lt;/li>
 &lt;li>Иямам котка - I don&amp;rsquo;t have a cat&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul>
 &lt;p>Conjugation of both verbs at the present tense:&lt;/p>
 &lt;table>
@@ -1554,13 +1405,10 @@ Examples:&lt;/li>
 &lt;h3 id="neutral-words">Neutral Words&lt;/h3>
 &lt;ul>
 &lt;li>The final о is replaced by а&lt;/li>
-&lt;li>The final e and for loan words, an extra та is added to the end:
-&lt;ul>
+&lt;li>The final e and for loan words, an extra та is added to the end:&lt;/li>
 &lt;li>Село - Села&lt;/li>
 &lt;li>Кафе - Кафета&lt;/li>
 &lt;li>Такси - Таксита&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul>
 &lt;h2 id="references">References&lt;/h2></content></item><item><title>Bulgarian Negation</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-negation/</link><pubDate>Wed, 15 Feb 2023 18:17:47 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-negation/</guid><description>Negation &amp;ldquo;Не&amp;rdquo; means no and it can be used to negate a sentence:
 &amp;ldquo;Ана не е мъж&amp;rdquo; - Ana is not a man References</description><content>&lt;h2 id="negation">Negation&lt;/h2>
@@ -1665,12 +1513,9 @@ Definite Indefinite There is no definite article in Bulgarian: &amp;ldquo;жен
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/definite-article/">Definite&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/indefinite-article/">Indefinite&lt;/a>
 There is no &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/definite-article/">definite article&lt;/a> in Bulgarian:&lt;/li>
-&lt;li>&amp;ldquo;жена&amp;rdquo; and &amp;ldquo;куче&amp;rdquo; are used alone to refer to &amp;ldquo;a woman&amp;rdquo; and &amp;ldquo;a dog&amp;rdquo;:
-&lt;ul>
+&lt;li>&amp;ldquo;жена&amp;rdquo; and &amp;ldquo;куче&amp;rdquo; are used alone to refer to &amp;ldquo;a woman&amp;rdquo; and &amp;ldquo;a dog&amp;rdquo;:&lt;/li>
 &lt;li>&amp;ldquo;Ту е жена&amp;rdquo; - She is a woman&lt;/li>
 &lt;li>&amp;ldquo;Аз имам куче&amp;rdquo; - I have a dog&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul>
 &lt;h2 id="references">References&lt;/h2></content></item><item><title>Adjective</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/adjective/</link><pubDate>Sun, 29 Jan 2023 21:09:11 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/adjective/</guid><description>Adjectives are words that describe the qualities or states of being of nouns. Examples:
 Rob wore a beautiful hat.
