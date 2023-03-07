@@ -135,7 +135,7 @@
         {
             "id": "Bulgarian Verbs",
             "description": "Bulgarian Verbs",
-            "group": "Language",
+            "group": "Bulgarian",
             "node_size": 0.1
         },
         {
@@ -153,7 +153,7 @@
         {
             "id": "Bulgarian Masculine Definite Articles",
             "description": "Bulgarian Masculine Definite Articles",
-            "group": "Language",
+            "group": "Bulgarian",
             "node_size": 0.1
         },
         {
@@ -177,7 +177,7 @@
         {
             "id": "Bulgarian Conjugation",
             "description": "Bulgarian Conjugation",
-            "group": "Language",
+            "group": "Bulgarian",
             "node_size": 0.1
         },
         {
@@ -207,7 +207,7 @@
         {
             "id": "Bulgarian Definite Articles",
             "description": "Bulgarian Definite Articles",
-            "group": "Language",
+            "group": "Bulgarian",
             "node_size": 0.10344827586206896
         },
         {
@@ -318,11 +318,11 @@
         },
         {
             "source": "Bulgarian Generalising Statements",
-            "target": "Language"
+            "target": "Bulgarian Definite Articles"
         },
         {
             "source": "Bulgarian Generalising Statements",
-            "target": "Bulgarian Definite Articles"
+            "target": "Language"
         },
         {
             "source": "Bulgarian Generalising Statements",
@@ -370,15 +370,19 @@
         },
         {
             "source": "Bulgarian Animals Exceptions",
-            "target": "Language"
-        },
-        {
-            "source": "Bulgarian Animals Exceptions",
             "target": "Bulgarian Definite Articles"
         },
         {
             "source": "Bulgarian Animals Exceptions",
+            "target": "Language"
+        },
+        {
+            "source": "Bulgarian Animals Exceptions",
             "target": "Bulgarian"
+        },
+        {
+            "source": "Adverb",
+            "target": "Adjective"
         },
         {
             "source": "Adverb",
@@ -387,10 +391,6 @@
         {
             "source": "Adverb",
             "target": "Verb"
-        },
-        {
-            "source": "Adverb",
-            "target": "Adjective"
         },
         {
             "source": "Verb",
@@ -446,27 +446,15 @@
         },
         {
             "source": "Bulgarian Animals",
-            "target": "Bulgarian Animals Exceptions"
+            "target": "Bulgarian"
         },
         {
             "source": "Bulgarian Animals",
-            "target": "Bulgarian"
+            "target": "Bulgarian Animals Exceptions"
         },
         {
             "source": "Mermaid Mindmap",
             "target": "Mermaid"
-        },
-        {
-            "source": "Bulgarian Verbs",
-            "target": "Language"
-        },
-        {
-            "source": "Bulgarian Verbs",
-            "target": "Bulgarian Starting Sentences with a Present Form"
-        },
-        {
-            "source": "Bulgarian Verbs",
-            "target": "Verb"
         },
         {
             "source": "Bulgarian Verbs",
@@ -478,6 +466,18 @@
         },
         {
             "source": "Bulgarian Verbs",
+            "target": "Language"
+        },
+        {
+            "source": "Bulgarian Verbs",
+            "target": "Verb"
+        },
+        {
+            "source": "Bulgarian Verbs",
+            "target": "Bulgarian Starting Sentences with a Present Form"
+        },
+        {
+            "source": "Bulgarian Verbs",
             "target": "Citation Form"
         },
         {
@@ -486,43 +486,15 @@
         },
         {
             "source": "Bulgarian Spider Plural",
-            "target": "Language"
-        },
-        {
-            "source": "Bulgarian Spider Plural",
             "target": "Numeral Plural"
         },
         {
             "source": "Bulgarian Spider Plural",
+            "target": "Language"
+        },
+        {
+            "source": "Bulgarian Spider Plural",
             "target": "Bulgarian"
-        },
-        {
-            "source": "Mermaid",
-            "target": "Programming"
-        },
-        {
-            "source": "Mermaid",
-            "target": "Mermaid Gantt Chart"
-        },
-        {
-            "source": "Mermaid",
-            "target": "Mermaid State Diagram"
-        },
-        {
-            "source": "Mermaid",
-            "target": "Mermaid User Journey Diagram"
-        },
-        {
-            "source": "Mermaid",
-            "target": "Mermaid Pie Chart"
-        },
-        {
-            "source": "Mermaid",
-            "target": "Mermaid Mindmap"
-        },
-        {
-            "source": "Mermaid",
-            "target": "Mermaid Entity Relationship Diagram"
         },
         {
             "source": "Mermaid",
@@ -530,11 +502,31 @@
         },
         {
             "source": "Mermaid",
-            "target": "Mermaid Class Diagram"
+            "target": "Mermaid Timeline Diagram"
         },
         {
             "source": "Mermaid",
-            "target": "Mermaid Timeline Diagram"
+            "target": "Mermaid Mindmap"
+        },
+        {
+            "source": "Mermaid",
+            "target": "Mermaid User Journey Diagram"
+        },
+        {
+            "source": "Mermaid",
+            "target": "Mermaid Gantt Chart"
+        },
+        {
+            "source": "Mermaid",
+            "target": "Mermaid Flowchart"
+        },
+        {
+            "source": "Mermaid",
+            "target": "Mermaid Pie Chart"
+        },
+        {
+            "source": "Mermaid",
+            "target": "Mermaid Class Diagram"
         },
         {
             "source": "Mermaid",
@@ -542,19 +534,15 @@
         },
         {
             "source": "Mermaid",
-            "target": "Mermaid Flowchart"
+            "target": "Mermaid State Diagram"
         },
         {
-            "source": "Bulgarian Masculine Definite Articles",
-            "target": "Language"
+            "source": "Mermaid",
+            "target": "Programming"
         },
         {
-            "source": "Bulgarian Masculine Definite Articles",
-            "target": "Bulgarian"
-        },
-        {
-            "source": "Bulgarian Masculine Definite Articles",
-            "target": "Definite Article"
+            "source": "Mermaid",
+            "target": "Mermaid Entity Relationship Diagram"
         },
         {
             "source": "Bulgarian Masculine Definite Articles",
@@ -562,11 +550,23 @@
         },
         {
             "source": "Bulgarian Masculine Definite Articles",
+            "target": "Bulgarian"
+        },
+        {
+            "source": "Bulgarian Masculine Definite Articles",
+            "target": "Language"
+        },
+        {
+            "source": "Bulgarian Masculine Definite Articles",
             "target": "Bulgarian Articles"
         },
         {
+            "source": "Bulgarian Masculine Definite Articles",
+            "target": "Definite Article"
+        },
+        {
             "source": "Noun",
-            "target": "Language"
+            "target": "Adjective"
         },
         {
             "source": "Noun",
@@ -574,7 +574,7 @@
         },
         {
             "source": "Noun",
-            "target": "Adjective"
+            "target": "Language"
         },
         {
             "source": "Bulgarian Negation",
@@ -594,19 +594,19 @@
         },
         {
             "source": "Bulgarian Conjugation",
-            "target": "Language"
-        },
-        {
-            "source": "Bulgarian Conjugation",
-            "target": "Verb"
-        },
-        {
-            "source": "Bulgarian Conjugation",
             "target": "Conjugation"
         },
         {
             "source": "Bulgarian Conjugation",
             "target": "Bulgarian"
+        },
+        {
+            "source": "Bulgarian Conjugation",
+            "target": "Language"
+        },
+        {
+            "source": "Bulgarian Conjugation",
+            "target": "Verb"
         },
         {
             "source": "Definite Article",
@@ -622,11 +622,11 @@
         },
         {
             "source": "Bulgarian There Is",
-            "target": "Verb"
+            "target": "Bulgarian"
         },
         {
             "source": "Bulgarian There Is",
-            "target": "Bulgarian"
+            "target": "Verb"
         },
         {
             "source": "Mermaid Class Diagram",
@@ -638,6 +638,10 @@
         },
         {
             "source": "Bulgarian Definite Articles",
+            "target": "Bulgarian"
+        },
+        {
+            "source": "Bulgarian Definite Articles",
             "target": "Language"
         },
         {
@@ -646,15 +650,11 @@
         },
         {
             "source": "Bulgarian Definite Articles",
-            "target": "Bulgarian"
+            "target": "Bulgarian Articles"
         },
         {
             "source": "Bulgarian Definite Articles",
             "target": "Definite Article"
-        },
-        {
-            "source": "Bulgarian Definite Articles",
-            "target": "Bulgarian Articles"
         },
         {
             "source": "Bulgarian To Be",
@@ -662,11 +662,11 @@
         },
         {
             "source": "Bulgarian To Be",
-            "target": "Verb"
+            "target": "Bulgarian"
         },
         {
             "source": "Bulgarian To Be",
-            "target": "Bulgarian"
+            "target": "Verb"
         },
         {
             "source": "Bulgarian Starting Sentences with a Present Form",
@@ -686,11 +686,11 @@
         },
         {
             "source": "Citation Form",
-            "target": "Verb"
+            "target": "Bulgarian"
         },
         {
             "source": "Citation Form",
-            "target": "Bulgarian"
+            "target": "Verb"
         },
         {
             "source": "Adjective",
@@ -706,10 +706,6 @@
         },
         {
             "source": "Bulgarian Animals Masculine Plurals",
-            "target": "Bulgarian Spider Plural"
-        },
-        {
-            "source": "Bulgarian Animals Masculine Plurals",
             "target": "Bulgarian Animals"
         },
         {
@@ -719,6 +715,10 @@
         {
             "source": "Bulgarian Animals Masculine Plurals",
             "target": "Bulgarian"
+        },
+        {
+            "source": "Bulgarian Animals Masculine Plurals",
+            "target": "Bulgarian Spider Plural"
         },
         {
             "source": "Machine Learning Bias",
@@ -742,19 +742,19 @@
         },
         {
             "source": "Bulgarian Articles",
-            "target": "Language"
-        },
-        {
-            "source": "Bulgarian Articles",
-            "target": "Definite Article"
-        },
-        {
-            "source": "Bulgarian Articles",
             "target": "Indefinite Article"
         },
         {
             "source": "Bulgarian Articles",
+            "target": "Language"
+        },
+        {
+            "source": "Bulgarian Articles",
             "target": "Bulgarian"
+        },
+        {
+            "source": "Bulgarian Articles",
+            "target": "Definite Article"
         },
         {
             "source": "Mermaid Timeline Diagram",
@@ -770,11 +770,11 @@
         },
         {
             "source": "Bulgarian To Have Or Not To Have",
-            "target": "Verb"
+            "target": "Bulgarian"
         },
         {
             "source": "Bulgarian To Have Or Not To Have",
-            "target": "Bulgarian"
+            "target": "Verb"
         },
         {
             "source": "Bulgarian Closed Questions",
@@ -782,11 +782,11 @@
         },
         {
             "source": "Bulgarian Closed Questions",
-            "target": "Verb"
+            "target": "Bulgarian"
         },
         {
             "source": "Bulgarian Closed Questions",
-            "target": "Bulgarian"
+            "target": "Verb"
         }
     ]
 }

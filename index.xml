@@ -1661,7 +1661,35 @@ References</description><content>&lt;p>A definite article refers to a specific &
 &lt;p>I lent my sister &lt;strong>the&lt;/strong> book when I finished reading it.&lt;/p>
 &lt;p>I didn&amp;rsquo;t go to the &lt;strong>the&lt;/strong> party.&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="references">References&lt;/h2></content></item><item><title>Test Post</title><link>https://www.okwilkins.dev/posts/test-post/</link><pubDate>Mon, 15 Aug 2022 17:27:15 +0100</pubDate><guid>https://www.okwilkins.dev/posts/test-post/</guid><description>This Is My First Post!</description><content>&lt;h1 id="this-is-my-first-post">This Is My First Post!&lt;/h1></content></item><item><title>About Me</title><link>https://www.okwilkins.dev/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/about/</guid><description>Hi 👋, I&amp;rsquo;m Oli, a passionate data scientist from England!</description><content>&lt;p>Hi 👋, I&amp;rsquo;m Oli, a passionate data scientist from England!&lt;/p></content></item><item><title>Bulgarian</title><link>https://www.okwilkins.dev/knowledge-system/map-of-content/bulgarian/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/map-of-content/bulgarian/</guid><description>Bulgarian Animals Exceptions Bulgarian Animals Masculine Plurals Bulgarian Spider Plural Bulgarian Animals Bulgarian Articles Bulgarian Closed Questions Bulgarian Conjugation Bulgarian Counting To 10 Bulgarian Definite Articles Bulgarian Generalising Statements Bulgarian Grammatical Gender Bulgarian Masculine Definite Articles Bulgarian Negation Bulgarian Starting Sentences with a Present Form Bulgarian There Is Bulgarian To Be Bulgarian To Have Or Not To Have Bulgarian Verbs Citation Form Numeral Plural</description><content>&lt;p>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-animals-exceptions/">Bulgarian Animals Exceptions&lt;/a>
+&lt;h2 id="references">References&lt;/h2></content></item><item><title>About Me</title><link>https://www.okwilkins.dev/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/about/</guid><description>Hi 👋, I&amp;rsquo;m Oli! I am:
+An enthusiastic data scientist with principled engineering skills. Passionate for solving complex problems with data analytics and modelling. Experienced in end-to-end data product delivery, business intelligence and promoting data culture. Contact Email: okwilkins@gmail.com Linkedin: linkedin.com/in/oliwilkins Github: github.com/okwilkins Kaggle: Oliver Wilkins Skills Python (Matplotlib, Pandas, NumPy, Scikit-Learn) SQL (BigQuery, T-SQL) Git, Github, Github Actions Looker, PowerBI Azure, Google Cloud Platform Productionising Models Experience 2021 - now: Data Scientist - Laing O&amp;rsquo;Rourke 2020 - 2021: Junior Data Scientist - Faceit 2018 - 2020: Freelance Data Scientist whilst at univesity and after</description><content>&lt;p>Hi 👋, I&amp;rsquo;m Oli! I am:&lt;/p>
+&lt;ul>
+&lt;li>An enthusiastic data scientist with principled engineering skills.&lt;/li>
+&lt;li>Passionate for solving complex problems with data analytics and modelling.&lt;/li>
+&lt;li>Experienced in end-to-end data product delivery, business intelligence and promoting data culture.&lt;/li>
+&lt;/ul>
+&lt;h2 id="contact">Contact&lt;/h2>
+&lt;ul>
+&lt;li>Email: &lt;a href="mailto:okwilkins@gmail.com">okwilkins@gmail.com&lt;/a>&lt;/li>
+&lt;li>Linkedin: &lt;a href="https://www.linkedin.com/in/oliwilkins">linkedin.com/in/oliwilkins&lt;/a>&lt;/li>
+&lt;li>Github: &lt;a href="https://github.com/okwilkins">github.com/okwilkins&lt;/a>&lt;/li>
+&lt;li>Kaggle: &lt;a href="https://www.kaggle.com/homelesssandwich">Oliver Wilkins&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;ul>
+&lt;li>Python (Matplotlib, Pandas, NumPy, Scikit-Learn)&lt;/li>
+&lt;li>SQL (BigQuery, T-SQL)&lt;/li>
+&lt;li>Git, Github, Github Actions&lt;/li>
+&lt;li>Looker, PowerBI&lt;/li>
+&lt;li>Azure, Google Cloud Platform&lt;/li>
+&lt;li>Productionising Models&lt;/li>
+&lt;/ul>
+&lt;h2 id="experience">Experience&lt;/h2>
+&lt;ul>
+&lt;li>2021 - now: Data Scientist - Laing O&amp;rsquo;Rourke&lt;/li>
+&lt;li>2020 - 2021: Junior Data Scientist - Faceit&lt;/li>
+&lt;li>2018 - 2020: Freelance Data Scientist whilst at univesity and after&lt;/li>
+&lt;/ul></content></item><item><title>Bulgarian</title><link>https://www.okwilkins.dev/knowledge-system/map-of-content/bulgarian/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/map-of-content/bulgarian/</guid><description>Bulgarian Animals Exceptions Bulgarian Animals Masculine Plurals Bulgarian Spider Plural Bulgarian Animals Bulgarian Articles Bulgarian Closed Questions Bulgarian Conjugation Bulgarian Counting To 10 Bulgarian Definite Articles Bulgarian Generalising Statements Bulgarian Grammatical Gender Bulgarian Masculine Definite Articles Bulgarian Negation Bulgarian Starting Sentences with a Present Form Bulgarian There Is Bulgarian To Be Bulgarian To Have Or Not To Have Bulgarian Verbs Citation Form Numeral Plural</description><content>&lt;p>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-animals-exceptions/">Bulgarian Animals Exceptions&lt;/a>
 &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-animals-masculine-plurals/">Bulgarian Animals Masculine Plurals&lt;/a>
 &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-spider-plural/">Bulgarian Spider Plural&lt;/a>
 &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-animals/">Bulgarian Animals&lt;/a>
