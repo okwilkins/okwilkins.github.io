@@ -485,7 +485,65 @@ A --> |False| C[Loves the song]
 &lt;/div>
 &lt;h2 id="references">References&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/statquest-with-josh-starmer/">StatQuest with Josh Starmer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/statquest-with-josh-starmer/#decision-trees">StatQuest with Josh Starmer &amp;gt; Decision Trees&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Building The Root Node Of A Decision Tree With Numerical Features</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/building-the-root-node-of-a-decision-tree-with-numerical-features/</link><pubDate>Mon, 27 Feb 2023 11:57:32 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/building-the-root-node-of-a-decision-tree-with-numerical-features/</guid><description>To generate potential nodes for the root, first each numerical feature is ordered lowest to highest. The average based off the current row and the row below is also calculated.
+Age Height Average for Age Average for Height 5 100 7.5 125 10 150 15 175 20 200 - - Then each root can be generated like so:
+flowchart TD A[Age &lt; 7.5\nGini impurity: 0.32] A --> |True| B[Loves the song] A --> |False| C[Deos not love the song] flowchart TD A[Age &lt; 15\nGini impurity: 0.</description><content>&lt;p>To generate potential nodes for the root, first each numerical feature is ordered lowest to highest. The average based off the current row and the row below is also calculated.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Age&lt;/th>
+&lt;th>Height&lt;/th>
+&lt;th>Average for Age&lt;/th>
+&lt;th>Average for Height&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>100&lt;/td>
+&lt;td>7.5&lt;/td>
+&lt;td>125&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10&lt;/td>
+&lt;td>150&lt;/td>
+&lt;td>15&lt;/td>
+&lt;td>175&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>20&lt;/td>
+&lt;td>200&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Then each root can be generated like so:&lt;/p>
+&lt;div class="mermaid">flowchart TD
+A[Age &lt; 7.5\nGini impurity: 0.32]
+A --> |True| B[Loves the song]
+A --> |False| C[Deos not love the song]
+&lt;/div>
+&lt;div class="mermaid">flowchart TD
+A[Age &lt; 15\nGini impurity: 0.2]
+A --> |True| B[Loves the song]
+A --> |False| C[Deos not love the song]
+&lt;/div>
+&lt;div class="mermaid">flowchart TD
+A[Height &lt; 125\nGini impurity: 0.48]
+A --> |True| B[Loves the song]
+A --> |False| C[Deos not love the song]
+&lt;/div>
+&lt;div class="mermaid">flowchart TD
+A[Height &lt; 175\nGini impurity: 0.41]
+A --> |True| B[Loves the song]
+A --> |False| C[Deos not love the song]
+&lt;/div>
+&lt;p>The root with the lowest gini impurity can then be selected. In this case, it would be &lt;code>age &amp;lt; 15&lt;/code>.&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/statquest-with-josh-starmer/#decision-trees">StatQuest with Josh Starmer &amp;gt; Decision Trees&lt;/a>&lt;/li>
 &lt;/ul></content></item><item><title>Decision Tree Gini Impurity</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/decision-tree-gini-impurity/</link><pubDate>Mon, 27 Feb 2023 11:57:32 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/decision-tree-gini-impurity/</guid><description>The total gini impurity of a tree is the weighted average of gini impurities (weighted on samples) of the leaves. These leaves are weighted as they may not represent the same number of samples.
 Example:
 flowchart TD A[Loves popcorn] C[Does not love the song\nSamples: 100\nGini impurity: 0.3] D[Loves cats] E[Loves the song\nSamples: 50\nGini impurity: 0.1] F[Does not love the song\nSamples: 10\nGini impurity: 0.5] A --> |True| D A --> |False| C D --> |True| E D --> |False| F $\text{total gini impurity} = \frac{100}{160}\times0.</description><content>&lt;p>The total &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/decision-tree-gini-impurity/">gini impurity&lt;/a> of a tree is the weighted average of gini impurities (weighted on samples) of the leaves. These leaves are weighted as they may not represent the same number of samples.&lt;/p>
@@ -547,7 +605,31 @@ A[Loves popcorn]
 A --> |True| B[Loves the song\nCorrect predictions: 100\nIncorrect predictions: 0\nGini impurity: 0]
 A --> |False| C[Deos not love the song\nCorrect predictions: 50\nIncorrect predictions: 50\nGini impurity: 0.5]
 &lt;/div>
-&lt;h2 id="references">References&lt;/h2></content></item><item><title>Splitting A Leaf Of A Decision Tree</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/splitting-a-leaf-of-a-decision-tree/</link><pubDate>Mon, 27 Feb 2023 11:57:32 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/splitting-a-leaf-of-a-decision-tree/</guid><description>A leaf can be split by comparing features and if they reduce the gini impurity of a branch. The feature generates the lowest gini impurity for that branch is chosen.
+&lt;h2 id="references">References&lt;/h2></content></item><item><title>Preventing Decision Tree Overfitting</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/preventing-decision-tree-overfitting/</link><pubDate>Mon, 27 Feb 2023 11:57:32 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/preventing-decision-tree-overfitting/</guid><description>When splitting a decision tree, the number of samples that the leaves on a branch can possess can become quite low. This can make it hard to be sure that the leaf will do a good job of making good predictions.
+This can be dealt with by:
+Pruning Putting limits on how trees grow by setting a threshold of the number of samples required to split a leaf Example:
+flowchart TD A[Loves popcorn\nSamples: 100] C[Does not love the song\nSamples: 80] D[Loves cats\nSamples: 20] E[Loves the song\nSamples: 19] F[Does not love the song\nSamples: 1] A --> |True| D A --> |False| C D --> |True| E D --> |False| F References StatQuest with Josh Starmer &amp;gt; Decision Trees</description><content>&lt;p>When splitting a decision tree, the number of samples that the leaves on a branch can possess can become quite low. This can make it hard to be sure that the leaf will do a good job of making good predictions.&lt;/p>
+&lt;p>This can be dealt with by:&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>Pruning&lt;/em>&lt;/li>
+&lt;li>Putting limits on how &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/splitting-a-leaf-of-a-decision-tree/">trees grow&lt;/a> by setting a threshold of the number of samples required to split a leaf&lt;/li>
+&lt;/ul>
+&lt;p>Example:&lt;/p>
+&lt;div class="mermaid">flowchart TD
+A[Loves popcorn\nSamples: 100]
+C[Does not love the song\nSamples: 80]
+D[Loves cats\nSamples: 20]
+E[Loves the song\nSamples: 19]
+F[Does not love the song\nSamples: 1]
+A --> |True| D
+A --> |False| C
+D --> |True| E
+D --> |False| F
+&lt;/div>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/statquest-with-josh-starmer/#decision-trees">StatQuest with Josh Starmer &amp;gt; Decision Trees&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Splitting A Leaf Of A Decision Tree</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/splitting-a-leaf-of-a-decision-tree/</link><pubDate>Mon, 27 Feb 2023 11:57:32 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/splitting-a-leaf-of-a-decision-tree/</guid><description>A leaf can be split by comparing features and if they reduce the gini impurity of a branch. The feature generates the lowest gini impurity for that branch is chosen.
 Example:
 flowchart TD A[Loves popcorn] C[Does not love the song\nGini impurity: 0.3] D[Loves the song\nGini impurity: 0.48] A --> |True| C A --> |False| D Checking if splitting the right node via loves cats would reduce the branch gini impurity:</description><content>&lt;p>A leaf can be split by comparing features and if they reduce the gini impurity of a &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/decision-trees-branches-and-nodes/">branch&lt;/a>. The feature generates the lowest gini impurity for that branch is chosen.&lt;/p>
 &lt;p>Example:&lt;/p>
@@ -652,7 +734,7 @@ https://www.youtube.com/watch?v=J4Wdy0Wc_xQ AdaBoost
 https://www.youtube.com/watch?v=LsK-xG1cLYA Gradient Boosting
 https://www.youtube.com/watch?v=3CC4N4z3GJ https://www.youtube.com/watch?v=2xudPOBz-vs https://www.youtube.com/watch?v=jxuNLH5dXCs https://www.youtube.com/watch?v=StWY5QWMXCw Regularization
 https://www.youtube.com/watch?v=Q81RR3yKn30 https://www.youtube.com/watch?v=NGf0voTMlcs XGBoost
-https://www.youtube.com/watch?v=OtD8wVaFm6E https://www.youtube.com/watch?v=8b1JEDvenQU https://www.youtube.com/watch?v=ZVFeW798-2I https://www.youtube.com/watch?v=oRrKeUCEb Decision Trees Building a Tree with Gini Impurity First need to work out which feature makes the root For numeric data: sort by low to high calc avg value based of row below and current row then calc gini for each avg value this can be done e.</description><content>&lt;p>General Linear Models&lt;/p>
+https://www.youtube.com/watch?v=OtD8wVaFm6E https://www.youtube.com/watch?v=8b1JEDvenQU https://www.youtube.com/watch?v=ZVFeW798-2I https://www.youtube.com/watch?v=oRrKeUCEb Decision Trees How to Prevent Overfitting Let say that leaf only has one person, can be hard to be sure that it does a good job of making preds could overfit the data Can deal with this by: pruning can put limits on hwo trees grow by requiring 3 or more people per leaf Regression Trees use when you cant fit straight line to data to work out output of leaf, just get avg of the values that sit in the leaf building root: dosage &amp;lt; 3 &amp;ndash; 3 is avg of two values get avg of vals of &amp;lt; 3 and &amp;gt;= 3 (0 &amp;amp; 38.</description><content>&lt;p>General Linear Models&lt;/p>
 &lt;ul>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=nk2CQITm_eo">https://www.youtube.com/watch?v=nk2CQITm_eo&lt;/a>&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=zITIFTsivN8">https://www.youtube.com/watch?v=zITIFTsivN8&lt;/a>&lt;/li>
@@ -712,23 +794,6 @@ https://www.youtube.com/watch?v=OtD8wVaFm6E https://www.youtube.com/watch?v=8b1J
 &lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=oRrKeUCEb">https://www.youtube.com/watch?v=oRrKeUCEb&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h1 id="decision-trees">Decision Trees&lt;/h1>
-&lt;h2 id="building-a-tree-with-gini-impurity">Building a Tree with Gini Impurity&lt;/h2>
-&lt;ul>
-&lt;li>First need to work out which feature makes the root&lt;/li>
-&lt;li>For numeric data:&lt;/li>
-&lt;li>sort by low to high&lt;/li>
-&lt;li>calc avg value based of row below and current row&lt;/li>
-&lt;li>then calc gini for each avg value&lt;/li>
-&lt;li>this can be done e.g. avg val = 9.5&lt;/li>
-&lt;li>root: &amp;ldquo;age &amp;lt; 9.5, loves song?&amp;rdquo;&lt;/li>
-&lt;li>You then pick the root that represents num feature by the avg that = lowest gini&lt;/li>
-&lt;li>You then pick the root by selecting the feature that has lowest gini!&lt;/li>
-&lt;li>So split based off: &amp;ldquo;loves soda?&amp;rdquo;&lt;/li>
-&lt;li>Can we reduce gini of branch by splitting people that loved soda or Age &amp;lt; ??? ?&lt;/li>
-&lt;li>Calc gini for each of the two questions&lt;/li>
-&lt;li>Select lowest gini of the two: &amp;ldquo;age &amp;lt; 12.5?&amp;rdquo;&lt;/li>
-&lt;li>Can stop splitting based off if leaves are completly pure&lt;/li>
-&lt;/ul>
 &lt;h2 id="how-to-prevent-overfitting">How to Prevent Overfitting&lt;/h2>
 &lt;ul>
 &lt;li>Let say that leaf only has one person, can be hard to be sure that it does a good job of making preds&lt;/li>
@@ -1885,7 +1950,7 @@ An enthusiastic data scientist with principled engineering skills. Passionate fo
 &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-to-have-or-not-to-have/">Bulgarian To Have Or Not To Have&lt;/a>
 &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-verbs/">Bulgarian Verbs&lt;/a>
 &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/citation-form/">Citation Form&lt;/a>
-&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/numeral-plural/">Numeral Plural&lt;/a>&lt;/p></content></item><item><title>Data Science</title><link>https://www.okwilkins.dev/knowledge-system/map-of-content/data-science/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/map-of-content/data-science/</guid><description> Building the Root Node of a Decision Tree Decision Tree Gini Impurity Decision Trees Branches And Nodes Decision Trees Gini Impurity of Decision Tree Leaves Machine Learning Bias Machine Learning Variance Max and Min Gini Impurity of Decision Tree Leaves Splitting a Leaf of a Decision Tree</description><content>&lt;ul>
+&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/numeral-plural/">Numeral Plural&lt;/a>&lt;/p></content></item><item><title>Data Science</title><link>https://www.okwilkins.dev/knowledge-system/map-of-content/data-science/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/map-of-content/data-science/</guid><description> Building the Root Node of a Decision Tree Decision Tree Gini Impurity Decision Trees Branches And Nodes Decision Trees Gini Impurity of Decision Tree Leaves Machine Learning Bias Machine Learning Variance Max and Min Gini Impurity of Decision Tree Leaves Splitting a Leaf of a Decision Tree Building the Root Node of a Decision Tree With Numerical Features Preventing Decision Tree Overfitting</description><content>&lt;ul>
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/building-the-root-node-of-a-decision-tree/">Building the Root Node of a Decision Tree&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/decision-tree-gini-impurity/">Decision Tree Gini Impurity&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/decision-trees-branches-and-nodes/">Decision Trees Branches And Nodes&lt;/a>&lt;/li>
@@ -1895,6 +1960,8 @@ An enthusiastic data scientist with principled engineering skills. Passionate fo
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/machine-learning-variance/">Machine Learning Variance&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/max-and-min-gini-impurity-of-decision-tree-leaves/">Max and Min Gini Impurity of Decision Tree Leaves&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/splitting-a-leaf-of-a-decision-tree/">Splitting a Leaf of a Decision Tree&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/building-the-root-node-of-a-decision-tree-with-numerical-features/">Building the Root Node of a Decision Tree With Numerical Features&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/preventing-decision-tree-overfitting/">Preventing Decision Tree Overfitting&lt;/a>&lt;/li>
 &lt;/ul></content></item><item><title>Language</title><link>https://www.okwilkins.dev/knowledge-system/map-of-content/language/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/map-of-content/language/</guid><description>Bulgarian Animals Exceptions Bulgarian Animals Masculine Plurals Bulgarian Spider Plural Bulgarian Adjective Adverb Bulgarian Animals Bulgarian Articles Bulgarian Closed Questions Bulgarian Conjugation Bulgarian Counting To 10 Bulgarian Definite Articles Bulgarian Generalising Statements Bulgarian Grammatical Gender Bulgarian Masculine Definite Articles Bulgarian Negation Bulgarian Starting Sentences with a Present Form Bulgarian There Is Bulgarian To Be Bulgarian To Have Or Not To Have Citation Form Conjugation Definite Article Indefinite Article Infinitive Noun Numeral Plural Pronoun Verb</description><content>&lt;p>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-animals-exceptions/">Bulgarian Animals Exceptions&lt;/a>
 &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-animals-masculine-plurals/">Bulgarian Animals Masculine Plurals&lt;/a>
 &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-spider-plural/">Bulgarian Spider Plural&lt;/a>
