@@ -466,57 +466,26 @@ Sit down: 5: Me
 &lt;h2 id="references">References&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/mermaid/">Mermaid#User Journey Diagrams&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>Building The Root Node Of A Decision Tree</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/building-the-root-node-of-a-decision-tree/</link><pubDate>Mon, 27 Feb 2023 11:57:32 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/building-the-root-node-of-a-decision-tree/</guid><description>To begin making a decision tree, a feature is chosen to create the root of the tree. This root is created based off the feature that best predicts the target variable.
-flowchart TD A[Loves popcorn] A --> |True| B[Loves the song] A --> |False| C[Deos not love the song] flowchart TD A[Loves pop] A --> |True| B[Loves the song] A --> |False| C[Deos not love the song] flowchart TD A[Loves cats] A --> |True| B[Does not loves the song] A --> |False| C[Loves the song] Feature Correct Prediction Incorrect Prediction Accuracy Loves popcorn 90 10 90% Loves pop 65 35 65% Loves cats 55 45 55% Loves popcorn is chosen because it has the highest accuracy and is chosen as the root node.</description><content>&lt;p>To begin making a decision tree, a feature is chosen to create the &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/decision-trees-branches-and-nodes/">root&lt;/a> of the tree. This root is created based off the feature that best predicts the target variable.&lt;/p>
+&lt;/ul></content></item><item><title>Building The Root Node Of A Decision Tree</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/building-the-root-node-of-a-decision-tree/</link><pubDate>Mon, 27 Feb 2023 11:57:32 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/building-the-root-node-of-a-decision-tree/</guid><description>The root node of a decision tree is built via calculating the gini impurity of each root tree for each feature. The the feature that generates the lowest gini impurity is then chosen as the root.
+flowchart TD A[Loves popcorn\nGini impurity: 0.32] A --> |True| B[Loves the song] A --> |False| C[Deos not love the song] flowchart TD A[Loves pop\nGini impurity: 0.1] A --> |True| B[Loves the song] A --> |False| C[Deos not love the song] flowchart TD A[Loves cats\nGini impurity: 0.</description><content>&lt;p>The root node of a &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/decision-trees/">decision tree&lt;/a> is built via calculating the &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/decision-tree-gini-impurity/">gini impurity&lt;/a> of each root tree for each feature. The the feature that generates the lowest gini impurity is then chosen as the root.&lt;/p>
 &lt;div class="mermaid">flowchart TD
-A[Loves popcorn]
+A[Loves popcorn\nGini impurity: 0.32]
 A --> |True| B[Loves the song]
 A --> |False| C[Deos not love the song]
 &lt;/div>
 &lt;div class="mermaid">flowchart TD
-A[Loves pop]
+A[Loves pop\nGini impurity: 0.1]
 A --> |True| B[Loves the song]
 A --> |False| C[Deos not love the song]
 &lt;/div>
 &lt;div class="mermaid">flowchart TD
-A[Loves cats]
+A[Loves cats\nGini impurity: 0.48]
 A --> |True| B[Does not loves the song]
 A --> |False| C[Loves the song]
 &lt;/div>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Feature&lt;/th>
-&lt;th>Correct Prediction&lt;/th>
-&lt;th>Incorrect Prediction&lt;/th>
-&lt;th>Accuracy&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Loves popcorn&lt;/td>
-&lt;td>90&lt;/td>
-&lt;td>10&lt;/td>
-&lt;td>90%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Loves pop&lt;/td>
-&lt;td>65&lt;/td>
-&lt;td>35&lt;/td>
-&lt;td>65%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Loves cats&lt;/td>
-&lt;td>55&lt;/td>
-&lt;td>45&lt;/td>
-&lt;td>55%&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;em>Loves popcorn&lt;/em> is chosen because it has the highest accuracy and is chosen as the root node.&lt;/p>
 &lt;h2 id="references">References&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/statquest-with-josh-starmer/#decision-trees">StatQuest with Josh Starmer &amp;gt; Decision Trees&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/statquest-with-josh-starmer/">StatQuest with Josh Starmer&lt;/a>&lt;/li>
 &lt;/ul></content></item><item><title>Decision Tree Gini Impurity</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/decision-tree-gini-impurity/</link><pubDate>Mon, 27 Feb 2023 11:57:32 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/decision-tree-gini-impurity/</guid><description>The total gini impurity of a tree is the weighted average of gini impurities (weighted on samples) of the leaves. These leaves are weighted as they may not represent the same number of samples.
 Example:
 flowchart TD A[Loves popcorn] C[Does not love the song\nSamples: 100\nGini impurity: 0.3] D[Loves cats] E[Loves the song\nSamples: 50\nGini impurity: 0.1] F[Does not love the song\nSamples: 10\nGini impurity: 0.5] A --> |True| D A --> |False| C D --> |True| E D --> |False| F $\text{total gini impurity} = \frac{100}{160}\times0.</description><content>&lt;p>The total &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/decision-tree-gini-impurity/">gini impurity&lt;/a> of a tree is the weighted average of gini impurities (weighted on samples) of the leaves. These leaves are weighted as they may not represent the same number of samples.&lt;/p>
@@ -556,9 +525,9 @@ A --> |False| C[Go somewhere else then!]
 &lt;h2 id="references">References&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/statquest-with-josh-starmer/#decision-trees">StatQuest with Josh Starmer &amp;gt; Decision Trees&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>Gini Impurity Of Decision Tree Leaves</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/gini-impurity-of-decision-tree-leaves/</link><pubDate>Mon, 27 Feb 2023 11:57:32 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/gini-impurity-of-decision-tree-leaves/</guid><description>$$\text{gini impurity} = 1 - (prob_{correct}^2 - prob_{incorrect}^2)$$ The gini impurity indicates the likelihood of new data being misclassified, based off the distribution of labels of the training dataset.
+&lt;/ul></content></item><item><title>Gini Impurity Of Decision Tree Leaves</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/gini-impurity-of-decision-tree-leaves/</link><pubDate>Mon, 27 Feb 2023 11:57:32 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/gini-impurity-of-decision-tree-leaves/</guid><description>$$\text{gini impurity} = 1 - prob_{correct}^2 - prob_{incorrect}^2$$ The gini impurity indicates the likelihood of new data being misclassified, based off the distribution of labels of the training dataset.
 Example:
-flowchart TD A[Loves popcorn] A --> |True| B[Loves the song\nCorrect predictions: 80\nIncorrect predictions: 20\nGini impurity: 0.32] A --> |False| C[Deos not love the song\nCorrect predictions: 60\nIncorrect predictions: 40\nGini impurity: 0.48] References StatQuest with Josh Starmer &amp;gt; Decision Trees</description><content>&lt;p>$$\text{gini impurity} = 1 - (prob_{correct}^2 - prob_{incorrect}^2)$$
+flowchart TD A[Loves popcorn] A --> |True| B[Loves the song\nCorrect predictions: 80\nIncorrect predictions: 20\nGini impurity: 0.32] A --> |False| C[Deos not love the song\nCorrect predictions: 60\nIncorrect predictions: 40\nGini impurity: 0.48] References StatQuest with Josh Starmer &amp;gt; Decision Trees</description><content>&lt;p>$$\text{gini impurity} = 1 - prob_{correct}^2 - prob_{incorrect}^2$$
 The gini impurity indicates the likelihood of new data being misclassified, based off the distribution of labels of the training dataset.&lt;/p>
 &lt;p>Example:&lt;/p>
 &lt;div class="mermaid">flowchart TD
@@ -578,7 +547,34 @@ A[Loves popcorn]
 A --> |True| B[Loves the song\nCorrect predictions: 100\nIncorrect predictions: 0\nGini impurity: 0]
 A --> |False| C[Deos not love the song\nCorrect predictions: 50\nIncorrect predictions: 50\nGini impurity: 0.5]
 &lt;/div>
-&lt;h2 id="references">References&lt;/h2></content></item><item><title>Machine Learning Variance</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/machine-learning-variance/</link><pubDate>Mon, 27 Feb 2023 11:52:17 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/machine-learning-variance/</guid><description>The difference in how well a model fits differing datasets is called variance.
+&lt;h2 id="references">References&lt;/h2></content></item><item><title>Splitting A Leaf Of A Decision Tree</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/splitting-a-leaf-of-a-decision-tree/</link><pubDate>Mon, 27 Feb 2023 11:57:32 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/splitting-a-leaf-of-a-decision-tree/</guid><description>A leaf can be split by comparing features and if they reduce the gini impurity of a branch. The feature generates the lowest gini impurity for that branch is chosen.
+Example:
+flowchart TD A[Loves popcorn] C[Does not love the song\nGini impurity: 0.3] D[Loves the song\nGini impurity: 0.48] A --> |True| C A --> |False| D Checking if splitting the right node via loves cats would reduce the branch gini impurity:</description><content>&lt;p>A leaf can be split by comparing features and if they reduce the gini impurity of a &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/decision-trees-branches-and-nodes/">branch&lt;/a>. The feature generates the lowest gini impurity for that branch is chosen.&lt;/p>
+&lt;p>Example:&lt;/p>
+&lt;div class="mermaid">flowchart TD
+A[Loves popcorn]
+C[Does not love the song\nGini impurity: 0.3]
+D[Loves the song\nGini impurity: 0.48]
+A --> |True| C
+A --> |False| D
+&lt;/div>
+&lt;p>Checking if splitting the right node via &lt;code>loves cats&lt;/code> would reduce the branch gini impurity:&lt;/p>
+&lt;div class="mermaid">flowchart TD
+A[Loves popcorn]
+C[Does not love the song\nGini impurity: 0.3]
+D[Loves cats\nGini impurity originally: 0.48\nGini impurity of branch: 0.42]
+E[Loves the song\nSamples: 50\nGini impurity: 0.4]
+F[Does not love the song\nSamples: 10\nGini impurity: 0.5]
+A --> |True| D
+A --> |False| C
+D --> |True| E
+D --> |False| F
+&lt;/div>
+&lt;p>The node would be split into a branch as the gini impurity of the branch is lower.&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/statquest-with-josh-starmer/#decision-trees">StatQuest with Josh Starmer &amp;gt; Decision Trees&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Machine Learning Variance</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/machine-learning-variance/</link><pubDate>Mon, 27 Feb 2023 11:52:17 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/machine-learning-variance/</guid><description>The difference in how well a model fits differing datasets is called variance.
 References StatQuest with Josh Starmer &amp;gt; Variance</description><content>&lt;p>The difference in how well a model fits differing datasets is called &lt;em>&lt;strong>variance&lt;/strong>&lt;/em>.&lt;/p>
 &lt;h2 id="references">References&lt;/h2>
 &lt;ul>
@@ -1841,7 +1837,7 @@ References</description><content>&lt;p>A definite article refers to a specific &
 &lt;p>I lent my sister &lt;strong>the&lt;/strong> book when I finished reading it.&lt;/p>
 &lt;p>I didn&amp;rsquo;t go to the &lt;strong>the&lt;/strong> party.&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="references">References&lt;/h2></content></item><item><title/><link>https://www.okwilkins.dev/knowledge-system/references/learn-datasci/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/references/learn-datasci/</guid><description/><content/></item><item><title>About Me</title><link>https://www.okwilkins.dev/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/about/</guid><description>Hi 👋, I&amp;rsquo;m Oli! I am:
+&lt;h2 id="references">References&lt;/h2></content></item><item><title>About Me</title><link>https://www.okwilkins.dev/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/about/</guid><description>Hi 👋, I&amp;rsquo;m Oli! I am:
 An enthusiastic data scientist with principled engineering skills. Passionate for solving complex problems with data analytics and modelling. Experienced in end-to-end data product delivery, business intelligence and promoting data culture. Based in London. Contact Email: okwilkins@gmail.com Linkedin: linkedin.com/in/oliwilkins Github: github.com/okwilkins Kaggle: Oliver Wilkins Skills Python (Matplotlib, Pandas, NumPy, Scikit-Learn) SQL (BigQuery, T-SQL) Git, Github, Github Actions Looker, PowerBI Azure, Google Cloud Platform Productionising Models Experience 2021 - now: Data Scientist - Laing O&amp;rsquo;Rourke 2020 - 2021: Junior Data Scientist - Faceit 2018 - 2020: Freelance Data Scientist whilst at univesity and after</description><content>&lt;p>Hi 👋, I&amp;rsquo;m Oli! I am:&lt;/p>
 &lt;ul>
 &lt;li>An enthusiastic data scientist with principled engineering skills.&lt;/li>
@@ -1889,9 +1885,17 @@ An enthusiastic data scientist with principled engineering skills. Passionate fo
 &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-to-have-or-not-to-have/">Bulgarian To Have Or Not To Have&lt;/a>
 &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-verbs/">Bulgarian Verbs&lt;/a>
 &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/citation-form/">Citation Form&lt;/a>
-&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/numeral-plural/">Numeral Plural&lt;/a>&lt;/p></content></item><item><title>Data Science</title><link>https://www.okwilkins.dev/knowledge-system/map-of-content/data-science/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/map-of-content/data-science/</guid><description>Decision Trees Machine Learning Bias Machine Learning Variance</description><content>&lt;p>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/decision-trees/">Decision Trees&lt;/a>
-&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/machine-learning-bias/">Machine Learning Bias&lt;/a>
-&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/machine-learning-variance/">Machine Learning Variance&lt;/a>&lt;/p></content></item><item><title>Language</title><link>https://www.okwilkins.dev/knowledge-system/map-of-content/language/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/map-of-content/language/</guid><description>Bulgarian Animals Exceptions Bulgarian Animals Masculine Plurals Bulgarian Spider Plural Bulgarian Adjective Adverb Bulgarian Animals Bulgarian Articles Bulgarian Closed Questions Bulgarian Conjugation Bulgarian Counting To 10 Bulgarian Definite Articles Bulgarian Generalising Statements Bulgarian Grammatical Gender Bulgarian Masculine Definite Articles Bulgarian Negation Bulgarian Starting Sentences with a Present Form Bulgarian There Is Bulgarian To Be Bulgarian To Have Or Not To Have Citation Form Conjugation Definite Article Indefinite Article Infinitive Noun Numeral Plural Pronoun Verb</description><content>&lt;p>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-animals-exceptions/">Bulgarian Animals Exceptions&lt;/a>
+&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/numeral-plural/">Numeral Plural&lt;/a>&lt;/p></content></item><item><title>Data Science</title><link>https://www.okwilkins.dev/knowledge-system/map-of-content/data-science/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/map-of-content/data-science/</guid><description> Building the Root Node of a Decision Tree Decision Tree Gini Impurity Decision Trees Branches And Nodes Decision Trees Gini Impurity of Decision Tree Leaves Machine Learning Bias Machine Learning Variance Max and Min Gini Impurity of Decision Tree Leaves Splitting a Leaf of a Decision Tree</description><content>&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/building-the-root-node-of-a-decision-tree/">Building the Root Node of a Decision Tree&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/decision-tree-gini-impurity/">Decision Tree Gini Impurity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/decision-trees-branches-and-nodes/">Decision Trees Branches And Nodes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/decision-trees/">Decision Trees&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/gini-impurity-of-decision-tree-leaves/">Gini Impurity of Decision Tree Leaves&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/machine-learning-bias/">Machine Learning Bias&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/machine-learning-variance/">Machine Learning Variance&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/max-and-min-gini-impurity-of-decision-tree-leaves/">Max and Min Gini Impurity of Decision Tree Leaves&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/splitting-a-leaf-of-a-decision-tree/">Splitting a Leaf of a Decision Tree&lt;/a>&lt;/li>
+&lt;/ul></content></item><item><title>Language</title><link>https://www.okwilkins.dev/knowledge-system/map-of-content/language/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/map-of-content/language/</guid><description>Bulgarian Animals Exceptions Bulgarian Animals Masculine Plurals Bulgarian Spider Plural Bulgarian Adjective Adverb Bulgarian Animals Bulgarian Articles Bulgarian Closed Questions Bulgarian Conjugation Bulgarian Counting To 10 Bulgarian Definite Articles Bulgarian Generalising Statements Bulgarian Grammatical Gender Bulgarian Masculine Definite Articles Bulgarian Negation Bulgarian Starting Sentences with a Present Form Bulgarian There Is Bulgarian To Be Bulgarian To Have Or Not To Have Citation Form Conjugation Definite Article Indefinite Article Infinitive Noun Numeral Plural Pronoun Verb</description><content>&lt;p>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-animals-exceptions/">Bulgarian Animals Exceptions&lt;/a>
 &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-animals-masculine-plurals/">Bulgarian Animals Masculine Plurals&lt;/a>
 &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-spider-plural/">Bulgarian Spider Plural&lt;/a>
 &lt;a href="https://www.okwilkins.dev/knowledge-system/map-of-content/bulgarian/">Bulgarian&lt;/a>
