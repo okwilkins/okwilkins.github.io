@@ -564,7 +564,7 @@ https://www.youtube.com/watch?v=J4Wdy0Wc_xQ AdaBoost
 https://www.youtube.com/watch?v=LsK-xG1cLYA Gradient Boosting
 https://www.youtube.com/watch?v=3CC4N4z3GJ https://www.youtube.com/watch?v=2xudPOBz-vs https://www.youtube.com/watch?v=jxuNLH5dXCs https://www.youtube.com/watch?v=StWY5QWMXCw Regularization
 https://www.youtube.com/watch?v=Q81RR3yKn30 https://www.youtube.com/watch?v=NGf0voTMlcs XGBoost
-https://www.youtube.com/watch?v=OtD8wVaFm6E https://www.youtube.com/watch?v=8b1JEDvenQU https://www.youtube.com/watch?v=ZVFeW798-2I https://www.youtube.com/watch?v=oRrKeUCEb Decision Trees Building a Tree with Gini Impurity First need to work out which feature makes the root do this based off which best predicts target var do this by making tree based off only &amp;ldquo;loves popcorn&amp;rdquo; to predict &amp;ldquo;Loves Song&amp;rdquo; If a leaf contains a mixture of correct AND incorrect predictions, then they are IMPURE To quantify the impurity of leaves you can use: Gini Impurity, Entropy, and Information Gain Gini Impurity for a leaf = 1 - (prob(&amp;ldquo;yes&amp;rdquo;) ^ 2 - prob(&amp;ldquo;no&amp;rdquo;) ^ 2) to work out toal gini impurity fpr the simple tree: = weigthed avg of gini impurities weigthed because a leaf may not represent the same number of people eg &amp;ldquo;loves popcorn?</description><content>&lt;p>General Linear Models&lt;/p>
+https://www.youtube.com/watch?v=OtD8wVaFm6E https://www.youtube.com/watch?v=8b1JEDvenQU https://www.youtube.com/watch?v=ZVFeW798-2I https://www.youtube.com/watch?v=oRrKeUCEb Decision Trees Building a Tree with Gini Impurity First need to work out which feature makes the root If a leaf contains a mixture of correct AND incorrect predictions, then they are IMPURE To quantify the impurity of leaves you can use: Gini Impurity, Entropy, and Information Gain Gini Impurity for a leaf = 1 - (prob(&amp;ldquo;yes&amp;rdquo;) ^ 2 - prob(&amp;ldquo;no&amp;rdquo;) ^ 2) to work out toal gini impurity fpr the simple tree: = weigthed avg of gini impurities weigthed because a leaf may not represent the same number of people eg &amp;ldquo;loves popcorn?</description><content>&lt;p>General Linear Models&lt;/p>
 &lt;ul>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=nk2CQITm_eo">https://www.youtube.com/watch?v=nk2CQITm_eo&lt;/a>&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=zITIFTsivN8">https://www.youtube.com/watch?v=zITIFTsivN8&lt;/a>&lt;/li>
@@ -627,8 +627,6 @@ https://www.youtube.com/watch?v=OtD8wVaFm6E https://www.youtube.com/watch?v=8b1J
 &lt;h2 id="building-a-tree-with-gini-impurity">Building a Tree with Gini Impurity&lt;/h2>
 &lt;ul>
 &lt;li>First need to work out which feature makes the root&lt;/li>
-&lt;li>do this based off which best predicts target var&lt;/li>
-&lt;li>do this by making tree based off only &amp;ldquo;loves popcorn&amp;rdquo; to predict &amp;ldquo;Loves Song&amp;rdquo;&lt;/li>
 &lt;li>If a &lt;strong>leaf&lt;/strong> contains a mixture of correct &lt;strong>AND&lt;/strong> incorrect predictions, then they are &lt;strong>IMPURE&lt;/strong>&lt;/li>
 &lt;li>To quantify the impurity of leaves you can use: &lt;strong>Gini Impurity&lt;/strong>, &lt;strong>Entropy&lt;/strong>, and &lt;strong>Information Gain&lt;/strong>&lt;/li>
 &lt;li>Gini Impurity for a leaf = 1 - (prob(&amp;ldquo;yes&amp;rdquo;) ^ 2 - prob(&amp;ldquo;no&amp;rdquo;) ^ 2)&lt;/li>
