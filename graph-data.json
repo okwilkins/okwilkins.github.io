@@ -13,16 +13,16 @@
             "node_size": 0.13333333333333333
         },
         {
-            "id": "Bulgarian",
-            "description": "Bulgarian",
-            "group": "Bulgarian",
-            "node_size": 0.7
-        },
-        {
             "id": "Language",
             "description": "Language",
             "group": "Language",
             "node_size": 1.0333333333333334
+        },
+        {
+            "id": "Bulgarian",
+            "description": "Bulgarian",
+            "group": "Bulgarian",
+            "node_size": 0.7
         },
         {
             "id": "Data Science",
@@ -33,42 +33,24 @@
         {
             "id": "Bulgarian Generalising Statements",
             "description": "Bulgarian Generalising Statements",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Pronoun",
-            "description": "Pronoun",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Mermaid Entity Relationship Diagram",
-            "description": "Mermaid Entity Relationship Diagram",
-            "group": "Programming",
-            "node_size": 0.1
-        },
-        {
-            "id": "Bulgarian Verbs",
-            "description": "Bulgarian Verbs",
             "group": "Bulgarian",
             "node_size": 0.1
         },
         {
-            "id": "Noun",
-            "description": "Noun",
+            "id": "Conjugation",
+            "description": "Conjugation",
             "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Mermaid Pie Chart",
-            "description": "Mermaid Pie Chart",
-            "group": null,
             "node_size": 0.1
         },
         {
             "id": "Numeral Plural",
             "description": "Numeral Plural",
+            "group": "Bulgarian",
+            "node_size": 0.1
+        },
+        {
+            "id": "Indefinite Article",
+            "description": "Indefinite Article",
             "group": "Language",
             "node_size": 0.1
         },
@@ -79,212 +61,20 @@
             "node_size": 0.1
         },
         {
-            "id": "Mermaid Gantt Chart",
-            "description": "Mermaid Gantt Chart",
-            "group": null,
-            "node_size": 0.1
-        },
-        {
-            "id": "Bulgarian Definite Articles",
-            "description": "Bulgarian Definite Articles",
-            "group": "Bulgarian",
-            "node_size": 0.1
-        },
-        {
-            "id": "Bulgarian Masculine Definite Articles",
-            "description": "Bulgarian Masculine Definite Articles",
-            "group": "Bulgarian",
-            "node_size": 0.1
-        },
-        {
-            "id": "Citation Form",
-            "description": "Citation Form",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Mermaid Sequence Diagram",
-            "description": "Mermaid Sequence Diagram",
-            "group": null,
-            "node_size": 0.1
-        },
-        {
-            "id": "Mermaid Gitgraph Diagram",
-            "description": "Mermaid Gitgraph Diagram",
+            "id": "Mermaid Entity Relationship Diagram",
+            "description": "Mermaid Entity Relationship Diagram",
             "group": "Programming",
-            "node_size": 0.1
-        },
-        {
-            "id": "Bulgarian To Have Or Not To Have",
-            "description": "Bulgarian To Have Or Not To Have",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Definite Article",
-            "description": "Definite Article",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Indefinite Article",
-            "description": "Indefinite Article",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Mermaid Timeline Diagram",
-            "description": "Mermaid Timeline Diagram",
-            "group": null,
             "node_size": 0.1
         },
         {
             "id": "Bulgarian Animals Exceptions",
             "description": "Bulgarian Animals Exceptions",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Decision Trees",
-            "description": "Decision Trees",
-            "group": "Data Science",
-            "node_size": 0.1
-        },
-        {
-            "id": "Bulgarian To Be",
-            "description": "Bulgarian To Be",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Bulgarian Grammatical Gender",
-            "description": "Bulgarian Grammatical Gender",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Bulgarian There Is",
-            "description": "Bulgarian There Is",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Bulgarian Counting To 10",
-            "description": "Bulgarian Counting To 10",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Bulgarian Conjugation",
-            "description": "Bulgarian Conjugation",
             "group": "Bulgarian",
-            "node_size": 0.1
-        },
-        {
-            "id": "Bulgarian Animals",
-            "description": "Bulgarian Animals",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Mermaid Class Diagram",
-            "description": "Mermaid Class Diagram",
-            "group": "Programming",
-            "node_size": 0.1
-        },
-        {
-            "id": "Mermaid",
-            "description": "Mermaid",
-            "group": "Programming",
-            "node_size": 0.36666666666666664
-        },
-        {
-            "id": "Machine Learning Bias",
-            "description": "Machine Learning Bias",
-            "group": "Data Science",
-            "node_size": 0.1
-        },
-        {
-            "id": "Bulgarian Closed Questions",
-            "description": "Bulgarian Closed Questions",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Mermaid State Diagram",
-            "description": "Mermaid State Diagram",
-            "group": null,
-            "node_size": 0.1
-        },
-        {
-            "id": "Adjective",
-            "description": "Adjective",
-            "group": "Language",
             "node_size": 0.1
         },
         {
             "id": "Adverb",
             "description": "Adverb",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Bulgarian Negation",
-            "description": "Bulgarian Negation",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Bulgarian Spider Plural",
-            "description": "Bulgarian Spider Plural",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Bulgarian Animals Masculine Plurals",
-            "description": "Bulgarian Animals Masculine Plurals",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Bulgarian Articles",
-            "description": "Bulgarian Articles",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Decision Trees Branches, Nodes And Leaves",
-            "description": "Decision Trees Branches, Nodes And Leaves",
-            "group": "Data Science",
-            "node_size": 0.1
-        },
-        {
-            "id": "Mermaid Mindmap",
-            "description": "Mermaid Mindmap",
-            "group": null,
-            "node_size": 0.1
-        },
-        {
-            "id": "Bulgarian Starting Sentences with a Present Form",
-            "description": "Bulgarian Starting Sentences with a Present Form",
-            "group": "Language",
-            "node_size": 0.1
-        },
-        {
-            "id": "Mermaid User Journey Diagram",
-            "description": "Mermaid User Journey Diagram",
-            "group": null,
-            "node_size": 0.1
-        },
-        {
-            "id": "Mermaid Flowchart",
-            "description": "Mermaid Flowchart",
-            "group": null,
-            "node_size": 0.1
-        },
-        {
-            "id": "Bulgarian Food",
-            "description": "Bulgarian Food",
             "group": "Language",
             "node_size": 0.1
         },
@@ -295,15 +85,225 @@
             "node_size": 0.3333333333333333
         },
         {
-            "id": "Conjugation",
-            "description": "Conjugation",
+            "id": "Bulgarian Food",
+            "description": "Bulgarian Food",
+            "group": "Bulgarian",
+            "node_size": 0.1
+        },
+        {
+            "id": "Bulgarian Counting To 10",
+            "description": "Bulgarian Counting To 10",
+            "group": "Bulgarian",
+            "node_size": 0.1
+        },
+        {
+            "id": "Mermaid Gantt Chart",
+            "description": "Mermaid Gantt Chart",
+            "group": null,
+            "node_size": 0.1
+        },
+        {
+            "id": "Mermaid Sequence Diagram",
+            "description": "Mermaid Sequence Diagram",
+            "group": null,
+            "node_size": 0.1
+        },
+        {
+            "id": "Pronoun",
+            "description": "Pronoun",
             "group": "Language",
+            "node_size": 0.1
+        },
+        {
+            "id": "Mermaid Flowchart",
+            "description": "Mermaid Flowchart",
+            "group": null,
+            "node_size": 0.1
+        },
+        {
+            "id": "Decision Trees Branches, Nodes And Leaves",
+            "description": "Decision Trees Branches, Nodes And Leaves",
+            "group": "Data Science",
             "node_size": 0.1
         },
         {
             "id": "Machine Learning Variance",
             "description": "Machine Learning Variance",
             "group": "Data Science",
+            "node_size": 0.1
+        },
+        {
+            "id": "Bulgarian Animals",
+            "description": "Bulgarian Animals",
+            "group": "Bulgarian",
+            "node_size": 0.1
+        },
+        {
+            "id": "Mermaid Mindmap",
+            "description": "Mermaid Mindmap",
+            "group": null,
+            "node_size": 0.1
+        },
+        {
+            "id": "Bulgarian Verbs",
+            "description": "Bulgarian Verbs",
+            "group": "Bulgarian",
+            "node_size": 0.1
+        },
+        {
+            "id": "Bulgarian Spider Plural",
+            "description": "Bulgarian Spider Plural",
+            "group": "Bulgarian",
+            "node_size": 0.1
+        },
+        {
+            "id": "Mermaid",
+            "description": "Mermaid",
+            "group": "Programming",
+            "node_size": 0.36666666666666664
+        },
+        {
+            "id": "Bulgarian Masculine Definite Articles",
+            "description": "Bulgarian Masculine Definite Articles",
+            "group": "Bulgarian",
+            "node_size": 0.1
+        },
+        {
+            "id": "Noun",
+            "description": "Noun",
+            "group": "Language",
+            "node_size": 0.1
+        },
+        {
+            "id": "Bulgarian Negation",
+            "description": "Bulgarian Negation",
+            "group": "Bulgarian",
+            "node_size": 0.1
+        },
+        {
+            "id": "Decision Trees",
+            "description": "Decision Trees",
+            "group": "Data Science",
+            "node_size": 0.1
+        },
+        {
+            "id": "Bulgarian Conjugation",
+            "description": "Bulgarian Conjugation",
+            "group": "Bulgarian",
+            "node_size": 0.1
+        },
+        {
+            "id": "Definite Article",
+            "description": "Definite Article",
+            "group": "Language",
+            "node_size": 0.1
+        },
+        {
+            "id": "Mermaid Pie Chart",
+            "description": "Mermaid Pie Chart",
+            "group": null,
+            "node_size": 0.1
+        },
+        {
+            "id": "Bulgarian There Is",
+            "description": "Bulgarian There Is",
+            "group": "Bulgarian",
+            "node_size": 0.1
+        },
+        {
+            "id": "Mermaid Class Diagram",
+            "description": "Mermaid Class Diagram",
+            "group": "Programming",
+            "node_size": 0.1
+        },
+        {
+            "id": "Bulgarian Definite Articles",
+            "description": "Bulgarian Definite Articles",
+            "group": "Bulgarian",
+            "node_size": 0.1
+        },
+        {
+            "id": "Bulgarian To Be",
+            "description": "Bulgarian To Be",
+            "group": "Bulgarian",
+            "node_size": 0.1
+        },
+        {
+            "id": "Bulgarian Starting Sentences with a Present Form",
+            "description": "Bulgarian Starting Sentences with a Present Form",
+            "group": "Bulgarian",
+            "node_size": 0.1
+        },
+        {
+            "id": "Mermaid State Diagram",
+            "description": "Mermaid State Diagram",
+            "group": null,
+            "node_size": 0.1
+        },
+        {
+            "id": "Citation Form",
+            "description": "Citation Form",
+            "group": "Bulgarian",
+            "node_size": 0.1
+        },
+        {
+            "id": "Adjective",
+            "description": "Adjective",
+            "group": "Language",
+            "node_size": 0.1
+        },
+        {
+            "id": "Mermaid User Journey Diagram",
+            "description": "Mermaid User Journey Diagram",
+            "group": null,
+            "node_size": 0.1
+        },
+        {
+            "id": "Bulgarian Animals Masculine Plurals",
+            "description": "Bulgarian Animals Masculine Plurals",
+            "group": "Bulgarian",
+            "node_size": 0.1
+        },
+        {
+            "id": "Machine Learning Bias",
+            "description": "Machine Learning Bias",
+            "group": "Data Science",
+            "node_size": 0.1
+        },
+        {
+            "id": "Bulgarian Grammatical Gender",
+            "description": "Bulgarian Grammatical Gender",
+            "group": "Bulgarian",
+            "node_size": 0.1
+        },
+        {
+            "id": "Mermaid Gitgraph Diagram",
+            "description": "Mermaid Gitgraph Diagram",
+            "group": "Programming",
+            "node_size": 0.1
+        },
+        {
+            "id": "Bulgarian Articles",
+            "description": "Bulgarian Articles",
+            "group": "Bulgarian",
+            "node_size": 0.1
+        },
+        {
+            "id": "Mermaid Timeline Diagram",
+            "description": "Mermaid Timeline Diagram",
+            "group": null,
+            "node_size": 0.1
+        },
+        {
+            "id": "Bulgarian To Have Or Not To Have",
+            "description": "Bulgarian To Have Or Not To Have",
+            "group": "Bulgarian",
+            "node_size": 0.1
+        },
+        {
+            "id": "Bulgarian Closed Questions",
+            "description": "Bulgarian Closed Questions",
+            "group": "Bulgarian",
             "node_size": 0.1
         }
     ],
@@ -313,16 +313,16 @@
             "target": "Map Of Content"
         },
         {
+            "source": "Language",
+            "target": "Map Of Content"
+        },
+        {
             "source": "Bulgarian",
             "target": "Map Of Content"
         },
         {
             "source": "Bulgarian",
             "target": "Language"
-        },
-        {
-            "source": "Language",
-            "target": "Map Of Content"
         },
         {
             "source": "Data Science",
@@ -334,11 +334,111 @@
         },
         {
             "source": "Bulgarian Generalising Statements",
-            "target": "Language"
+            "target": "Bulgarian"
         },
         {
             "source": "Bulgarian Generalising Statements",
+            "target": "Language"
+        },
+        {
+            "source": "Conjugation",
+            "target": "Verb"
+        },
+        {
+            "source": "Conjugation",
+            "target": "Language"
+        },
+        {
+            "source": "Numeral Plural",
             "target": "Bulgarian"
+        },
+        {
+            "source": "Numeral Plural",
+            "target": "Language"
+        },
+        {
+            "source": "Indefinite Article",
+            "target": "Language"
+        },
+        {
+            "source": "Infinitive",
+            "target": "Verb"
+        },
+        {
+            "source": "Infinitive",
+            "target": "Language"
+        },
+        {
+            "source": "Mermaid Entity Relationship Diagram",
+            "target": "Programming"
+        },
+        {
+            "source": "Mermaid Entity Relationship Diagram",
+            "target": "Mermaid"
+        },
+        {
+            "source": "Bulgarian Animals Exceptions",
+            "target": "Bulgarian Animals"
+        },
+        {
+            "source": "Bulgarian Animals Exceptions",
+            "target": "Bulgarian Definite Articles"
+        },
+        {
+            "source": "Bulgarian Animals Exceptions",
+            "target": "Bulgarian"
+        },
+        {
+            "source": "Bulgarian Animals Exceptions",
+            "target": "Language"
+        },
+        {
+            "source": "Adverb",
+            "target": "Adjective"
+        },
+        {
+            "source": "Adverb",
+            "target": "Verb"
+        },
+        {
+            "source": "Adverb",
+            "target": "Language"
+        },
+        {
+            "source": "Verb",
+            "target": "Infinitive"
+        },
+        {
+            "source": "Verb",
+            "target": "Language"
+        },
+        {
+            "source": "Bulgarian Food",
+            "target": "Bulgarian"
+        },
+        {
+            "source": "Bulgarian Food",
+            "target": "Language"
+        },
+        {
+            "source": "Bulgarian Counting To 10",
+            "target": "Numeral Plural"
+        },
+        {
+            "source": "Bulgarian Counting To 10",
+            "target": "Bulgarian"
+        },
+        {
+            "source": "Bulgarian Counting To 10",
+            "target": "Language"
+        },
+        {
+            "source": "Mermaid Gantt Chart",
+            "target": "Mermaid"
+        },
+        {
+            "source": "Mermaid Sequence Diagram",
+            "target": "Mermaid"
         },
         {
             "source": "Pronoun",
@@ -349,16 +449,40 @@
             "target": "Language"
         },
         {
-            "source": "Mermaid Entity Relationship Diagram",
+            "source": "Mermaid Flowchart",
             "target": "Mermaid"
         },
         {
-            "source": "Mermaid Entity Relationship Diagram",
-            "target": "Programming"
+            "source": "Decision Trees Branches, Nodes And Leaves",
+            "target": "Decision Trees"
         },
         {
-            "source": "Bulgarian Verbs",
-            "target": "Bulgarian Starting Sentences with a Present Form"
+            "source": "Decision Trees Branches, Nodes And Leaves",
+            "target": "Data Science"
+        },
+        {
+            "source": "Machine Learning Variance",
+            "target": "Data Science"
+        },
+        {
+            "source": "Bulgarian Animals",
+            "target": "Bulgarian Animals Exceptions"
+        },
+        {
+            "source": "Bulgarian Animals",
+            "target": "Bulgarian Animals Masculine Plurals"
+        },
+        {
+            "source": "Bulgarian Animals",
+            "target": "Bulgarian"
+        },
+        {
+            "source": "Bulgarian Animals",
+            "target": "Language"
+        },
+        {
+            "source": "Mermaid Mindmap",
+            "target": "Mermaid"
         },
         {
             "source": "Bulgarian Verbs",
@@ -366,11 +490,11 @@
         },
         {
             "source": "Bulgarian Verbs",
-            "target": "Citation Form"
+            "target": "Bulgarian"
         },
         {
             "source": "Bulgarian Verbs",
-            "target": "Bulgarian"
+            "target": "Bulgarian Starting Sentences with a Present Form"
         },
         {
             "source": "Bulgarian Verbs",
@@ -381,8 +505,92 @@
             "target": "Conjugation"
         },
         {
-            "source": "Noun",
+            "source": "Bulgarian Verbs",
+            "target": "Citation Form"
+        },
+        {
+            "source": "Bulgarian Spider Plural",
+            "target": "Bulgarian Animals"
+        },
+        {
+            "source": "Bulgarian Spider Plural",
+            "target": "Bulgarian"
+        },
+        {
+            "source": "Bulgarian Spider Plural",
+            "target": "Numeral Plural"
+        },
+        {
+            "source": "Bulgarian Spider Plural",
             "target": "Language"
+        },
+        {
+            "source": "Mermaid",
+            "target": "Mermaid Flowchart"
+        },
+        {
+            "source": "Mermaid",
+            "target": "Mermaid User Journey Diagram"
+        },
+        {
+            "source": "Mermaid",
+            "target": "Programming"
+        },
+        {
+            "source": "Mermaid",
+            "target": "Mermaid Mindmap"
+        },
+        {
+            "source": "Mermaid",
+            "target": "Mermaid Class Diagram"
+        },
+        {
+            "source": "Mermaid",
+            "target": "Mermaid Timeline Diagram"
+        },
+        {
+            "source": "Mermaid",
+            "target": "Mermaid State Diagram"
+        },
+        {
+            "source": "Mermaid",
+            "target": "Mermaid Pie Chart"
+        },
+        {
+            "source": "Mermaid",
+            "target": "Mermaid Entity Relationship Diagram"
+        },
+        {
+            "source": "Mermaid",
+            "target": "Mermaid Sequence Diagram"
+        },
+        {
+            "source": "Mermaid",
+            "target": "Mermaid Gantt Chart"
+        },
+        {
+            "source": "Mermaid",
+            "target": "Mermaid Gitgraph Diagram"
+        },
+        {
+            "source": "Bulgarian Masculine Definite Articles",
+            "target": "Definite Article"
+        },
+        {
+            "source": "Bulgarian Masculine Definite Articles",
+            "target": "Bulgarian"
+        },
+        {
+            "source": "Bulgarian Masculine Definite Articles",
+            "target": "Bulgarian Articles"
+        },
+        {
+            "source": "Bulgarian Masculine Definite Articles",
+            "target": "Language"
+        },
+        {
+            "source": "Bulgarian Masculine Definite Articles",
+            "target": "Bulgarian Definite Articles"
         },
         {
             "source": "Noun",
@@ -393,136 +601,16 @@
             "target": "Pronoun"
         },
         {
-            "source": "Mermaid Pie Chart",
-            "target": "Mermaid"
-        },
-        {
-            "source": "Numeral Plural",
+            "source": "Noun",
             "target": "Language"
         },
         {
-            "source": "Numeral Plural",
+            "source": "Bulgarian Negation",
             "target": "Bulgarian"
         },
         {
-            "source": "Infinitive",
+            "source": "Bulgarian Negation",
             "target": "Language"
-        },
-        {
-            "source": "Infinitive",
-            "target": "Verb"
-        },
-        {
-            "source": "Mermaid Gantt Chart",
-            "target": "Mermaid"
-        },
-        {
-            "source": "Bulgarian Definite Articles",
-            "target": "Bulgarian Articles"
-        },
-        {
-            "source": "Bulgarian Definite Articles",
-            "target": "Bulgarian Masculine Definite Articles"
-        },
-        {
-            "source": "Bulgarian Definite Articles",
-            "target": "Bulgarian"
-        },
-        {
-            "source": "Bulgarian Definite Articles",
-            "target": "Definite Article"
-        },
-        {
-            "source": "Bulgarian Definite Articles",
-            "target": "Language"
-        },
-        {
-            "source": "Bulgarian Masculine Definite Articles",
-            "target": "Bulgarian Articles"
-        },
-        {
-            "source": "Bulgarian Masculine Definite Articles",
-            "target": "Bulgarian"
-        },
-        {
-            "source": "Bulgarian Masculine Definite Articles",
-            "target": "Bulgarian Definite Articles"
-        },
-        {
-            "source": "Bulgarian Masculine Definite Articles",
-            "target": "Definite Article"
-        },
-        {
-            "source": "Bulgarian Masculine Definite Articles",
-            "target": "Language"
-        },
-        {
-            "source": "Citation Form",
-            "target": "Language"
-        },
-        {
-            "source": "Citation Form",
-            "target": "Verb"
-        },
-        {
-            "source": "Citation Form",
-            "target": "Bulgarian"
-        },
-        {
-            "source": "Mermaid Sequence Diagram",
-            "target": "Mermaid"
-        },
-        {
-            "source": "Mermaid Gitgraph Diagram",
-            "target": "Mermaid"
-        },
-        {
-            "source": "Mermaid Gitgraph Diagram",
-            "target": "Programming"
-        },
-        {
-            "source": "Bulgarian To Have Or Not To Have",
-            "target": "Language"
-        },
-        {
-            "source": "Bulgarian To Have Or Not To Have",
-            "target": "Verb"
-        },
-        {
-            "source": "Bulgarian To Have Or Not To Have",
-            "target": "Bulgarian Conjugation"
-        },
-        {
-            "source": "Bulgarian To Have Or Not To Have",
-            "target": "Bulgarian"
-        },
-        {
-            "source": "Definite Article",
-            "target": "Language"
-        },
-        {
-            "source": "Indefinite Article",
-            "target": "Language"
-        },
-        {
-            "source": "Mermaid Timeline Diagram",
-            "target": "Mermaid"
-        },
-        {
-            "source": "Bulgarian Animals Exceptions",
-            "target": "Bulgarian Definite Articles"
-        },
-        {
-            "source": "Bulgarian Animals Exceptions",
-            "target": "Language"
-        },
-        {
-            "source": "Bulgarian Animals Exceptions",
-            "target": "Bulgarian Animals"
-        },
-        {
-            "source": "Bulgarian Animals Exceptions",
-            "target": "Bulgarian"
         },
         {
             "source": "Decision Trees",
@@ -530,55 +618,11 @@
         },
         {
             "source": "Decision Trees",
-            "target": "Decision Trees Branches"
-        },
-        {
-            "source": "Decision Trees",
             "target": "Data Science"
         },
         {
-            "source": "Bulgarian To Be",
-            "target": "Language"
-        },
-        {
-            "source": "Bulgarian To Be",
-            "target": "Verb"
-        },
-        {
-            "source": "Bulgarian To Be",
-            "target": "Bulgarian"
-        },
-        {
-            "source": "Bulgarian Grammatical Gender",
-            "target": "Language"
-        },
-        {
-            "source": "Bulgarian Grammatical Gender",
-            "target": "Bulgarian"
-        },
-        {
-            "source": "Bulgarian There Is",
-            "target": "Language"
-        },
-        {
-            "source": "Bulgarian There Is",
-            "target": "Verb"
-        },
-        {
-            "source": "Bulgarian There Is",
-            "target": "Bulgarian"
-        },
-        {
-            "source": "Bulgarian Counting To 10",
-            "target": "Language"
-        },
-        {
-            "source": "Bulgarian Counting To 10",
-            "target": "Numeral Plural"
-        },
-        {
-            "source": "Bulgarian Counting To 10",
-            "target": "Bulgarian"
+            "source": "Decision Trees",
+            "target": "Decision Trees Branches"
         },
         {
             "source": "Bulgarian Conjugation",
@@ -601,96 +645,88 @@
             "target": "Conjugation"
         },
         {
-            "source": "Bulgarian Animals",
+            "source": "Definite Article",
             "target": "Language"
         },
         {
-            "source": "Bulgarian Animals",
-            "target": "Bulgarian Animals Masculine Plurals"
+            "source": "Mermaid Pie Chart",
+            "target": "Mermaid"
         },
         {
-            "source": "Bulgarian Animals",
-            "target": "Bulgarian Animals Exceptions"
+            "source": "Bulgarian There Is",
+            "target": "Verb"
         },
         {
-            "source": "Bulgarian Animals",
+            "source": "Bulgarian There Is",
             "target": "Bulgarian"
+        },
+        {
+            "source": "Bulgarian There Is",
+            "target": "Language"
+        },
+        {
+            "source": "Mermaid Class Diagram",
+            "target": "Programming"
         },
         {
             "source": "Mermaid Class Diagram",
             "target": "Mermaid"
         },
         {
-            "source": "Mermaid Class Diagram",
-            "target": "Programming"
+            "source": "Bulgarian Definite Articles",
+            "target": "Definite Article"
         },
         {
-            "source": "Mermaid",
-            "target": "Mermaid Flowchart"
+            "source": "Bulgarian Definite Articles",
+            "target": "Bulgarian"
         },
         {
-            "source": "Mermaid",
-            "target": "Programming"
+            "source": "Bulgarian Definite Articles",
+            "target": "Bulgarian Articles"
         },
         {
-            "source": "Mermaid",
-            "target": "Mermaid Pie Chart"
+            "source": "Bulgarian Definite Articles",
+            "target": "Bulgarian Masculine Definite Articles"
         },
         {
-            "source": "Mermaid",
-            "target": "Mermaid Gitgraph Diagram"
-        },
-        {
-            "source": "Mermaid",
-            "target": "Mermaid Sequence Diagram"
-        },
-        {
-            "source": "Mermaid",
-            "target": "Mermaid User Journey Diagram"
-        },
-        {
-            "source": "Mermaid",
-            "target": "Mermaid Gantt Chart"
-        },
-        {
-            "source": "Mermaid",
-            "target": "Mermaid State Diagram"
-        },
-        {
-            "source": "Mermaid",
-            "target": "Mermaid Mindmap"
-        },
-        {
-            "source": "Mermaid",
-            "target": "Mermaid Timeline Diagram"
-        },
-        {
-            "source": "Mermaid",
-            "target": "Mermaid Entity Relationship Diagram"
-        },
-        {
-            "source": "Mermaid",
-            "target": "Mermaid Class Diagram"
-        },
-        {
-            "source": "Machine Learning Bias",
-            "target": "Data Science"
-        },
-        {
-            "source": "Bulgarian Closed Questions",
+            "source": "Bulgarian Definite Articles",
             "target": "Language"
         },
         {
-            "source": "Bulgarian Closed Questions",
+            "source": "Bulgarian To Be",
             "target": "Verb"
         },
         {
-            "source": "Bulgarian Closed Questions",
+            "source": "Bulgarian To Be",
             "target": "Bulgarian"
+        },
+        {
+            "source": "Bulgarian To Be",
+            "target": "Language"
+        },
+        {
+            "source": "Bulgarian Starting Sentences with a Present Form",
+            "target": "Bulgarian"
+        },
+        {
+            "source": "Bulgarian Starting Sentences with a Present Form",
+            "target": "Language"
         },
         {
             "source": "Mermaid State Diagram",
             "target": "Mermaid"
+        },
+        {
+            "source": "Citation Form",
+            "target": "Verb"
+        },
+        {
+            "source": "Citation Form",
+            "target": "Bulgarian"
+        },
+        {
+            "source": "Citation Form",
+            "target": "Language"
         },
         {
             "source": "Adjective",
@@ -701,39 +737,15 @@
             "target": "Language"
         },
         {
-            "source": "Adverb",
-            "target": "Language"
+            "source": "Mermaid User Journey Diagram",
+            "target": "Mermaid"
         },
         {
-            "source": "Adverb",
-            "target": "Adjective"
-        },
-        {
-            "source": "Adverb",
-            "target": "Verb"
-        },
-        {
-            "source": "Bulgarian Negation",
-            "target": "Language"
-        },
-        {
-            "source": "Bulgarian Negation",
-            "target": "Bulgarian"
-        },
-        {
-            "source": "Bulgarian Spider Plural",
-            "target": "Language"
-        },
-        {
-            "source": "Bulgarian Spider Plural",
+            "source": "Bulgarian Animals Masculine Plurals",
             "target": "Bulgarian Animals"
         },
         {
-            "source": "Bulgarian Spider Plural",
-            "target": "Numeral Plural"
-        },
-        {
-            "source": "Bulgarian Spider Plural",
+            "source": "Bulgarian Animals Masculine Plurals",
             "target": "Bulgarian"
         },
         {
@@ -745,11 +757,31 @@
             "target": "Language"
         },
         {
-            "source": "Bulgarian Animals Masculine Plurals",
-            "target": "Bulgarian Animals"
+            "source": "Machine Learning Bias",
+            "target": "Data Science"
         },
         {
-            "source": "Bulgarian Animals Masculine Plurals",
+            "source": "Bulgarian Grammatical Gender",
+            "target": "Bulgarian"
+        },
+        {
+            "source": "Bulgarian Grammatical Gender",
+            "target": "Language"
+        },
+        {
+            "source": "Mermaid Gitgraph Diagram",
+            "target": "Programming"
+        },
+        {
+            "source": "Mermaid Gitgraph Diagram",
+            "target": "Mermaid"
+        },
+        {
+            "source": "Bulgarian Articles",
+            "target": "Definite Article"
+        },
+        {
+            "source": "Bulgarian Articles",
             "target": "Bulgarian"
         },
         {
@@ -758,71 +790,39 @@
         },
         {
             "source": "Bulgarian Articles",
-            "target": "Definite Article"
-        },
-        {
-            "source": "Bulgarian Articles",
             "target": "Language"
         },
         {
-            "source": "Bulgarian Articles",
-            "target": "Bulgarian"
-        },
-        {
-            "source": "Decision Trees Branches, Nodes And Leaves",
-            "target": "Decision Trees"
-        },
-        {
-            "source": "Decision Trees Branches, Nodes And Leaves",
-            "target": "Data Science"
-        },
-        {
-            "source": "Mermaid Mindmap",
+            "source": "Mermaid Timeline Diagram",
             "target": "Mermaid"
         },
         {
-            "source": "Bulgarian Starting Sentences with a Present Form",
-            "target": "Language"
-        },
-        {
-            "source": "Bulgarian Starting Sentences with a Present Form",
-            "target": "Bulgarian"
-        },
-        {
-            "source": "Mermaid User Journey Diagram",
-            "target": "Mermaid"
-        },
-        {
-            "source": "Mermaid Flowchart",
-            "target": "Mermaid"
-        },
-        {
-            "source": "Bulgarian Food",
-            "target": "Language"
-        },
-        {
-            "source": "Bulgarian Food",
-            "target": "Bulgarian"
-        },
-        {
-            "source": "Verb",
-            "target": "Infinitive"
-        },
-        {
-            "source": "Verb",
-            "target": "Language"
-        },
-        {
-            "source": "Conjugation",
-            "target": "Language"
-        },
-        {
-            "source": "Conjugation",
+            "source": "Bulgarian To Have Or Not To Have",
             "target": "Verb"
         },
         {
-            "source": "Machine Learning Variance",
-            "target": "Data Science"
+            "source": "Bulgarian To Have Or Not To Have",
+            "target": "Bulgarian"
+        },
+        {
+            "source": "Bulgarian To Have Or Not To Have",
+            "target": "Bulgarian Conjugation"
+        },
+        {
+            "source": "Bulgarian To Have Or Not To Have",
+            "target": "Language"
+        },
+        {
+            "source": "Bulgarian Closed Questions",
+            "target": "Verb"
+        },
+        {
+            "source": "Bulgarian Closed Questions",
+            "target": "Bulgarian"
+        },
+        {
+            "source": "Bulgarian Closed Questions",
+            "target": "Language"
         }
     ]
 }
