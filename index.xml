@@ -734,7 +734,7 @@ https://www.youtube.com/watch?v=J4Wdy0Wc_xQ AdaBoost
 https://www.youtube.com/watch?v=LsK-xG1cLYA Gradient Boosting
 https://www.youtube.com/watch?v=3CC4N4z3GJ https://www.youtube.com/watch?v=2xudPOBz-vs https://www.youtube.com/watch?v=jxuNLH5dXCs https://www.youtube.com/watch?v=StWY5QWMXCw Regularization
 https://www.youtube.com/watch?v=Q81RR3yKn30 https://www.youtube.com/watch?v=NGf0voTMlcs XGBoost
-https://www.youtube.com/watch?v=OtD8wVaFm6E https://www.youtube.com/watch?v=8b1JEDvenQU https://www.youtube.com/watch?v=ZVFeW798-2I https://www.youtube.com/watch?v=oRrKeUCEb Decision Trees How to Prevent Overfitting Let say that leaf only has one person, can be hard to be sure that it does a good job of making preds could overfit the data Can deal with this by: pruning can put limits on hwo trees grow by requiring 3 or more people per leaf Regression Trees use when you cant fit straight line to data to work out output of leaf, just get avg of the values that sit in the leaf building root: dosage &amp;lt; 3 &amp;ndash; 3 is avg of two values get avg of vals of &amp;lt; 3 and &amp;gt;= 3 (0 &amp;amp; 38.</description><content>&lt;p>General Linear Models&lt;/p>
+https://www.youtube.com/watch?v=OtD8wVaFm6E https://www.youtube.com/watch?v=8b1JEDvenQU https://www.youtube.com/watch?v=ZVFeW798-2I https://www.youtube.com/watch?v=oRrKeUCEb Regression Trees use when you cant fit straight line to data to work out output of leaf, just get avg of the values that sit in the leaf building root: dosage &amp;lt; 3 &amp;ndash; 3 is avg of two values get avg of vals of &amp;lt; 3 and &amp;gt;= 3 (0 &amp;amp; 38.</description><content>&lt;p>General Linear Models&lt;/p>
 &lt;ul>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=nk2CQITm_eo">https://www.youtube.com/watch?v=nk2CQITm_eo&lt;/a>&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=zITIFTsivN8">https://www.youtube.com/watch?v=zITIFTsivN8&lt;/a>&lt;/li>
@@ -792,15 +792,6 @@ https://www.youtube.com/watch?v=OtD8wVaFm6E https://www.youtube.com/watch?v=8b1J
 &lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=8b1JEDvenQU">https://www.youtube.com/watch?v=8b1JEDvenQU&lt;/a>&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=ZVFeW798-2I">https://www.youtube.com/watch?v=ZVFeW798-2I&lt;/a>&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=oRrKeUCEb">https://www.youtube.com/watch?v=oRrKeUCEb&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h1 id="decision-trees">Decision Trees&lt;/h1>
-&lt;h2 id="how-to-prevent-overfitting">How to Prevent Overfitting&lt;/h2>
-&lt;ul>
-&lt;li>Let say that leaf only has one person, can be hard to be sure that it does a good job of making preds&lt;/li>
-&lt;li>could overfit the data&lt;/li>
-&lt;li>Can deal with this by:&lt;/li>
-&lt;li>pruning&lt;/li>
-&lt;li>can put limits on hwo trees grow by requiring 3 or more people per leaf&lt;/li>
 &lt;/ul>
 &lt;h1 id="regression-trees">Regression Trees&lt;/h1>
 &lt;ul>
