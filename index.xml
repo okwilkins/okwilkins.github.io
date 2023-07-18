@@ -2199,7 +2199,100 @@ Bulgarian Data Science Language Programming</description><content>&lt;p>This is 
 &lt;h2 id="timeline-diagrams">Timeline Diagrams&lt;/h2>
 &lt;ul>
 &lt;li>&amp;ldquo;Timeline Diagram&amp;rdquo;, &lt;em>MermaidJS&lt;/em>, 2023-02-27, &lt;a href="https://mermaid.js.org/syntax/timeline.html">https://mermaid.js.org/syntax/timeline.html&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>Programming</title><link>https://www.okwilkins.dev/knowledge-system/map-of-content/programming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/map-of-content/programming/</guid><description>Mermaid Class Diagram Mermaid Entity Relationship Diagram Mermaid Gitgraph Diagram</description><content>&lt;p>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-class-diagram/">Mermaid Class Diagram&lt;/a>
+&lt;/ul></content></item><item><title>My Work</title><link>https://www.okwilkins.dev/my-work/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/my-work/</guid><description>Maeving: 2023 I currently am working on Maeving&amp;rsquo;s data strategy/engineering and BI. So far I have used Azure to deploy databases to store data from:
+Hubspot Shopify Meta advertising Google analytics This data is all engineered in using APIs via Azure Synapse. This data has then been visualised via PowerBI, with it being updated daily.
+Laing O&amp;rsquo;Rourke: 2021 - 2023 At my time at LOR I performed many tasks. These ranged from statical inference for Sizewell C, machine learning, software engineering to ML/AI model deployment.</description><content>&lt;h2 id="maeving-2023">Maeving: 2023&lt;/h2>
+&lt;p>I currently am working on &lt;a href="https://maeving.com/">Maeving&lt;/a>&amp;rsquo;s data strategy/engineering and BI. So far I have used Azure to deploy databases to store data from:&lt;/p>
+&lt;ul>
+&lt;li>Hubspot&lt;/li>
+&lt;li>Shopify&lt;/li>
+&lt;li>Meta advertising&lt;/li>
+&lt;li>Google analytics&lt;/li>
+&lt;/ul>
+&lt;p>This data is all engineered in using APIs via Azure Synapse. This data has then been visualised via PowerBI, with it being updated daily.&lt;/p>
+&lt;h2 id="laing-orourke-2021---2023">Laing O&amp;rsquo;Rourke: 2021 - 2023&lt;/h2>
+&lt;p>At my time at LOR I performed many tasks. These ranged from statical inference for &lt;a href="https://www.edfenergy.com/energy/nuclear-new-build-projects/sizewell-c">Sizewell C&lt;/a>, machine learning, software engineering to ML/AI model deployment. The following is a summary of my main works.&lt;/p>
+&lt;h3 id="nlp-sbert-and-gpt4">NLP: SBERT and GPT4&lt;/h3>
+&lt;p>At Laing O&amp;rsquo;Rourke there are many different departments, including legal and the project bidding. Both of these deal with large documents on a daily basis. As Word is extensively used, I designed code that could extract all paragraphs, headers and their respective locations in documents. This methodology allowed the tabularisation of over 100,000 pages. This enabled any number of NLP applications to interact with this data. To assist these departments, several applications using NLP were devised.&lt;/p>
+&lt;p>These were:&lt;/p>
+&lt;ul>
+&lt;li>Document summerisation:
+&lt;ul>
+&lt;li>To reduce the numbers of hours spent reading through 1,000s of pages of text&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://www.okwilkins.dev/my-work//gpt-summariser.png" alt="alt-text"/>&lt;/p>
+&lt;ul>
+&lt;li>Categorisation of documents:
+&lt;ul>
+&lt;li>Readers can quickly find documents that are relevant to them&lt;/li>
+&lt;li>Can find documents that are similar to the ones they are currently reading&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>House Styling and Glossary:
+&lt;ul>
+&lt;li>Writers can enter a piece of text for review&lt;/li>
+&lt;li>The model applies a set of rules
+&lt;ul>
+&lt;li>As an example: Remove the passive voice to an active voice&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Summarising client requirements&lt;/li>
+&lt;/ul>
+&lt;h3 id="finance-and-time-series-forecasting">Finance and Time Series Forecasting&lt;/h3>
+&lt;p>Many of the projects LOR is in charge of constructing are some of the largest in the UK. Because of this financial forecasting is very important. I analysed the financials, rate of progress and staff on over 60 projects, with a combined value of over £1 billon. This combination of data provided never seen before statistical insights. This informed the financial strategy of future projects.&lt;/p>
+&lt;p>Furthermore, risk modelling provided fiance a model that could flag when projects were forecasted to not reach the intended profit margin. &lt;a href="https://unit8co.github.io/darts/">Darts&lt;/a> and XGBoost were utilised to achieve this.&lt;/p>
+&lt;h3 id="mldev-ops-and-python">ML/Dev Ops and Python&lt;/h3>
+&lt;p>Good engineering standards were a big concern of mine at LOR. I made sure that all data science capabilities were in check from a ML/dev OPs standpoint. This included:&lt;/p>
+&lt;ul>
+&lt;li>Maintenance of Azure Machine Learning and its associated computes, code to run ML pipelines, model deployment and data drift&lt;/li>
+&lt;li>Data science templates, to help other in the team have consistent:
+&lt;ul>
+&lt;li>Python/Conda environments&lt;/li>
+&lt;li>Folder structures&lt;/li>
+&lt;li>Github actions out of the box&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Github maintenance:
+&lt;ul>
+&lt;li>Making sure Github actions worked across the board&lt;/li>
+&lt;li>Repos were free of sensitive data&lt;/li>
+&lt;li>Pull requests and commits&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>To further my commitment to good engineering practises, I gave talks and mentored on all things Python. For instance, I gave a company-wide talk to 200 people on why Python should be the next tool people should use to level up their data analysis game. I also spent a number of hours a week mentoring several people in my team on Python over calls and by using tools like &lt;a href="https://www.reviewnb.com/">ReviewNB&lt;/a> (this is a great tool by the way!) in pull requests on Github.&lt;/p>
+&lt;h2 id="faceit-2020---2021">Faceit: 2020 - 2021&lt;/h2>
+&lt;p>Faceit is a competitive platform for computer games, with more than 18 million users competing in over 20 million game sessions each month. My focus at Faceit was split between Looker, BigQuery, statical inference and machine learning.&lt;/p>
+&lt;h3 id="text-toxicity">Text Toxicity&lt;/h3>
+&lt;p>Toxicity on Faceit is a large issue. Take a look at the &lt;a href="https://www.reddit.com/r/FACEITcom/comments/y95up1/fella_was_racist_up_to_the_2nd_round_then_didnt/">Faceit subreddit for a near daily reminder of the abuse people receive&lt;/a>. I improved upon the prexisting model by using &lt;a href="https://perspectiveapi.com/">prospective API&lt;/a> and random forests in tandem.&lt;/p>
+&lt;h3 id="player-skill-level">Player Skill Level&lt;/h3>
+&lt;p>I analysed the matches of over 2 million players to create a model to predict what a player&amp;rsquo;s skill level would be over their first few games. This was important in solving &lt;a href="https://www.dexerto.com/gaming/what-is-smurfing-in-gaming-2015991/">surfing&lt;/a>. Smurfing was a big problem to a new user&amp;rsquo;s experience on the platform. With player&amp;rsquo;s skill level being predicted earlier, the impact these people had on new players was significantly reduced.&lt;/p>
+&lt;h2 id="liveminds-2020">Liveminds: 2020&lt;/h2>
+&lt;p>Liveminds specialises in behavioural recruitment to find participants for online research. This is powered through advertising using social networks. I worked on managing data and their related pipelines, the analysis of business operations and creating predictive models. I created and deployed a predictive model that has led to a 50% decrease in costs associated with advertising and employee time. Alongside this, I generated many interactive reports. This created a clearer understanding of trends and statistical phenomena within the company.&lt;/p>
+&lt;h2 id="freelance-data-science-work-2018---2020">Freelance Data Science Work: 2018 - 2020&lt;/h2>
+&lt;p>Whilst at university I was looking for a real-world challenge. I provided tailored and effective solutions to complex problems facing businesses. I achieved this with a mixture of Python, Excel/VBA, PostgreSQL and Linux. I developed multiple long-term relationships with companies. This gave me the confidence to work with big clients and deliver affordable and efficient business solutions to tight deadlines.&lt;/p>
+&lt;h2 id="personal-projects">Personal Projects&lt;/h2>
+&lt;p>From time-to-time, I like to stretch my legs a little with some personal projects.&lt;/p>
+&lt;h3 id="this-website">This Website&lt;/h3>
+&lt;p>This website was originally setup as a means to house my portfolio work but to also act as a portfolio of sorts also. The website is built using Hugh/Go &amp;amp; Javascript with Github actions running (highly over-engineered) Python. The project also processes my &lt;a href="https://github.com/okwilkins/knowledge-system">Zettlecasten knowledge system&lt;/a> daily with Github actions. Any changes to the Markdown files in this &lt;a href="https://github.com/okwilkins/personal-website">project&amp;rsquo;s repository&lt;/a> are automatically deployed to the web.&lt;/p>
+&lt;h3 id="assortments-of-learning-repositories">Assortments of Learning Repositories&lt;/h3>
+&lt;h4 id="my-personalised-degreehttpsgithubcomokwilkinsmy-degree">&lt;a href="https://github.com/okwilkins/my-degree">My Personalised Degree&lt;/a>&lt;/h4>
+&lt;p>The purpose of &lt;a href="https://github.com/okwilkins/my-degree">this repo&lt;/a> was to iron out flaws in my knowledge for full-stack data science. I learnt many skills including:&lt;/p>
+&lt;ul>
+&lt;li>C#&lt;/li>
+&lt;li>SOLID principles&lt;/li>
+&lt;li>Design patterns&lt;/li>
+&lt;li>In depth reading into the major data science machine learning algorithms&lt;/li>
+&lt;li>Azure/GCP&lt;/li>
+&lt;li>Unit testing&lt;/li>
+&lt;li>Management/leadership&lt;/li>
+&lt;li>Docker/Github actions&lt;/li>
+&lt;/ul>
+&lt;h4 id="rusthttpsgithubcomokwilkinslearning-rust">&lt;a href="https://github.com/okwilkins/learning-rust">Rust&lt;/a>&lt;/h4></content></item><item><title>Programming</title><link>https://www.okwilkins.dev/knowledge-system/map-of-content/programming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/map-of-content/programming/</guid><description>Mermaid Class Diagram Mermaid Entity Relationship Diagram Mermaid Gitgraph Diagram</description><content>&lt;p>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-class-diagram/">Mermaid Class Diagram&lt;/a>
 &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-entity-relationship-diagram/">Mermaid Entity Relationship Diagram&lt;/a>
 &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/mermaid-gitgraph-diagram/">Mermaid Gitgraph Diagram&lt;/a>&lt;/p></content></item><item><title>Statquest With Josh Starmer</title><link>https://www.okwilkins.dev/knowledge-system/references/statquest-with-josh-starmer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/references/statquest-with-josh-starmer/</guid><description>Bias &amp;ldquo;Bias and Variance&amp;rdquo;, Youtube, StatQuest with Josh Starmer, 2023-02-27, https://youtu.be/EuBBz3bI-aA?t=29 Variance &amp;ldquo;Bias and Variance&amp;rdquo;, Youtube, StatQuest with Josh Starmer, 2023-02-27, https://youtu.be/EuBBz3bI-aA?t=246 Decision Trees &amp;ldquo;Decision and Classification Trees, Clearly Explained!!!&amp;rdquo;, Youtube, StatQuest with Josh Starmer, 2023-02-27, https://www.youtube.com/watch?v=_L39rN6gz7Y &amp;ldquo;Regression Trees, Clearly Explained!!!&amp;rdquo;, Youtube, StatQuest with Josh Starmer, 2023-02-27, https://www.youtube.com/watch?v=g9c66TUylZ4 &amp;ldquo;How to Prune Regression Trees, Clearly Explained!!!&amp;rdquo; Youtube, StatQuest with Josh Starmer, 2023-02-27, https://www.youtube.com/watch?v=D0efHEJsfHo</description><content>&lt;h2 id="bias">Bias&lt;/h2>
 &lt;ul>
