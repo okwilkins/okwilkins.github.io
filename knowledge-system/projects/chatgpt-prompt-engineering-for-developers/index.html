@@ -1,0 +1,280 @@
+<!doctype html><html lang=en><head><title>Chatgpt Prompt Engineering For Developers :: Oli Wilkins</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="&amp;quot;&amp;quot;&amp;quot;
+* This can help with prompt injections too #### Tactic 2: Ask for a struction output * JSON or HTML ````python prompt = f&amp;#34;&amp;#34;&amp;#34; Generate a list of three made-up book titles along \ with their authors and genres. Provide them in JSON format with the following keys: book_id, title, author, genre. &amp;#34;&amp;#34;&amp;#34; Tactic 3: Check wheter conditions are satisfied Check assumption required to do the task text_1 = f&amp;#34;&amp;#34;&amp;#34; Making a cup of tea is easy!"><meta name=keywords content><meta name=robots content="noodp"><link rel=canonical href=https://www.okwilkins.dev/knowledge-system/projects/chatgpt-prompt-engineering-for-developers/><script async src="https://www.googletagmanager.com/gtag/js?id=G-QFBNT4WHSV"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-QFBNT4WHSV",{anonymize_ip:!1})}</script><link rel=stylesheet href=/search.css><link rel=stylesheet href=https://www.okwilkins.dev/assets/style.css><link rel=stylesheet href=https://www.okwilkins.dev/assets/blue.css><link rel=apple-touch-icon href=https://www.okwilkins.dev/img/apple-touch-icon-192x192.png><link rel="shortcut icon" href=https://www.okwilkins.dev/img/favicon/blue.png><meta name=twitter:card content="summary"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="og:title" content="Chatgpt Prompt Engineering For Developers"><meta property="og:description" content="&amp;quot;&amp;quot;&amp;quot;
+* This can help with prompt injections too #### Tactic 2: Ask for a struction output * JSON or HTML ````python prompt = f&amp;#34;&amp;#34;&amp;#34; Generate a list of three made-up book titles along \ with their authors and genres. Provide them in JSON format with the following keys: book_id, title, author, genre. &amp;#34;&amp;#34;&amp;#34; Tactic 3: Check wheter conditions are satisfied Check assumption required to do the task text_1 = f&amp;#34;&amp;#34;&amp;#34; Making a cup of tea is easy!"><meta property="og:url" content="https://www.okwilkins.dev/knowledge-system/projects/chatgpt-prompt-engineering-for-developers/"><meta property="og:site_name" content="Oli Wilkins"><meta property="og:image" content="https://www.okwilkins.dev/"><meta property="og:image:width" content="2048"><meta property="og:image:height" content="1024"><script type=module src=/js/search.js></script></head><body class=blue><div class="container center headings--one-size"><header class=header><div class=header__inner><div class=header__logo><a href=/><div class=logo>Oli Wilkins</div></a></div><div class=menu-trigger>menu</div></div><nav class=menu><ul class="menu__inner menu__inner--desktop"><li><a href=/about>About</a></li><li><a href=/knowledge-system>Knowledge System</a></li><li><a href=/my-work>My Work</a></li><li><a href=/posts>Posts</a></li></ul><ul class="menu__inner menu__inner--mobile"><li><a href=/about>About</a></li><li><a href=/knowledge-system>Knowledge System</a></li><li><a href=/my-work>My Work</a></li><li><a href=/posts>Posts</a></li></ul></nav></header><div id=search><div><input id=searchInput placeholder=Search...></div><div id=searchResults></div></div><div class=content><div class=post><h1 class=post-title><a href=https://www.okwilkins.dev/knowledge-system/projects/chatgpt-prompt-engineering-for-developers/>Chatgpt Prompt Engineering For Developers</a></h1><div class=post-meta></div><div class=post-content><div><p>"""</p><pre tabindex=0><code>
+* This can help with prompt injections too
+
+#### Tactic 2: Ask for a struction output
+
+* JSON or HTML
+
+````python
+prompt = f&#34;&#34;&#34;
+Generate a list of three made-up book titles along \
+with their authors and genres.
+Provide them in JSON format with the following keys:
+book_id, title, author, genre.
+&#34;&#34;&#34;
+</code></pre><h4 id=tactic-3-check-wheter-conditions-are-satisfied>Tactic 3: Check wheter conditions are satisfied<a href=#tactic-3-check-wheter-conditions-are-satisfied class=hanchor arialabel=Anchor>&#8983;</a></h4><ul><li>Check assumption required to do the task</li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>text_1 <span style=color:#f92672>=</span> <span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;&#34;&#34;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Making a cup of tea is easy! First, you need to get some </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>water boiling. While that&#39;s happening, </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>grab a cup and put a tea bag in it. Once the water is </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>hot enough, just pour it over the tea bag. </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>Let it sit for a bit so the tea can steep. After a </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>few minutes, take out the tea bag. If you </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>like, you can add some sugar or milk to taste. </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>And that&#39;s it! You&#39;ve got yourself a delicious </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>cup of tea to enjoy.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&#34;&#34;&#34;</span>
+</span></span><span style=display:flex><span>prompt <span style=color:#f92672>=</span> <span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;&#34;&#34;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>You will be provided with text delimited by triple quotes.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>If it contains a sequence of instructions, </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>re-write those instructions in the following format:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Step 1 - ...
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Step 2 - …
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>…
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Step N - …
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>If the text does not contain a sequence of instructions, </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>then simply write </span><span style=color:#ae81ff>\&#34;</span><span style=color:#e6db74>No steps provided.</span><span style=color:#ae81ff>\&#34;</span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74></span><span style=color:#ae81ff>\&#34;\&#34;\&#34;</span><span style=color:#e6db74>{</span>text_1<span style=color:#e6db74>}</span><span style=color:#ae81ff>\&#34;\&#34;\&#34;</span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&#34;&#34;&#34;</span>
+</span></span><span style=display:flex><span>response <span style=color:#f92672>=</span> get_completion(prompt)
+</span></span><span style=display:flex><span>print(<span style=color:#e6db74>&#34;Completion for Text 1:&#34;</span>)
+</span></span><span style=display:flex><span>print(response)
+</span></span></code></pre></div><pre tabindex=0><code>Completion for Text 1:
+Step 1 - Get some water boiling.
+Step 2 - Grab a cup and put a tea bag in it.
+Step 3 - Once the water is hot enough, pour it over the tea bag.
+Step 4 - Let it sit for a bit so the tea can steep.
+Step 5 - After a few minutes, take out the tea bag.
+Step 6 - Add some sugar or milk to taste.
+Step 7 - Enjoy your delicious cup of tea!
+</code></pre><p>vs</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>text_2 <span style=color:#f92672>=</span> <span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;&#34;&#34;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>The sun is shining brightly today, and the birds are </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>singing. It&#39;s a beautiful day to go for a </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>walk in the park. The flowers are blooming, and the </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>trees are swaying gently in the breeze. People </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>are out and about, enjoying the lovely weather. </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>Some are having picnics, while others are playing </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>games or simply relaxing on the grass. It&#39;s a </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>perfect day to spend time outdoors and appreciate the </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>beauty of nature.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&#34;&#34;&#34;</span>
+</span></span><span style=display:flex><span>prompt <span style=color:#f92672>=</span> <span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;&#34;&#34;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>You will be provided with text delimited by triple quotes.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>If it contains a sequence of instructions, </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>re-write those instructions in the following format:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Step 1 - ...
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Step 2 - …
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>…
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Step N - …
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>If the text does not contain a sequence of instructions, </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>then simply write </span><span style=color:#ae81ff>\&#34;</span><span style=color:#e6db74>No steps provided.</span><span style=color:#ae81ff>\&#34;</span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74></span><span style=color:#ae81ff>\&#34;\&#34;\&#34;</span><span style=color:#e6db74>{</span>text_2<span style=color:#e6db74>}</span><span style=color:#ae81ff>\&#34;\&#34;\&#34;</span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&#34;&#34;&#34;</span>
+</span></span><span style=display:flex><span>response <span style=color:#f92672>=</span> get_completion(prompt)
+</span></span><span style=display:flex><span>print(<span style=color:#e6db74>&#34;Completion for Text 2:&#34;</span>)
+</span></span><span style=display:flex><span>print(response)
+</span></span></code></pre></div><pre tabindex=0><code>Completion for Text 2:
+No steps provided.
+</code></pre><h4 id=tactic-4-few-shot-prompting>Tactic 4: Few-shot prompting<a href=#tactic-4-few-shot-prompting class=hanchor arialabel=Anchor>&#8983;</a></h4><ul><li>Give successful examples of completing tasks</li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>prompt <span style=color:#f92672>=</span> <span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;&#34;&#34;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Your task is to answer in a consistent style.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&lt;child&gt;: Teach me about patience.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&lt;grandparent&gt;: The river that carves the deepest </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>valley flows from a modest spring; the </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>grandest symphony originates from a single note; </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>the most intricate tapestry begins with a solitary thread.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&lt;child&gt;: Teach me about resilience.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&#34;&#34;&#34;</span>
+</span></span></code></pre></div><h3 id=2-give-time-for-the-model-to-think>2. Give time for the model to think<a href=#2-give-time-for-the-model-to-think class=hanchor arialabel=Anchor>&#8983;</a></h3><ul><li>if the model is creating reasoning errors by rushing to an incorrect conclusion</li><li>try reframing the query to request a chain or series of relevant reasoning</li><li>Another way to think about it:</li><li>If you give the model a task that is too complex for it to do in a short amount of time/words</li><li>It may make up a guess that is incorrect</li></ul><h4 id=tactic-1-specify-the-steps-required-to-complete-a-task>Tactic 1: Specify the steps required to complete a task<a href=#tactic-1-specify-the-steps-required-to-complete-a-task class=hanchor arialabel=Anchor>&#8983;</a></h4><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>prompt_2 <span style=color:#f92672>=</span> <span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;&#34;&#34;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Your task is to perform the following actions:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>1 - Summarize the following text delimited by
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&lt;&gt; with 1 sentence.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>2 - Translate the summary into French.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>3 - List each name in the French summary.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>4 - Output a json object that contains the
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>following keys: french_summary, num_names.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Use the following format:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Text: &lt;text to summarize&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Summary: &lt;summary&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Translation: &lt;summary translation&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Names: &lt;list of names in Italian summary&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Output JSON: &lt;json with summary and num_names&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Text: &lt;</span><span style=color:#e6db74>{</span>text<span style=color:#e6db74>}</span><span style=color:#e6db74>&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&#34;&#34;&#34;</span>
+</span></span><span style=display:flex><span>response <span style=color:#f92672>=</span> get_completion(prompt_2)
+</span></span><span style=display:flex><span>print(<span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>Completion for prompt 2:&#34;</span>)
+</span></span><span style=display:flex><span>print(response)
+</span></span></code></pre></div><h4 id=tactic-2-instruct-the-model-to-work-out-its-own-solution-before-rushing-to-a-conclusion>Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion<a href=#tactic-2-instruct-the-model-to-work-out-its-own-solution-before-rushing-to-a-conclusion class=hanchor arialabel=Anchor>&#8983;</a></h4><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>prompt <span style=color:#f92672>=</span> <span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;&#34;&#34;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Your task is to determine if the student&#39;s solution </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>is correct or not.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>To solve the problem do the following:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>- First, work out your own solution to the problem.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>- Then compare your solution to the student&#39;s solution </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>and evaluate if the student&#39;s solution is correct or not.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Don&#39;t decide if the student&#39;s solution is correct until
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>you have done the problem yourself.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Use the following format:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Question:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>question here
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Student&#39;s solution:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>student&#39;s solution here
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Actual solution:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>steps to work out the solution and your solution here
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Is the student&#39;s solution the same as actual solution </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>just calculated:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>yes or no
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Student grade:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>correct or incorrect
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Question:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>I&#39;m building a solar power installation and I need help </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>working out the financials.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>- Land costs $100 / square foot
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>- I can buy solar panels for $250 / square foot
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>- I negotiated a contract for maintenance that will cost </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>me a flat $100k per year, and an additional $10 / square </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>foot
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>What is the total cost for the first year of operations </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>as a function of the number of square feet.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Student&#39;s solution:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Let x be the size of the installation in square feet.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Costs:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>1. Land cost: 100x
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>2. Solar panel cost: 250x
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>3. Maintenance cost: 100,000 + 100x
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Total cost: 100x + 250x + 100,000 + 100x = 450x + 100,000
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Actual solution:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&#34;&#34;&#34;</span>
+</span></span><span style=display:flex><span>response <span style=color:#f92672>=</span> get_completion(prompt)
+</span></span><span style=display:flex><span>print(response)
+</span></span></code></pre></div><h3 id=model-limitations-hallucinations>Model Limitations: Hallucinations<a href=#model-limitations-hallucinations class=hanchor arialabel=Anchor>&#8983;</a></h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>prompt <span style=color:#f92672>=</span> <span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;&#34;&#34;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Tell me about AeroGlide UltraSlim Smart Toothbrush by Boie
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&#34;&#34;&#34;</span>
+</span></span></code></pre></div><ul><li>Boie is real, the product is not.</li><li>It can make statemnets that sound plausible but are not true</li><li>It&rsquo;s not good at knowing where the bounds of its knowledge lie</li></ul><p>To reduce hallucinations:</p><ul><li>First find relevant info</li><li>Then answer the question based on the relevant information</li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>prompt <span style=color:#f92672>=</span> <span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;&#34;&#34;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Tell me about AeroGlide UltraSlim Smart Toothbrush by Boie.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Use the following format:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Provide relevent information that lead to the infomation on the toothbrush:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Relevent information here
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Info about the AeroGlide UltraSlim Smart Toothbrush by Boie:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>AeroGlide UltraSlim Smart Toothbrush by Boie here
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>If there is no relevent information, then simply write: &#34;This is a hallucination.&#34; and follow it with the above format.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&#34;&#34;&#34;</span>
+</span></span></code></pre></div><h2 id=iterative-prompt-development>Iterative Prompt Development<a href=#iterative-prompt-development class=hanchor arialabel=Anchor>&#8983;</a></h2><h2 id=summarising>Summarising<a href=#summarising class=hanchor arialabel=Anchor>&#8983;</a></h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>prompt <span style=color:#f92672>=</span> <span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;&#34;&#34;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Your task is to generate a short summary of a product </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>review from an ecommerce site to give feed back to the shipping deparment.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Summarize the review below, delimited by triple </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>backticks in at most 20 words and focusing on any aspects that mention shipping and delivery of the product.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Review: ---</span><span style=color:#e6db74>{</span>reviews[i]<span style=color:#e6db74>}</span><span style=color:#e6db74>---
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&#34;&#34;&#34;</span>
+</span></span></code></pre></div><p>You can generate a summary that is more applicable to one particular group in your business</p><h2 id=inferring>Inferring<a href=#inferring class=hanchor arialabel=Anchor>&#8983;</a></h2><ul><li>Takes a text as input and performs some form of analysis</li></ul><p>Can perform:</p><ul><li>sentiment</li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>prompt <span style=color:#f92672>=</span> <span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;&#34;&#34;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>What is the sentiment of the following product review,
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>which is delimited with triple backticks?
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Give your answer as a single word, either &#34;positive&#34; </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>or &#34;negative&#34;.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Review text: &#39;&#39;&#39;</span><span style=color:#e6db74>{</span>lamp_review<span style=color:#e6db74>}</span><span style=color:#e6db74>&#39;&#39;&#39;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&#34;&#34;&#34;</span>
+</span></span></code></pre></div><ul><li>Identify types of emotions</li><li>LLMs are pretty god at extracting data from text</li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>prompt <span style=color:#f92672>=</span> <span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;&#34;&#34;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Identify a list of emotions that the writer of the </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>following review is expressing. Include no more than </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>five items in the list. Format your answer as a list of </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>lower-case words separated by commas.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Review text: &#39;&#39;&#39;</span><span style=color:#e6db74>{</span>lamp_review<span style=color:#e6db74>}</span><span style=color:#e6db74>&#39;&#39;&#39;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&#34;&#34;&#34;</span>
+</span></span></code></pre></div><ul><li>Indentify anger</li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>prompt <span style=color:#f92672>=</span> <span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;&#34;&#34;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Is the writer of the following review expressing anger?</span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>The review is delimited with triple backticks. </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>Give your answer as either yes or no.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Review text: &#39;&#39;&#39;</span><span style=color:#e6db74>{</span>lamp_review<span style=color:#e6db74>}</span><span style=color:#e6db74>&#39;&#39;&#39;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&#34;&#34;&#34;</span>
+</span></span></code></pre></div><ul><li>Extract product and company name from customer reviews</li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>prompt <span style=color:#f92672>=</span> <span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;&#34;&#34;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Identify the following items from the review text:
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>- Item purchased by reviewer
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>- Company that made the item
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>The review is delimited with triple backticks. </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>Format your response as a JSON object with </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>&#34;Item&#34; and &#34;Brand&#34; as the keys.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>If the information isn&#39;t present, use &#34;unknown&#34; </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>as the value.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Make your response as short as possible.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Review text: &#39;&#39;&#39;</span><span style=color:#e6db74>{</span>lamp_review<span style=color:#e6db74>}</span><span style=color:#e6db74>&#39;&#39;&#39;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&#34;&#34;&#34;</span>
+</span></span></code></pre></div><ul><li>Infer topics</li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>prompt <span style=color:#f92672>=</span> <span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;&#34;&#34;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Determine five topics that are being discussed in the </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>following text, which is delimited by triple backticks.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Make each item one or two words long.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Format your response as a list of items separated by commas.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Text sample: &#39;&#39;&#39;</span><span style=color:#e6db74>{</span>story<span style=color:#e6db74>}</span><span style=color:#e6db74>&#39;&#39;&#39;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&#34;&#34;&#34;</span>
+</span></span><span style=display:flex><span>response <span style=color:#f92672>=</span> get_completion(prompt)
+</span></span><span style=display:flex><span>print(response)
+</span></span></code></pre></div><ul><li>Make a news alert for certain topics</li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>topic_list <span style=color:#f92672>=</span> [
+</span></span><span style=display:flex><span><span style=color:#e6db74>&#34;nasa&#34;</span>, <span style=color:#e6db74>&#34;local government&#34;</span>, <span style=color:#e6db74>&#34;engineering&#34;</span>,
+</span></span><span style=display:flex><span><span style=color:#e6db74>&#34;employee satisfaction&#34;</span>, <span style=color:#e6db74>&#34;federal government&#34;</span>
+</span></span><span style=display:flex><span>]
+</span></span><span style=display:flex><span>prompt <span style=color:#f92672>=</span> <span style=color:#e6db74>f</span><span style=color:#e6db74>&#34;&#34;&#34;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Determine whether each item in the following list of </span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>topics is a topic in the text below, which
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>is delimited with triple backticks.
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Give your answer as list with 0 or 1 for each topic.</span><span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>List of topics: </span><span style=color:#e6db74>{</span><span style=color:#e6db74>&#34;, &#34;</span><span style=color:#f92672>.</span>join(topic_list)<span style=color:#e6db74>}</span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>Text sample: &#39;&#39;&#39;</span><span style=color:#e6db74>{</span>story<span style=color:#e6db74>}</span><span style=color:#e6db74>&#39;&#39;&#39;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&#34;&#34;&#34;</span>
+</span></span><span style=display:flex><span>response <span style=color:#f92672>=</span> get_completion(prompt)
+</span></span><span style=display:flex><span>print(response)
+</span></span></code></pre></div><pre tabindex=0><code>nasa: 1
+local government: 0
+engineering: 0
+employee satisfaction: 1
+federal government: 1
+</code></pre><h2 id=transforming>Transforming<a href=#transforming class=hanchor arialabel=Anchor>&#8983;</a></h2><ul><li>LLMs are very good at transforming text</li><li>Helping speling and grammitcal issues</li><li>HTML to JSON</li><li>Tone of the text</li></ul><h2 id=exapanding>Exapanding<a href=#exapanding class=hanchor arialabel=Anchor>&#8983;</a></h2><h2 id=conclusion>Conclusion<a href=#conclusion class=hanchor arialabel=Anchor>&#8983;</a></h2></div></div><h2>Knowledge Graph</h2><div id=graph></div><script src=https://unpkg.com/force-graph@1.43.0/dist/force-graph.min.js type=module></script>
+<script src=/js/graph.js type=module></script></div></div><footer class=footer><div class=footer__inner><div class=copyright><span>© 2023 Powered by <a href=http://gohugo.io>Hugo</a></span>
+<span>:: Theme made by <a href=https://twitter.com/panr>panr</a></span></div></div></footer><script src=https://www.okwilkins.dev/assets/main.js></script>
+<script src=https://www.okwilkins.dev/assets/prism.js></script></div></body></html>
