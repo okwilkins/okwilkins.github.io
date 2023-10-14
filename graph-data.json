@@ -117,7 +117,7 @@
         {
             "id": "bulgarian food",
             "description": "Bulgarian Food",
-            "group": "language",
+            "group": "bulgarian",
             "node_size": 0.1
         },
         {
@@ -147,7 +147,7 @@
         {
             "id": "bulgarian verbs",
             "description": "Bulgarian Verbs",
-            "group": "language",
+            "group": "bulgarian",
             "node_size": 0.1
         },
         {
@@ -165,7 +165,7 @@
         {
             "id": "short possessive pronouns",
             "description": "Short Possessive Pronouns",
-            "group": "language",
+            "group": "bulgarian",
             "node_size": 0.1
         },
         {
@@ -201,7 +201,7 @@
         {
             "id": "bulgarian definite articles",
             "description": "Bulgarian Definite Articles",
-            "group": "language",
+            "group": "bulgarian",
             "node_size": 0.13953488372093023
         },
         {
@@ -231,7 +231,7 @@
         {
             "id": "bulgarian conjugation",
             "description": "Bulgarian Conjugation",
-            "group": "language",
+            "group": "bulgarian",
             "node_size": 0.1
         },
         {
@@ -369,7 +369,7 @@
         {
             "id": "possessive pronoun placement",
             "description": "Possessive Pronoun Placement",
-            "group": "language",
+            "group": "bulgarian",
             "node_size": 0.1
         },
         {
@@ -387,7 +387,7 @@
         {
             "id": "bulgarian masculine definite articles",
             "description": "Bulgarian Masculine Definite Articles",
-            "group": "language",
+            "group": "bulgarian",
             "node_size": 0.1
         },
         {
@@ -438,19 +438,15 @@
         },
         {
             "source": "bulgarian",
-            "target": "language"
+            "target": "map of content"
         },
         {
             "source": "bulgarian",
-            "target": "map of content"
+            "target": "language"
         },
         {
             "source": "language",
             "target": "map of content"
-        },
-        {
-            "source": "decision trees branches and nodes",
-            "target": "decision trees"
         },
         {
             "source": "decision trees branches and nodes",
@@ -459,6 +455,10 @@
         {
             "source": "decision trees branches and nodes",
             "target": "data science"
+        },
+        {
+            "source": "decision trees branches and nodes",
+            "target": "decision trees"
         },
         {
             "source": "adjective",
@@ -478,11 +478,11 @@
         },
         {
             "source": "bulgarian animals exceptions",
-            "target": "language"
+            "target": "bulgarian animals"
         },
         {
             "source": "bulgarian animals exceptions",
-            "target": "bulgarian animals"
+            "target": "language"
         },
         {
             "source": "bulgarian animals exceptions",
@@ -506,27 +506,27 @@
         },
         {
             "source": "bulgarian counting to 10",
-            "target": "language"
-        },
-        {
-            "source": "bulgarian counting to 10",
             "target": "numeral plural"
         },
         {
             "source": "bulgarian counting to 10",
-            "target": "bulgarian"
-        },
-        {
-            "source": "bulgarian meat names",
             "target": "language"
         },
         {
-            "source": "bulgarian meat names",
+            "source": "bulgarian counting to 10",
             "target": "bulgarian"
         },
         {
             "source": "bulgarian meat names",
             "target": "bulgarian food"
+        },
+        {
+            "source": "bulgarian meat names",
+            "target": "language"
+        },
+        {
+            "source": "bulgarian meat names",
+            "target": "bulgarian"
         },
         {
             "source": "mermaid flowchart",
@@ -542,7 +542,7 @@
         },
         {
             "source": "building the root node of a decision tree with numerical features",
-            "target": "decision trees"
+            "target": "decision tree gini impurity"
         },
         {
             "source": "building the root node of a decision tree with numerical features",
@@ -550,27 +550,27 @@
         },
         {
             "source": "building the root node of a decision tree with numerical features",
-            "target": "decision tree gini impurity"
-        },
-        {
-            "source": "building the root node of a decision tree with numerical features",
             "target": "data science"
         },
         {
-            "source": "verb",
-            "target": "language"
+            "source": "building the root node of a decision tree with numerical features",
+            "target": "decision trees"
         },
         {
             "source": "verb",
             "target": "infinitive"
         },
         {
-            "source": "mermaid gitgraph diagram",
-            "target": "programming"
+            "source": "verb",
+            "target": "language"
         },
         {
             "source": "mermaid gitgraph diagram",
             "target": "mermaid"
+        },
+        {
+            "source": "mermaid gitgraph diagram",
+            "target": "programming"
         },
         {
             "source": "bulgarian starting sentences with a present form",
@@ -590,23 +590,15 @@
         },
         {
             "source": "decision trees",
-            "target": "splitting a leaf of a decision tree"
-        },
-        {
-            "source": "decision trees",
             "target": "data science"
         },
         {
-            "source": "bulgarian food",
-            "target": "language"
+            "source": "decision trees",
+            "target": "splitting a leaf of a decision tree"
         },
         {
             "source": "bulgarian food",
             "target": "bulgarian meat names"
-        },
-        {
-            "source": "bulgarian food",
-            "target": "bulgarian counting fruit"
         },
         {
             "source": "bulgarian food",
@@ -617,16 +609,12 @@
             "target": "bulgarian"
         },
         {
-            "source": "mermaid",
-            "target": "mermaid mindmap"
+            "source": "bulgarian food",
+            "target": "bulgarian counting fruit"
         },
         {
-            "source": "mermaid",
-            "target": "programming"
-        },
-        {
-            "source": "mermaid",
-            "target": "mermaid gantt chart"
+            "source": "bulgarian food",
+            "target": "language"
         },
         {
             "source": "mermaid",
@@ -634,19 +622,11 @@
         },
         {
             "source": "mermaid",
-            "target": "mermaid user journey diagram"
+            "target": "mermaid flowchart"
         },
         {
             "source": "mermaid",
-            "target": "mermaid pie chart"
-        },
-        {
-            "source": "mermaid",
-            "target": "mermaid timeline diagram"
-        },
-        {
-            "source": "mermaid",
-            "target": "mermaid entity relationship diagram"
+            "target": "mermaid gantt chart"
         },
         {
             "source": "mermaid",
@@ -658,11 +638,31 @@
         },
         {
             "source": "mermaid",
+            "target": "mermaid entity relationship diagram"
+        },
+        {
+            "source": "mermaid",
+            "target": "programming"
+        },
+        {
+            "source": "mermaid",
+            "target": "mermaid user journey diagram"
+        },
+        {
+            "source": "mermaid",
             "target": "mermaid sequence diagram"
         },
         {
             "source": "mermaid",
-            "target": "mermaid flowchart"
+            "target": "mermaid pie chart"
+        },
+        {
+            "source": "mermaid",
+            "target": "mermaid timeline diagram"
+        },
+        {
+            "source": "mermaid",
+            "target": "mermaid mindmap"
         },
         {
             "source": "mermaid timeline diagram",
@@ -690,10 +690,6 @@
         },
         {
             "source": "bulgarian verbs",
-            "target": "language"
-        },
-        {
-            "source": "bulgarian verbs",
             "target": "conjugation"
         },
         {
@@ -702,18 +698,18 @@
         },
         {
             "source": "bulgarian verbs",
-            "target": "citation form"
+            "target": "bulgarian"
         },
         {
             "source": "bulgarian verbs",
-            "target": "bulgarian"
+            "target": "citation form"
         },
         {
             "source": "bulgarian verbs",
             "target": "verb"
         },
         {
-            "source": "bulgarian animals masculine plurals",
+            "source": "bulgarian verbs",
             "target": "language"
         },
         {
@@ -726,6 +722,10 @@
         },
         {
             "source": "bulgarian animals masculine plurals",
+            "target": "language"
+        },
+        {
+            "source": "bulgarian animals masculine plurals",
             "target": "bulgarian"
         },
         {
@@ -742,27 +742,7 @@
         },
         {
             "source": "short possessive pronouns",
-            "target": "language"
-        },
-        {
-            "source": "short possessive pronouns",
-            "target": "pronoun"
-        },
-        {
-            "source": "short possessive pronouns",
-            "target": "letter ѝ"
-        },
-        {
-            "source": "short possessive pronouns",
-            "target": "possessive pronoun placement"
-        },
-        {
-            "source": "short possessive pronouns",
-            "target": "possessive polite singular you"
-        },
-        {
-            "source": "short possessive pronouns",
-            "target": "на preposition"
+            "target": "possessive definite articles"
         },
         {
             "source": "short possessive pronouns",
@@ -770,14 +750,30 @@
         },
         {
             "source": "short possessive pronouns",
-            "target": "possessive definite articles"
+            "target": "possessive pronoun placement"
+        },
+        {
+            "source": "short possessive pronouns",
+            "target": "на preposition"
         },
         {
             "source": "short possessive pronouns",
             "target": "bulgarian"
         },
         {
-            "source": "bulgarian animals",
+            "source": "short possessive pronouns",
+            "target": "pronoun"
+        },
+        {
+            "source": "short possessive pronouns",
+            "target": "possessive polite singular you"
+        },
+        {
+            "source": "short possessive pronouns",
+            "target": "letter ѝ"
+        },
+        {
+            "source": "short possessive pronouns",
             "target": "language"
         },
         {
@@ -787,6 +783,10 @@
         {
             "source": "bulgarian animals",
             "target": "bulgarian animals exceptions"
+        },
+        {
+            "source": "bulgarian animals",
+            "target": "language"
         },
         {
             "source": "bulgarian animals",
@@ -818,7 +818,11 @@
         },
         {
             "source": "bulgarian definite articles",
-            "target": "language"
+            "target": "bulgarian articles"
+        },
+        {
+            "source": "bulgarian definite articles",
+            "target": "bulgarian"
         },
         {
             "source": "bulgarian definite articles",
@@ -830,11 +834,7 @@
         },
         {
             "source": "bulgarian definite articles",
-            "target": "bulgarian articles"
-        },
-        {
-            "source": "bulgarian definite articles",
-            "target": "bulgarian"
+            "target": "language"
         },
         {
             "source": "numeral plural",
@@ -878,11 +878,15 @@
         },
         {
             "source": "bulgarian conjugation",
-            "target": "language"
+            "target": "conjugation"
         },
         {
             "source": "bulgarian conjugation",
-            "target": "conjugation"
+            "target": "bulgarian"
+        },
+        {
+            "source": "bulgarian conjugation",
+            "target": "verb"
         },
         {
             "source": "bulgarian conjugation",
@@ -890,31 +894,23 @@
         },
         {
             "source": "bulgarian conjugation",
-            "target": "bulgarian"
-        },
-        {
-            "source": "bulgarian conjugation",
-            "target": "verb"
+            "target": "language"
         },
         {
             "source": "preventing decision tree overfitting",
             "target": "decision trees"
-        },
-        {
-            "source": "preventing decision tree overfitting",
-            "target": "splitting a leaf of a decision tree"
         },
         {
             "source": "preventing decision tree overfitting",
             "target": "data science"
         },
         {
-            "source": "building the root node of a decision tree",
-            "target": "gini impurity of decision tree leaves"
+            "source": "preventing decision tree overfitting",
+            "target": "splitting a leaf of a decision tree"
         },
         {
             "source": "building the root node of a decision tree",
-            "target": "decision trees"
+            "target": "gini impurity of decision tree leaves"
         },
         {
             "source": "building the root node of a decision tree",
@@ -922,11 +918,19 @@
         },
         {
             "source": "building the root node of a decision tree",
+            "target": "building the root node of a decision tree with numerical features"
+        },
+        {
+            "source": "building the root node of a decision tree",
             "target": "data science"
         },
         {
             "source": "building the root node of a decision tree",
-            "target": "building the root node of a decision tree with numerical features"
+            "target": "decision trees"
+        },
+        {
+            "source": "bulgarian to eat and to drink",
+            "target": "bulgarian food"
         },
         {
             "source": "bulgarian to eat and to drink",
@@ -935,10 +939,6 @@
         {
             "source": "bulgarian to eat and to drink",
             "target": "bulgarian"
-        },
-        {
-            "source": "bulgarian to eat and to drink",
-            "target": "bulgarian food"
         },
         {
             "source": "bulgarian to be",
@@ -962,7 +962,7 @@
         },
         {
             "source": "splitting a leaf of a decision tree",
-            "target": "preventing decision tree overfitting"
+            "target": "decision trees branches and nodes"
         },
         {
             "source": "splitting a leaf of a decision tree",
@@ -974,11 +974,11 @@
         },
         {
             "source": "splitting a leaf of a decision tree",
-            "target": "decision trees branches and nodes"
+            "target": "data science"
         },
         {
             "source": "splitting a leaf of a decision tree",
-            "target": "data science"
+            "target": "preventing decision tree overfitting"
         },
         {
             "source": "mermaid mindmap",
@@ -994,15 +994,15 @@
         },
         {
             "source": "gini impurity of decision tree leaves",
+            "target": "decision trees branches and nodes"
+        },
+        {
+            "source": "gini impurity of decision tree leaves",
             "target": "decision trees"
         },
         {
             "source": "gini impurity of decision tree leaves",
             "target": "decision tree gini impurity"
-        },
-        {
-            "source": "gini impurity of decision tree leaves",
-            "target": "decision trees branches and nodes"
         },
         {
             "source": "gini impurity of decision tree leaves",
@@ -1030,11 +1030,11 @@
         },
         {
             "source": "mermaid class diagram",
-            "target": "programming"
+            "target": "mermaid"
         },
         {
             "source": "mermaid class diagram",
-            "target": "mermaid"
+            "target": "programming"
         },
         {
             "source": "на preposition",
@@ -1058,11 +1058,11 @@
         },
         {
             "source": "bulgarian to have or not to have",
-            "target": "language"
+            "target": "bulgarian conjugation"
         },
         {
             "source": "bulgarian to have or not to have",
-            "target": "bulgarian conjugation"
+            "target": "language"
         },
         {
             "source": "bulgarian to have or not to have",
@@ -1079,10 +1079,6 @@
         {
             "source": "infinitive",
             "target": "verb"
-        },
-        {
-            "source": "max and min gini impurity of decision tree leaves",
-            "target": "decision trees"
         },
         {
             "source": "max and min gini impurity of decision tree leaves",
@@ -1093,16 +1089,12 @@
             "target": "data science"
         },
         {
+            "source": "max and min gini impurity of decision tree leaves",
+            "target": "decision trees"
+        },
+        {
             "source": "mermaid user journey diagram",
             "target": "mermaid"
-        },
-        {
-            "source": "bulgarian articles",
-            "target": "language"
-        },
-        {
-            "source": "bulgarian articles",
-            "target": "indefinite article"
         },
         {
             "source": "bulgarian articles",
@@ -1110,11 +1102,15 @@
         },
         {
             "source": "bulgarian articles",
+            "target": "language"
+        },
+        {
+            "source": "bulgarian articles",
             "target": "bulgarian"
         },
         {
-            "source": "bulgarian spider plural",
-            "target": "language"
+            "source": "bulgarian articles",
+            "target": "indefinite article"
         },
         {
             "source": "bulgarian spider plural",
@@ -1126,15 +1122,11 @@
         },
         {
             "source": "bulgarian spider plural",
+            "target": "language"
+        },
+        {
+            "source": "bulgarian spider plural",
             "target": "bulgarian"
-        },
-        {
-            "source": "decision tree gini impurity",
-            "target": "decision trees"
-        },
-        {
-            "source": "decision tree gini impurity",
-            "target": "gini impurity of decision tree leaves"
         },
         {
             "source": "decision tree gini impurity",
@@ -1142,11 +1134,19 @@
         },
         {
             "source": "decision tree gini impurity",
+            "target": "gini impurity of decision tree leaves"
+        },
+        {
+            "source": "decision tree gini impurity",
             "target": "data science"
         },
         {
+            "source": "decision tree gini impurity",
+            "target": "decision trees"
+        },
+        {
             "source": "possessive pronoun placement",
-            "target": "language"
+            "target": "bulgarian"
         },
         {
             "source": "possessive pronoun placement",
@@ -1154,7 +1154,7 @@
         },
         {
             "source": "possessive pronoun placement",
-            "target": "bulgarian definite articles"
+            "target": "language"
         },
         {
             "source": "possessive pronoun placement",
@@ -1162,17 +1162,17 @@
         },
         {
             "source": "possessive pronoun placement",
-            "target": "bulgarian"
-        },
-        {
-            "source": "mermaid entity relationship diagram",
-            "target": "programming"
+            "target": "bulgarian definite articles"
         },
         {
             "source": "mermaid entity relationship diagram",
             "target": "mermaid"
         },
         {
+            "source": "mermaid entity relationship diagram",
+            "target": "programming"
+        },
+        {
             "source": "bulgarian generalising statements",
             "target": "language"
         },
@@ -1182,18 +1182,6 @@
         },
         {
             "source": "bulgarian generalising statements",
-            "target": "bulgarian definite articles"
-        },
-        {
-            "source": "bulgarian masculine definite articles",
-            "target": "language"
-        },
-        {
-            "source": "bulgarian masculine definite articles",
-            "target": "definite article"
-        },
-        {
-            "source": "bulgarian masculine definite articles",
             "target": "bulgarian definite articles"
         },
         {
@@ -1203,6 +1191,18 @@
         {
             "source": "bulgarian masculine definite articles",
             "target": "bulgarian"
+        },
+        {
+            "source": "bulgarian masculine definite articles",
+            "target": "definite article"
+        },
+        {
+            "source": "bulgarian masculine definite articles",
+            "target": "language"
+        },
+        {
+            "source": "bulgarian masculine definite articles",
+            "target": "bulgarian definite articles"
         },
         {
             "source": "bulgarian there is",
