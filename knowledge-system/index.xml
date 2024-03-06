@@ -2051,7 +2051,135 @@ References</description><content>&lt;p>A verb is a word that describes what the 
 &lt;blockquote>
 &lt;p>True love &lt;strong>exists&lt;/strong>.&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="references">References&lt;/h2></content></item><item><title>Bulgarian</title><link>https://www.okwilkins.dev/knowledge-system/map-of-content/bulgarian/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/map-of-content/bulgarian/</guid><description>Bulgarian Animals Exceptions Bulgarian Animals Masculine Plurals Bulgarian Animals Bulgarian Articles Bulgarian Closed Questions Bulgarian Conjugation Bulgarian Counting Fruit Bulgarian Counting To 10 Bulgarian Definite Articles Bulgarian Food Exceptions Bulgarian Food Bulgarian Generalising Statements Bulgarian Grammatical Gender Bulgarian Masculine Definite Articles Bulgarian Meat Names Bulgarian Negation Bulgarian Spider Plural Bulgarian Starting Sentences with a Present Form Bulgarian There Is Bulgarian To Be Bulgarian To Eat and To Drink Bulgarian To Have Or Not To Have Bulgarian Verbs Citation Form Definite Articles for Words Ending in й Numeral Plural</description><content>&lt;p>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-animals-exceptions/">Bulgarian Animals Exceptions&lt;/a>
+&lt;h2 id="references">References&lt;/h2></content></item><item><title/><link>https://www.okwilkins.dev/knowledge-system/projects/vim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/projects/vim/</guid><description>3 modes:
+normal mode ( press esc)
+insert mode (press i)
+visual mode (press v)
+Can select text then decide what to do with it
+to move like arrows keys, use h, j, k, l
+to move via words, use w, b, e
+w start of next word
+e to end of a word
+b moves to the beginning of a word
+You can combine movement keys with a number</description><content>&lt;ul>
+&lt;li>
+&lt;p>3 modes:&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>normal mode ( press esc)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>insert mode (press i)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>visual mode (press v)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Can select text then decide what to do with it&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>to move like arrows keys, use h, j, k, l&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>to move via words, use w, b, e&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>w start of next word&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>e to end of a word&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>b moves to the beginning of a word&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You can combine movement keys with a number&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Example: 3w will move 3 words forward&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You can insert multiple times to0&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>30i- Esc&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You can find the next occurrence of a character with &lt;code>f&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Prev (F)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>fo&lt;/code> finds the next o&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You can jump to the start/end of a set of brackets (&lt;code>(&lt;/code>, &lt;code>[&lt;/code>, &lt;code>{&lt;/code>) with &lt;code>%&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To reach the beginning of a line: &lt;code>0&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>End of a line &lt;code>$&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To find the next occurrence of a word under the cursor: &lt;code>*&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Prev: &lt;code>#&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>gg&lt;/code> top of the file&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>G&lt;/code> end of the file&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Direct line number: &lt;code>numberG&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>2G&lt;/code>: line 2&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You can search for text with &lt;code>/&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Next occurrence: &lt;code>n&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Prev: &lt;code>N&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Insert text into a new line: &lt;code>o&lt;/code> or &lt;code>O&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>x&lt;/code> deletes text left of the cursor&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You can replace a single character under the cursor with &lt;code>r&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Then type the char to replace&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>d&lt;/code> is delete command&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Can be combined with movement&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>dw&lt;/code> deletes the word right of the cursor&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>d2e&lt;/code> deletes 2 words right&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To repeat the prev command: &lt;code>.&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ANy problems type: &lt;code>:help&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul></content></item><item><title>Bulgarian</title><link>https://www.okwilkins.dev/knowledge-system/map-of-content/bulgarian/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/map-of-content/bulgarian/</guid><description>Bulgarian Animals Exceptions Bulgarian Animals Masculine Plurals Bulgarian Animals Bulgarian Articles Bulgarian Closed Questions Bulgarian Conjugation Bulgarian Counting Fruit Bulgarian Counting To 10 Bulgarian Definite Articles Bulgarian Food Exceptions Bulgarian Food Bulgarian Generalising Statements Bulgarian Grammatical Gender Bulgarian Masculine Definite Articles Bulgarian Meat Names Bulgarian Negation Bulgarian Spider Plural Bulgarian Starting Sentences with a Present Form Bulgarian There Is Bulgarian To Be Bulgarian To Eat and To Drink Bulgarian To Have Or Not To Have Bulgarian Verbs Citation Form Definite Articles for Words Ending in й Numeral Plural</description><content>&lt;p>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-animals-exceptions/">Bulgarian Animals Exceptions&lt;/a>
 &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-animals-masculine-plurals/">Bulgarian Animals Masculine Plurals&lt;/a>
 &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-animals/">Bulgarian Animals&lt;/a>
 &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/bulgarian-articles/">Bulgarian Articles&lt;/a>
