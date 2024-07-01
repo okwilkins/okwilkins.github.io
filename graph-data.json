@@ -81,7 +81,7 @@
         {
             "id": "20230303105542",
             "description": "20230303105542",
-            "group": "bulgarian",
+            "group": "language",
             "node_size": 0.1
         },
         {
@@ -195,7 +195,7 @@
         {
             "id": "20230129210906",
             "description": "20230129210906",
-            "group": "definite article",
+            "group": "language",
             "node_size": 0.1
         },
         {
@@ -249,7 +249,7 @@
         {
             "id": "20230130212938",
             "description": "20230130212938",
-            "group": "article",
+            "group": "language",
             "node_size": 0.1
         },
         {
@@ -375,7 +375,7 @@
         {
             "id": "20230423212859",
             "description": "20230423212859",
-            "group": "bulgarian",
+            "group": "language",
             "node_size": 0.1
         },
         {
@@ -540,19 +540,19 @@
         },
         {
             "source": "docker",
-            "target": "programming"
+            "target": "map of content"
         },
         {
             "source": "docker",
-            "target": "map of content"
-        },
-        {
-            "source": "cli",
             "target": "programming"
         },
         {
             "source": "cli",
             "target": "map of content"
+        },
+        {
+            "source": "cli",
+            "target": "programming"
         },
         {
             "source": "article",
@@ -592,23 +592,15 @@
         },
         {
             "source": "20230328202959",
-            "target": "definite article"
+            "target": "language"
         },
         {
             "source": "20230328202959",
-            "target": "language"
+            "target": "definite article"
         },
         {
             "source": "20230227102234",
             "target": "article"
-        },
-        {
-            "source": "20230227102234",
-            "target": "definite article"
-        },
-        {
-            "source": "20230227102234",
-            "target": "bulgarian"
         },
         {
             "source": "20230227102234",
@@ -619,20 +611,16 @@
             "target": "20230227102234-a"
         },
         {
-            "source": "20230227115732-c1",
-            "target": "data science"
-        },
-        {
-            "source": "20230303105542",
+            "source": "20230227102234",
             "target": "bulgarian"
         },
         {
-            "source": "20230303105542",
-            "target": "language"
+            "source": "20230227102234",
+            "target": "definite article"
         },
         {
-            "source": "20230303105542",
-            "target": "20230303105542-b"
+            "source": "20230227115732-c1",
+            "target": "data science"
         },
         {
             "source": "20230303105542",
@@ -640,15 +628,27 @@
         },
         {
             "source": "20230303105542",
+            "target": "language"
+        },
+        {
+            "source": "20230303105542",
+            "target": "bulgarian"
+        },
+        {
+            "source": "20230303105542",
+            "target": "20230303105542-b"
+        },
+        {
+            "source": "20230303105542",
             "target": "20230303105542-c"
         },
         {
             "source": "20230129210911-b",
-            "target": "20230129210911-b1"
+            "target": "language"
         },
         {
             "source": "20230129210911-b",
-            "target": "language"
+            "target": "20230129210911-b1"
         },
         {
             "source": "20230227115217",
@@ -676,11 +676,11 @@
         },
         {
             "source": "20230227115732-a",
-            "target": "20230227115732-a1"
+            "target": "data science"
         },
         {
             "source": "20230227115732-a",
-            "target": "data science"
+            "target": "20230227115732-a1"
         },
         {
             "source": "20230129214114",
@@ -708,11 +708,11 @@
         },
         {
             "source": "20240319141300",
-            "target": "philosophy"
+            "target": "20240319141300-a"
         },
         {
             "source": "20240319141300",
-            "target": "20240319141300-a"
+            "target": "philosophy"
         },
         {
             "source": "20230129213905",
@@ -732,11 +732,11 @@
         },
         {
             "source": "20230215182940",
-            "target": "20230215182940-a"
+            "target": "language"
         },
         {
             "source": "20230215182940",
-            "target": "language"
+            "target": "20230215182940-a"
         },
         {
             "source": "20230302084733-a",
@@ -748,19 +748,19 @@
         },
         {
             "source": "20230227123735-c",
-            "target": "programming"
-        },
-        {
-            "source": "20230227123735-c",
             "target": "mermaid"
         },
         {
-            "source": "20240418201124",
+            "source": "20230227123735-c",
             "target": "programming"
         },
         {
             "source": "20240418201124",
             "target": "20240418201124-a"
+        },
+        {
+            "source": "20240418201124",
+            "target": "programming"
         },
         {
             "source": "20230129210911-a",
@@ -772,11 +772,11 @@
         },
         {
             "source": "20230423212859-c",
-            "target": "definite article"
+            "target": "language"
         },
         {
             "source": "20230423212859-c",
-            "target": "language"
+            "target": "definite article"
         },
         {
             "source": "20230227115732-b2",
@@ -784,15 +784,15 @@
         },
         {
             "source": "20230129210906",
+            "target": "language"
+        },
+        {
+            "source": "20230129210906",
             "target": "definite article"
         },
         {
             "source": "20230129210906",
             "target": "article"
-        },
-        {
-            "source": "20230129210906",
-            "target": "language"
         },
         {
             "source": "20230129211820",
@@ -800,15 +800,15 @@
         },
         {
             "source": "20230129211820",
+            "target": "language"
+        },
+        {
+            "source": "20230129211820",
             "target": "definite article"
         },
         {
             "source": "20230129211820",
             "target": "article"
-        },
-        {
-            "source": "20230129211820",
-            "target": "language"
         },
         {
             "source": "20230227113326",
@@ -852,15 +852,15 @@
         },
         {
             "source": "20230130212938",
-            "target": "article"
-        },
-        {
-            "source": "20230130212938",
             "target": "language"
         },
         {
+            "source": "20230130212938",
+            "target": "article"
+        },
+        {
             "source": "20230129210911",
-            "target": "20230129210911-a"
+            "target": "language"
         },
         {
             "source": "20230129210911",
@@ -868,7 +868,7 @@
         },
         {
             "source": "20230129210911",
-            "target": "language"
+            "target": "20230129210911-a"
         },
         {
             "source": "20230129210911-b1",
@@ -880,11 +880,11 @@
         },
         {
             "source": "20240405210605",
-            "target": "docker"
+            "target": "20240405210605-a"
         },
         {
             "source": "20240405210605",
-            "target": "20240405210605-a"
+            "target": "docker"
         },
         {
             "source": "20230227123735-h",
@@ -984,15 +984,11 @@
         },
         {
             "source": "20230423212859",
-            "target": "20230423212859-e"
-        },
-        {
-            "source": "20230423212859",
-            "target": "20230423212859-f"
-        },
-        {
-            "source": "20230423212859",
             "target": "20230423212859-d"
+        },
+        {
+            "source": "20230423212859",
+            "target": "20230423212859-e"
         },
         {
             "source": "20230423212859",
@@ -1000,7 +996,15 @@
         },
         {
             "source": "20230423212859",
+            "target": "language"
+        },
+        {
+            "source": "20230423212859",
             "target": "20230423212859-c"
+        },
+        {
+            "source": "20230423212859",
+            "target": "20230423212859-f"
         },
         {
             "source": "20230423212859",
@@ -1009,10 +1013,6 @@
         {
             "source": "20230423212859",
             "target": "20230423212859-a"
-        },
-        {
-            "source": "20230423212859",
-            "target": "language"
         },
         {
             "source": "20230215182805",
@@ -1032,6 +1032,10 @@
         },
         {
             "source": "20230302084733",
+            "target": "language"
+        },
+        {
+            "source": "20230302084733",
             "target": "20230302084733-a"
         },
         {
@@ -1039,8 +1043,8 @@
             "target": "20230302084733-b"
         },
         {
-            "source": "20230302084733",
-            "target": "language"
+            "source": "20230227115732-b",
+            "target": "20230227115732-b1"
         },
         {
             "source": "20230227115732-b",
@@ -1049,10 +1053,6 @@
         {
             "source": "20230227115732-b",
             "target": "data science"
-        },
-        {
-            "source": "20230227115732-b",
-            "target": "20230227115732-b1"
         },
         {
             "source": "20240415214605",
@@ -1072,11 +1072,11 @@
         },
         {
             "source": "20230423212859-e",
-            "target": "definite article"
+            "target": "language"
         },
         {
             "source": "20230423212859-e",
-            "target": "language"
+            "target": "definite article"
         },
         {
             "source": "20230423212859-f",
@@ -1092,7 +1092,7 @@
         },
         {
             "source": "20230227115732",
-            "target": "20230227115732-c"
+            "target": "20230227115732-a"
         },
         {
             "source": "20230227115732",
@@ -1100,19 +1100,19 @@
         },
         {
             "source": "20230227115732",
-            "target": "20230227115732-a"
-        },
-        {
-            "source": "20230227115732",
             "target": "data science"
         },
         {
-            "source": "20230227123735-d",
-            "target": "programming"
+            "source": "20230227115732",
+            "target": "20230227115732-c"
         },
         {
             "source": "20230227123735-d",
             "target": "mermaid"
+        },
+        {
+            "source": "20230227123735-d",
+            "target": "programming"
         },
         {
             "source": "20240418201124-a",
@@ -1120,11 +1120,11 @@
         },
         {
             "source": "20230227123735-i",
-            "target": "programming"
+            "target": "mermaid"
         },
         {
             "source": "20230227123735-i",
-            "target": "mermaid"
+            "target": "programming"
         },
         {
             "source": "20230129214603",
@@ -1136,19 +1136,19 @@
         },
         {
             "source": "20230302090841",
-            "target": "definite article"
-        },
-        {
-            "source": "20230302090841",
             "target": "language"
         },
         {
-            "source": "20240320131426",
-            "target": "philosophy"
+            "source": "20230302090841",
+            "target": "definite article"
         },
         {
             "source": "20240320131426",
             "target": "20240320131426-a"
+        },
+        {
+            "source": "20240320131426",
+            "target": "philosophy"
         },
         {
             "source": "20230215182636",
@@ -1176,6 +1176,10 @@
         },
         {
             "source": "20230227102234-a",
+            "target": "language"
+        },
+        {
+            "source": "20230227102234-a",
             "target": "definite article"
         },
         {
@@ -1183,24 +1187,8 @@
             "target": "article"
         },
         {
-            "source": "20230227102234-a",
-            "target": "language"
-        },
-        {
             "source": "20230227123735-b",
             "target": "mermaid"
-        },
-        {
-            "source": "20230227123735",
-            "target": "20230227123735-k"
-        },
-        {
-            "source": "20230227123735",
-            "target": "20230227123735-g"
-        },
-        {
-            "source": "20230227123735",
-            "target": "20230227123735-d"
         },
         {
             "source": "20230227123735",
@@ -1208,23 +1196,27 @@
         },
         {
             "source": "20230227123735",
-            "target": "programming"
-        },
-        {
-            "source": "20230227123735",
-            "target": "20230227123735-c"
-        },
-        {
-            "source": "20230227123735",
             "target": "20230227123735-h"
         },
         {
             "source": "20230227123735",
-            "target": "20230227123735-j"
+            "target": "20230227123735-g"
         },
         {
             "source": "20230227123735",
-            "target": "20230227123735-i"
+            "target": "20230227123735-k"
+        },
+        {
+            "source": "20230227123735",
+            "target": "20230227123735-d"
+        },
+        {
+            "source": "20230227123735",
+            "target": "programming"
+        },
+        {
+            "source": "20230227123735",
+            "target": "20230227123735-a"
         },
         {
             "source": "20230227123735",
@@ -1236,7 +1228,15 @@
         },
         {
             "source": "20230227123735",
-            "target": "20230227123735-a"
+            "target": "20230227123735-c"
+        },
+        {
+            "source": "20230227123735",
+            "target": "20230227123735-i"
+        },
+        {
+            "source": "20230227123735",
+            "target": "20230227123735-j"
         },
         {
             "source": "20230328204841",
@@ -1249,14 +1249,14 @@
         {
             "source": "20230302084733-b",
             "target": "bulgarian"
+        },
+        {
+            "source": "20230302084733-b",
+            "target": "language"
         },
         {
             "source": "20230302084733-b",
             "target": "20230302084733-b1"
-        },
-        {
-            "source": "20230302084733-b",
-            "target": "language"
         },
         {
             "source": "20230227115732-a1",
