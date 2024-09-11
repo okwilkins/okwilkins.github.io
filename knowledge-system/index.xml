@@ -46,7 +46,7 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#66d9ef">WORKDIR&lt;/span>&lt;span style="color:#e6db74"> /app&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#66d9ef">EXPOSE&lt;/span>&lt;span style="color:#e6db74"> 3002&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#66d9ef">CMD&lt;/span> [ &lt;span style="color:#e6db74">&amp;#34;node&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;app.js&amp;#34;&lt;/span> ]&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description><content>&lt;p>Multi-stage Dockerfiles can be used to:&lt;/p>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="references">References&lt;/h2></description><content>&lt;p>Multi-stage Dockerfiles can be used to:&lt;/p>
 &lt;ul>
 &lt;li>Optimise the size of a Docker image&lt;/li>
 &lt;li>Easier to debug each stage&lt;/li>
@@ -76,7 +76,7 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#66d9ef">WORKDIR&lt;/span>&lt;span style="color:#e6db74"> /app&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#66d9ef">EXPOSE&lt;/span>&lt;span style="color:#e6db74"> 3002&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#66d9ef">CMD&lt;/span> [ &lt;span style="color:#e6db74">&amp;#34;node&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;app.js&amp;#34;&lt;/span> ]&lt;span style="color:#960050;background-color:#1e0010">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description><content>&lt;p>To optimise image size with Docker files, look at this example:&lt;/p>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>See how the last stage doesn&amp;rsquo;t include the &lt;code>node:14-alpine&lt;/code> image and instead uses the &lt;code>alpine:latest&lt;/code>image. This significantly cuts down the size of the overall image. Only the binaries from the &lt;code>base&lt;/code> stage are needed. Everything that comes with the &lt;code>node:14-alpine&lt;/code> image is not included.&lt;/p></description><content>&lt;p>To optimise image size with Docker files, look at this example:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-dockerfile" data-lang="dockerfile">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">FROM&lt;/span>&lt;span style="color:#e6db74"> node:14-alpine as base&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#66d9ef">ADD&lt;/span> . /app&lt;span style="color:#960050;background-color:#1e0010">
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">&lt;/span>&lt;span style="color:#66d9ef">WORKDIR&lt;/span>&lt;span style="color:#e6db74"> /app&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
@@ -210,7 +210,9 @@
 &lt;h2 id="references">References&lt;/h2></content></item><item><title>20230423212859-D</title><link>https://www.okwilkins.dev/knowledge-system/slip-box/20230423212859-d/</link><pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/slip-box/20230423212859-d/</guid><description>&lt;p>The си can be used to refer to one&amp;rsquo;s own. In English for example, &amp;ldquo;he likes his dog&amp;rdquo; could mean he likes his own dog or he likes someone else&amp;rsquo;s dog. As only context could indicate what is meant, in Bulgarian you choose been му and си:&lt;/p>
 &lt;blockquote>
 &lt;p>&amp;ldquo;Той харесва кучето си&amp;rdquo; - He likes his (own) dog&lt;/p>
-&lt;p>&amp;ldquo;Той харесва кучето му&amp;rdquo; - He likes his (another man&amp;rsquo;s) dog&lt;/p></description><content>&lt;p>The си can be used to refer to one&amp;rsquo;s own. In English for example, &amp;ldquo;he likes his dog&amp;rdquo; could mean he likes his own dog or he likes someone else&amp;rsquo;s dog. As only context could indicate what is meant, in Bulgarian you choose been му and си:&lt;/p>
+&lt;p>&amp;ldquo;Той харесва кучето му&amp;rdquo; - He likes his (another man&amp;rsquo;s) dog&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="references">References&lt;/h2></description><content>&lt;p>The си can be used to refer to one&amp;rsquo;s own. In English for example, &amp;ldquo;he likes his dog&amp;rdquo; could mean he likes his own dog or he likes someone else&amp;rsquo;s dog. As only context could indicate what is meant, in Bulgarian you choose been му and си:&lt;/p>
 &lt;blockquote>
 &lt;p>&amp;ldquo;Той харесва кучето си&amp;rdquo; - He likes his (own) dog&lt;/p>
 &lt;p>&amp;ldquo;Той харесва кучето му&amp;rdquo; - He likes his (another man&amp;rsquo;s) dog&lt;/p>
@@ -995,7 +997,28 @@ A --> |False| C[Loves the song]
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>Then each root can be generated like so:&lt;/p></description><content>&lt;p>To generate potential nodes for the root, first each numerical feature is ordered lowest to highest. The average based off the current row and the row below is also calculated.&lt;/p>
+&lt;p>Then each root can be generated like so:&lt;/p>
+&lt;div class="mermaid">flowchart TD
+A[Age &lt; 7.5\nGini impurity: 0.32]
+A --> |True| B[Loves the song]
+A --> |False| C[Deos not love the song]
+&lt;/div>
+&lt;div class="mermaid">flowchart TD
+A[Age &lt; 15\nGini impurity: 0.2]
+A --> |True| B[Loves the song]
+A --> |False| C[Deos not love the song]
+&lt;/div>
+&lt;div class="mermaid">flowchart TD
+A[Height &lt; 125\nGini impurity: 0.48]
+A --> |True| B[Loves the song]
+A --> |False| C[Deos not love the song]
+&lt;/div>
+&lt;div class="mermaid">flowchart TD
+A[Height &lt; 175\nGini impurity: 0.41]
+A --> |True| B[Loves the song]
+A --> |False| C[Deos not love the song]
+&lt;/div>
+&lt;p>The root with the lowest gini impurity can then be selected. In this case, it would be &lt;code>age &amp;lt; 15&lt;/code>.&lt;/p></description><content>&lt;p>To generate potential nodes for the root, first each numerical feature is ordered lowest to highest. The average based off the current row and the row below is also calculated.&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -1126,7 +1149,19 @@ D[Loves the song\nGini impurity: 0.48]
 A --> |True| C
 A --> |False| D
 &lt;/div>
-&lt;p>Checking if splitting the right node via &lt;code>loves cats&lt;/code> would reduce the branch gini impurity:&lt;/p></description><content>&lt;p>A leaf can be split by comparing features and if they reduce the gini impurity of a &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/20230227115732-a/">branch&lt;/a>. The feature generates the lowest gini impurity for that branch is chosen.&lt;/p>
+&lt;p>Checking if splitting the right node via &lt;code>loves cats&lt;/code> would reduce the branch gini impurity:&lt;/p>
+&lt;div class="mermaid">flowchart TD
+A[Loves popcorn]
+C[Does not love the song\nGini impurity: 0.3]
+D[Loves cats\nGini impurity originally: 0.48\nGini impurity of branch: 0.42]
+E[Loves the song\nSamples: 50\nGini impurity: 0.4]
+F[Does not love the song\nSamples: 10\nGini impurity: 0.5]
+A --> |True| D
+A --> |False| C
+D --> |True| E
+D --> |False| F
+&lt;/div>
+&lt;p>The node would be split into a branch as the gini impurity of the branch is lower.&lt;/p></description><content>&lt;p>A leaf can be split by comparing features and if they reduce the gini impurity of a &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/20230227115732-a/">branch&lt;/a>. The feature generates the lowest gini impurity for that branch is chosen.&lt;/p>
 &lt;p>Example:&lt;/p>
 &lt;div class="mermaid">flowchart TD
 A[Loves popcorn]
@@ -1157,7 +1192,22 @@ D --> |False| F
 &lt;li>&lt;em>Pruning&lt;/em>&lt;/li>
 &lt;li>Putting limits on how &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/20230227115732-c/">trees grow&lt;/a> by setting a threshold of the number of samples required to split a leaf&lt;/li>
 &lt;/ul>
-&lt;p>Example:&lt;/p></description><content>&lt;p>When splitting a decision tree, the number of samples that the leaves on a branch can possess can become quite low. This can make it hard to be sure that the leaf will do a good job of making good predictions.&lt;/p>
+&lt;p>Example:&lt;/p>
+&lt;div class="mermaid">flowchart TD
+A[Loves popcorn\nSamples: 100]
+C[Does not love the song\nSamples: 80]
+D[Loves cats\nSamples: 20]
+E[Loves the song\nSamples: 19]
+F[Does not love the song\nSamples: 1]
+A --> |True| D
+A --> |False| C
+D --> |True| E
+D --> |False| F
+&lt;/div>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/statquest-with-josh-starmer/#decision-trees">StatQuest with Josh Starmer &amp;gt; Decision Trees&lt;/a>&lt;/li>
+&lt;/ul></description><content>&lt;p>When splitting a decision tree, the number of samples that the leaves on a branch can possess can become quite low. This can make it hard to be sure that the leaf will do a good job of making good predictions.&lt;/p>
 &lt;p>This can be dealt with by:&lt;/p>
 &lt;ul>
 &lt;li>&lt;em>Pruning&lt;/em>&lt;/li>
@@ -1407,7 +1457,20 @@ Completed task :done, des1, 2014-01-06,2014-01-08
 Active task :active, des2, 2014-01-09, 3d
 Future task : des3, after des2, 5d
 Future task2 : des4, after des3, 5d
-&lt;/code>&lt;/pr</description><content>&lt;pre tabindex="0">&lt;code>gantt
+&lt;/code>&lt;/pre>&lt;div class="mermaid">gantt
+dateFormat YYYY-MM-DD
+title Adding GANTT diagram to mermaid
+excludes weekdays 2014-01-10
+section A section
+Completed task :done, des1, 2014-01-06,2014-01-08
+Active task :active, des2, 2014-01-09, 3d
+Future task : des3, after des2, 5d
+Future task2 : des4, after des3, 5d
+&lt;/div>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/mermaid/">Mermaid#Gantt Charts&lt;/a>&lt;/li>
+&lt;/ul></description><content>&lt;pre tabindex="0">&lt;code>gantt
 dateFormat YYYY-MM-DD
 title Adding GANTT diagram to mermaid
 excludes weekdays 2014-01-10
@@ -1444,7 +1507,17 @@ title Key elements in Product X
 &amp;#34;Potassium&amp;#34; : 50.05
 &amp;#34;Magnesium&amp;#34; : 10.01
 &amp;#34;Iron&amp;#34; : 5
-&lt;/code>&lt;/pr</description><content>&lt;ul>
+&lt;/code>&lt;/pre>&lt;div class="mermaid">pie showData
+title Key elements in Product X
+"Calcium" : 42.96
+"Potassium" : 50.05
+"Magnesium" : 10.01
+"Iron" : 5
+&lt;/div>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/references/mermaid/">Mermaid#Pie Charts&lt;/a>&lt;/li>
+&lt;/ul></description><content>&lt;ul>
 &lt;li>Start with &lt;code>pie&lt;/code> keyword to begin the diagram&lt;/li>
 &lt;li>&lt;code>showData&lt;/code> to render the actual data values after the legend text. This is &lt;em>&lt;strong>OPTIONAL&lt;/strong>&lt;/em>&lt;/li>
 &lt;li>Followed by &lt;code>title&lt;/code> keyword and its value in string to give a title to the pie-chart. This is &lt;em>&lt;strong>OPTIONAL&lt;/strong>&lt;/em>&lt;/li>
@@ -2181,7 +2254,69 @@ Examples:&lt;/li>
 &lt;ul>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=XepXtl9YKwc">https://www.youtube.com/watch?v=XepXtl9YKwc&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>Logistic Regression&lt;/p></description><content>&lt;p>General Linear Models&lt;/p>
+&lt;p>Logistic Regression&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=yIYKR4sgzI8">https://www.youtube.com/watch?v=yIYKR4sgzI8&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=vN5cNN2-HW">https://www.youtube.com/watch?v=vN5cNN2-HW&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=BfKanl1aSG0">https://www.youtube.com/watch?v=BfKanl1aSG0&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Decision Trees&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=">https://www.youtube.com/watch?v=&lt;/a>_L39rN6gz7&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=g9c66TUylZ4">https://www.youtube.com/watch?v=g9c66TUylZ4&lt;/a>&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=D0efHEJsfHo">https://www.youtube.com/watch?v=D0efHEJsfHo&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Random Forests&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=J4Wdy0Wc_xQ">https://www.youtube.com/watch?v=J4Wdy0Wc_xQ&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>AdaBoost&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=LsK-xG1cLYA">https://www.youtube.com/watch?v=LsK-xG1cLYA&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Gradient Boosting&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=3CC4N4z3GJ">https://www.youtube.com/watch?v=3CC4N4z3GJ&lt;/a>&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=2xudPOBz-vs">https://www.youtube.com/watch?v=2xudPOBz-vs&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=jxuNLH5dXCs">https://www.youtube.com/watch?v=jxuNLH5dXCs&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=StWY5QWMXCw">https://www.youtube.com/watch?v=StWY5QWMXCw&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Regularization&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=Q81RR3yKn30">https://www.youtube.com/watch?v=Q81RR3yKn30&lt;/a>&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=NGf0voTMlcs">https://www.youtube.com/watch?v=NGf0voTMlcs&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>XGBoost&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=OtD8wVaFm6E">https://www.youtube.com/watch?v=OtD8wVaFm6E&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=8b1JEDvenQU">https://www.youtube.com/watch?v=8b1JEDvenQU&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=ZVFeW798-2I">https://www.youtube.com/watch?v=ZVFeW798-2I&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=oRrKeUCEb">https://www.youtube.com/watch?v=oRrKeUCEb&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="regression-trees">Regression Trees&lt;/h1>
+&lt;ul>
+&lt;li>use when you cant fit straight line to data&lt;/li>
+&lt;li>to work out output of leaf, just get avg of the values that sit in the leaf&lt;/li>
+&lt;li>building root:&lt;/li>
+&lt;li>dosage &amp;lt; 3 &amp;ndash; 3 is avg of two values&lt;/li>
+&lt;li>get avg of vals of &amp;lt; 3 and &amp;gt;= 3 (0 &amp;amp; 38.8)&lt;/li>
+&lt;li>so tree will say: &amp;ldquo;Dosage &amp;lt; 3? If so, then 0, else 38.8.&amp;rdquo;&lt;/li>
+&lt;li>use sum of square residuals of all points (left and right) in the leaves to get qual of preds&lt;/li>
+&lt;li>THEN, go to next two points e.g. &amp;ldquo;dosage &amp;lt; 5&amp;rdquo;&lt;/li>
+&lt;li>Select smallest sum of squared residuals&lt;/li>
+&lt;li>root = &amp;ldquo;dosage &amp;lt; 14.5?&amp;rdquo;&lt;/li>
+&lt;li>You then for the left and right branch can do the same again on the samller subset of values&lt;/li>
+&lt;li>you then need to do this for the other features in data&lt;/li>
+&lt;li>compare SSR for each feature that makes the root node&lt;/li>
+&lt;li>to the branch down, you just do the same as before but it&amp;rsquo;s filtered on e.g. &amp;ldquo;Age &amp;gt; 50&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;h1 id="how-to-prune-regression-trees">How to Prune Regression Trees&lt;/h1>
+&lt;ul>
+&lt;li>there are several methods of prunin&lt;/li>
+&lt;li>this is on &lt;strong>Cost Complexity Pruning&lt;/strong> or &lt;strong>Weakest Link Pruning&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>use this for overfitting and variance
+let say we have test/train data and the model is overfit to test data&lt;/p></description><content>&lt;p>General Linear Models&lt;/p>
 &lt;ul>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=nk2CQITm_eo">https://www.youtube.com/watch?v=nk2CQITm_eo&lt;/a>&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://www.youtube.com/watch?v=zITIFTsivN8">https://www.youtube.com/watch?v=zITIFTsivN8&lt;/a>&lt;/li>
@@ -2994,7 +3129,13 @@ There is no &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/2023
 &lt;li>I am - Аз съм&lt;/li>
 &lt;li>he/she/it is - той/тя/то е&lt;/li>
 &lt;/ul>
-&lt;p>Examples:&lt;/p></description><content>&lt;p>Verbs do not have an &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/20230129214114-a/">infinitive&lt;/a> form. When referring to a &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/20230129214114/">verb&lt;/a>, use the first person &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/20230129220508/">conjugation&lt;/a> of that &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/20230129214114/">verb&lt;/a>. Here are examples Bulgarian the &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/20230129220329/">citation form&lt;/a> &amp;ldquo;to be&amp;rdquo;.&lt;/p>
+&lt;p>Examples:&lt;/p>
+&lt;ul>
+&lt;li>&amp;ldquo;Той е мъж&amp;rdquo; - He is a man&lt;/li>
+&lt;li>&amp;ldquo;Тя е жена&amp;rdquo; - She is a woman&lt;/li>
+&lt;li>&amp;ldquo;Това е куче&amp;rdquo; - This is a dog&lt;/li>
+&lt;/ul>
+&lt;p>Since the &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/20230129220508/">conjugations&lt;/a> are unique to each subject, the &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/20230129210911-a/">pronoun&lt;/a> can be left out:&lt;/p></description><content>&lt;p>Verbs do not have an &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/20230129214114-a/">infinitive&lt;/a> form. When referring to a &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/20230129214114/">verb&lt;/a>, use the first person &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/20230129220508/">conjugation&lt;/a> of that &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/20230129214114/">verb&lt;/a>. Here are examples Bulgarian the &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/20230129220329/">citation form&lt;/a> &amp;ldquo;to be&amp;rdquo;.&lt;/p>
 &lt;p>Example:&lt;/p>
 &lt;ul>
 &lt;li>&amp;ldquo;to be&amp;rdquo; is &amp;ldquo;съм&amp;rdquo;&lt;/li>
@@ -3121,7 +3262,19 @@ There is no &lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/2023
 &lt;p>to move via words, use w, b, e&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>w start of next word&lt;/p></description><content>&lt;ul>
+&lt;p>w start of next word&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>e to end of a word&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>b moves to the beginning of a word&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You can combine movement keys with a number&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Example: 3w will move 3 words forward&lt;/p></description><content>&lt;ul>
 &lt;li>
 &lt;p>3 modes:&lt;/p>
 &lt;/li>
@@ -3349,7 +3502,15 @@ book_id, title, author, genre.
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>response &lt;span style="color:#f92672">=&lt;/span> get_completion(prompt)
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>print(&lt;span style="color:#e6db74">&amp;#34;Completion for Text 1:&amp;#34;&lt;/span>)
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>print(response)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description><content>&lt;p>&amp;quot;&amp;quot;&amp;quot;&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre tabindex="0">&lt;code>Completion for Text 1:
+Step 1 - Get some water boiling.
+Step 2 - Grab a cup and put a tea bag in it.
+Step 3 - Once the water is hot enough, pour it over the tea bag.
+Step 4 - Let it sit for a bit so the tea can steep.
+Step 5 - After a few minutes, take out the tea bag.
+Step 6 - Add some sugar or milk to taste.
+Step 7 - Enjoy your delicious cup of tea!
+&lt;/code>&lt;/pre>&lt;p>vs&lt;/p></description><content>&lt;p>&amp;quot;&amp;quot;&amp;quot;&lt;/p>
 &lt;pre tabindex="0">&lt;code>
 * This can help with prompt injections too
 #### Tactic 2: Ask for a struction output
