@@ -267,7 +267,7 @@
         {
             "id": "20230227102234",
             "description": "20230227102234",
-            "group": "language",
+            "group": "definite article",
             "node_size": 0.1
         },
         {
@@ -532,11 +532,11 @@
     "links": [
         {
             "source": "definite article",
-            "target": "language"
+            "target": "map of content"
         },
         {
             "source": "definite article",
-            "target": "map of content"
+            "target": "language"
         },
         {
             "source": "data science",
@@ -548,10 +548,14 @@
         },
         {
             "source": "docker",
-            "target": "programming"
+            "target": "map of content"
         },
         {
             "source": "docker",
+            "target": "programming"
+        },
+        {
+            "source": "bulgarian",
             "target": "map of content"
         },
         {
@@ -559,16 +563,12 @@
             "target": "language"
         },
         {
-            "source": "bulgarian",
+            "source": "article",
             "target": "map of content"
         },
         {
             "source": "article",
             "target": "language"
-        },
-        {
-            "source": "article",
-            "target": "map of content"
         },
         {
             "source": "programming",
@@ -580,13 +580,13 @@
         },
         {
             "source": "cli",
-            "target": "programming"
-        },
-        {
-            "source": "cli",
             "target": "map of content"
         },
         {
+            "source": "cli",
+            "target": "programming"
+        },
+        {
             "source": "20230423212859-d",
             "target": "language"
         },
@@ -600,19 +600,15 @@
         },
         {
             "source": "20230328202959",
-            "target": "definite article"
+            "target": "bulgarian"
         },
         {
             "source": "20230328202959",
-            "target": "bulgarian"
+            "target": "definite article"
         },
         {
             "source": "20230129211820",
             "target": "language"
-        },
-        {
-            "source": "20230129211820",
-            "target": "definite article"
         },
         {
             "source": "20230129211820",
@@ -621,6 +617,10 @@
         {
             "source": "20230129211820",
             "target": "bulgarian"
+        },
+        {
+            "source": "20230129211820",
+            "target": "definite article"
         },
         {
             "source": "20230215182940-a",
@@ -652,11 +652,7 @@
         },
         {
             "source": "20230303105542",
-            "target": "language"
-        },
-        {
-            "source": "20230303105542",
-            "target": "20230303105542-b"
+            "target": "20230303105542-a"
         },
         {
             "source": "20230303105542",
@@ -664,11 +660,15 @@
         },
         {
             "source": "20230303105542",
-            "target": "bulgarian"
+            "target": "20230303105542-b"
         },
         {
             "source": "20230303105542",
-            "target": "20230303105542-a"
+            "target": "language"
+        },
+        {
+            "source": "20230303105542",
+            "target": "bulgarian"
         },
         {
             "source": "20240415211502",
@@ -760,11 +760,11 @@
         },
         {
             "source": "20230423212859-e",
-            "target": "definite article"
+            "target": "bulgarian"
         },
         {
             "source": "20230423212859-e",
-            "target": "bulgarian"
+            "target": "definite article"
         },
         {
             "source": "20230302090841",
@@ -772,11 +772,11 @@
         },
         {
             "source": "20230302090841",
-            "target": "definite article"
+            "target": "bulgarian"
         },
         {
             "source": "20230302090841",
-            "target": "bulgarian"
+            "target": "definite article"
         },
         {
             "source": "20230227115732-a",
@@ -792,15 +792,15 @@
         },
         {
             "source": "20230227102234-a",
-            "target": "definite article"
-        },
-        {
-            "source": "20230227102234-a",
             "target": "article"
         },
         {
             "source": "20230227102234-a",
             "target": "bulgarian"
+        },
+        {
+            "source": "20230227102234-a",
+            "target": "definite article"
         },
         {
             "source": "20230303105542-b",
@@ -852,31 +852,35 @@
         },
         {
             "source": "20230129213905",
+            "target": "language"
+        },
+        {
+            "source": "20230129213905",
+            "target": "bulgarian"
+        },
+        {
+            "source": "20230129213905",
             "target": "20230129213905-a"
         },
         {
-            "source": "20230129213905",
-            "target": "language"
-        },
-        {
-            "source": "20230129213905",
-            "target": "bulgarian"
-        },
-        {
             "source": "20230215181956",
             "target": "language"
         },
         {
             "source": "20230215181956",
             "target": "bulgarian"
-        },
-        {
-            "source": "20230227102234",
-            "target": "language"
         },
         {
             "source": "20230227102234",
             "target": "20230227102234-a"
+        },
+        {
+            "source": "20230227102234",
+            "target": "definite article"
+        },
+        {
+            "source": "20230227102234",
+            "target": "language"
         },
         {
             "source": "20230227102234",
@@ -885,10 +889,6 @@
         {
             "source": "20230227102234",
             "target": "bulgarian"
-        },
-        {
-            "source": "20230227102234",
-            "target": "definite article"
         },
         {
             "source": "20230227123735-i",
@@ -956,6 +956,10 @@
         },
         {
             "source": "20230302084733",
+            "target": "20230302084733-b"
+        },
+        {
+            "source": "20230302084733",
             "target": "language"
         },
         {
@@ -964,15 +968,11 @@
         },
         {
             "source": "20230302084733",
-            "target": "20230302084733-b"
-        },
-        {
-            "source": "20230302084733",
             "target": "bulgarian"
         },
         {
             "source": "20230227115732-b",
-            "target": "20230227115732-b1"
+            "target": "20230227115732-b2"
         },
         {
             "source": "20230227115732-b",
@@ -980,15 +980,15 @@
         },
         {
             "source": "20230227115732-b",
-            "target": "20230227115732-b2"
-        },
-        {
-            "source": "20240415211657",
-            "target": "cli"
+            "target": "20230227115732-b1"
         },
         {
             "source": "20240415211657",
             "target": "20240415211657-a"
+        },
+        {
+            "source": "20240415211657",
+            "target": "cli"
         },
         {
             "source": "20230227123735-k",
@@ -1024,11 +1024,11 @@
         },
         {
             "source": "20230227115732-c",
-            "target": "20230227115732-c1"
+            "target": "data science"
         },
         {
             "source": "20230227115732-c",
-            "target": "data science"
+            "target": "20230227115732-c1"
         },
         {
             "source": "20230423212859-c",
@@ -1036,11 +1036,11 @@
         },
         {
             "source": "20230423212859-c",
-            "target": "definite article"
+            "target": "bulgarian"
         },
         {
             "source": "20230423212859-c",
-            "target": "bulgarian"
+            "target": "definite article"
         },
         {
             "source": "20230215182940",
@@ -1068,7 +1068,7 @@
         },
         {
             "source": "20230227123735",
-            "target": "20230227123735-i"
+            "target": "20230227123735-c"
         },
         {
             "source": "20230227123735",
@@ -1076,19 +1076,7 @@
         },
         {
             "source": "20230227123735",
-            "target": "20230227123735-k"
-        },
-        {
-            "source": "20230227123735",
             "target": "20230227123735-a"
-        },
-        {
-            "source": "20230227123735",
-            "target": "20230227123735-b"
-        },
-        {
-            "source": "20230227123735",
-            "target": "20230227123735-j"
         },
         {
             "source": "20230227123735",
@@ -1096,15 +1084,7 @@
         },
         {
             "source": "20230227123735",
-            "target": "20230227123735-f"
-        },
-        {
-            "source": "20230227123735",
-            "target": "programming"
-        },
-        {
-            "source": "20230227123735",
-            "target": "20230227123735-c"
+            "target": "20230227123735-g"
         },
         {
             "source": "20230227123735",
@@ -1112,7 +1092,27 @@
         },
         {
             "source": "20230227123735",
-            "target": "20230227123735-g"
+            "target": "20230227123735-b"
+        },
+        {
+            "source": "20230227123735",
+            "target": "20230227123735-f"
+        },
+        {
+            "source": "20230227123735",
+            "target": "20230227123735-k"
+        },
+        {
+            "source": "20230227123735",
+            "target": "programming"
+        },
+        {
+            "source": "20230227123735",
+            "target": "20230227123735-i"
+        },
+        {
+            "source": "20230227123735",
+            "target": "20230227123735-j"
         },
         {
             "source": "20230227123735-a",
@@ -1168,27 +1168,11 @@
         },
         {
             "source": "20230129210906",
-            "target": "definite article"
-        },
-        {
-            "source": "20230129210906",
             "target": "article"
         },
         {
-            "source": "20230423212859",
-            "target": "language"
-        },
-        {
-            "source": "20230423212859",
-            "target": "20230423212859-e"
-        },
-        {
-            "source": "20230423212859",
-            "target": "20230423212859-d"
-        },
-        {
-            "source": "20230423212859",
-            "target": "20230423212859-c"
+            "source": "20230129210906",
+            "target": "definite article"
         },
         {
             "source": "20230423212859",
@@ -1196,23 +1180,39 @@
         },
         {
             "source": "20230423212859",
-            "target": "bulgarian"
+            "target": "20230423212859-f"
         },
         {
             "source": "20230423212859",
-            "target": "20230423212859-f"
+            "target": "20230423212859-c"
+        },
+        {
+            "source": "20230423212859",
+            "target": "20230423212859-e"
+        },
+        {
+            "source": "20230423212859",
+            "target": "language"
         },
         {
             "source": "20230423212859",
             "target": "20230423212859-b"
         },
         {
-            "source": "20230227115732-a1",
-            "target": "20230227115732-a1a"
+            "source": "20230423212859",
+            "target": "bulgarian"
+        },
+        {
+            "source": "20230423212859",
+            "target": "20230423212859-d"
         },
         {
             "source": "20230227115732-a1",
             "target": "data science"
+        },
+        {
+            "source": "20230227115732-a1",
+            "target": "20230227115732-a1a"
         },
         {
             "source": "20230227123735-j",
@@ -1236,11 +1236,11 @@
         },
         {
             "source": "20240405210605",
-            "target": "docker"
+            "target": "20240405210605-a"
         },
         {
             "source": "20240405210605",
-            "target": "20240405210605-a"
+            "target": "docker"
         },
         {
             "source": "20230227123735-h",
