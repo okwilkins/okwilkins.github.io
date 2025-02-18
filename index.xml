@@ -4252,7 +4252,7 @@ federal government: 1
 &lt;h3 id="this-website">This Website&lt;/h3>
 &lt;p>This website was originally setup as a means to house my portfolio work but to also act as a portfolio of sorts also. The website is built using Hugh/Go &amp;amp; Javascript with Github actions running (highly over-engineered) Python. The project also processes my &lt;a href="https://github.com/okwilkins/knowledge-system">Zettlecasten knowledge system&lt;/a> daily with Github actions. Any changes to the Markdown files in this &lt;a href="https://github.com/okwilkins/personal-website">project&amp;rsquo;s repository&lt;/a> are automatically deployed to the web.&lt;/p>
 &lt;h3 id="assortments-of-learning-repositories">Assortments of Learning Repositories&lt;/h3>
-&lt;h4 id="my-personalised-degreehttpsgithubcomokwilkinsmy-degree">&lt;a href="https://github.com/okwilkins/my-degree">My Personalised Degree&lt;/a>&lt;/h4>
+&lt;h4 id="my-personalised-degree">&lt;a href="https://github.com/okwilkins/my-degree">My Personalised Degree&lt;/a>&lt;/h4>
 &lt;p>The purpose of &lt;a href="https://github.com/okwilkins/my-degree">this repo&lt;/a> was to iron out flaws in my knowledge for full-stack data science. I learnt many skills including:&lt;/p>
 &lt;ul>
 &lt;li>C#&lt;/li>
@@ -4264,7 +4264,7 @@ federal government: 1
 &lt;li>Management/leadership&lt;/li>
 &lt;li>Docker/Github actions&lt;/li>
 &lt;/ul>
-&lt;h4 id="rusthttpsgithubcomokwilkinslearning-rust">&lt;a href="https://github.com/okwilkins/learning-rust">Rust&lt;/a>&lt;/h4></content></item><item><title>Philosophy</title><link>https://www.okwilkins.dev/knowledge-system/map-of-content/philosophy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/map-of-content/philosophy/</guid><description>&lt;ul>
+&lt;h4 id="rust">&lt;a href="https://github.com/okwilkins/learning-rust">Rust&lt;/a>&lt;/h4></content></item><item><title>Philosophy</title><link>https://www.okwilkins.dev/knowledge-system/map-of-content/philosophy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.okwilkins.dev/knowledge-system/map-of-content/philosophy/</guid><description>&lt;ul>
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/20240319141300/">20240319141300&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/20240319141300-a/">20240319141300-a&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.okwilkins.dev/knowledge-system/slip-box/20240320131426/">20240320131426&lt;/a>&lt;/li>
